@@ -1,0 +1,100 @@
+name: update
+
+# Crawls, archives, and publishes to GitHub Pages in one pass.
+#
+# This file MUST live at .github/workflows/update.yml exactly. GitHub reads
+# workflows from that path and nowhere else. A copy sitting in the repo root
+# is invisible: no error, no warning, it simply never runs. Everything else in
+# this project is deliberately flat so that this is the only path that matters.
+#
+# On cadence: GitHub caps scheduled workflows at a five minute minimum and
+# silently drops anything faster; scheduled runs also routinely sit in a queue
+# for 5 to 30 minutes. Four runs a day is honest and ample for a bulletin.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"    # 4x daily; odd offset avoids the contended :00 slot
+  workflow_dispatch:           # use this for the first print
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: kaf-bulletin
+  cancel-in-progress: false    # never cancel mid-write
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Fails loudly if the upload flattened or dropped something, rather than
+      # letting the run proceed and produce a mysteriously empty site.
+      - name: Check layout
+        run: |
+          missing=0
+          for f in index.html lexicon.json ingest.py selftest.py diagnose.py; do
+            if [ ! -f "$f" ]; then echo "::error::missing $f"; missing=1; fi
+          done
+          [ "$missing" = "0" ] || exit 1
+          echo "layout ok"
+
+      # Offline suite, runs in a scratch tree. No network, so an upstream
+      # change cannot break it, and it cannot touch the real archive.
+      - name: Test
+        run: python selftest.py
+
+      - name: Crawl
+        run: python ingest.py
+
+      # Runs only when the crawl produced no archive, and says which of the
+      # four possible causes you have instead of leaving a blank page.
+      - name: Diagnose (only if empty)
+        if: always()
+        run: |
+          if [ ! -f data/latest.json ]; then
+            echo "::warning::no data/latest.json after crawl, running diagnostics"
+            python diagnose.py || true
+          fi
+
+      - name: Commit archive
+        run: |
+          git config user.name  "kaf-bulletin-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data state 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "nothing new this run"
+          else
+            git commit -m "set: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      # Publish only what the browser needs. Uploading the repo root would
+      # ship the crawler and the git history to a public web root.
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp data/*.json _site/data/ 2>/dev/null || echo "no archive yet"
+          ls -la _site _site/data
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
