@@ -158,6 +158,9 @@ def http_get(url, retries=3, timeout=45):
 
 GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 
+# Below this many results from the primary source, try the fallback too.
+THIN = 15
+
 
 def build_gdelt_url(terms, gdelt_lang):
     """GDELT DOC 2.0. Built for programmatic access, covers 65+ languages,
@@ -274,10 +277,36 @@ def rebuild_latest(window_days, cap):
             if isinstance(part, list):
                 rows.extend(part)
     rows.sort(key=lambda r: r.get("first_seen_utc", ""), reverse=True)
-    rows = rows[:cap]
+
+    # Per-language quota before the global cap.
+    #
+    # Every item in one run carries the same first_seen_utc, so a flat top-N
+    # is really "first N in insertion order", which is language order. A
+    # global cut therefore hands the whole front page to the first few
+    # languages and silently deletes the rest. On a twelve language bulletin
+    # that is the worst failure available: it looks like the crawl failed for
+    # Hebrew, Dutch, Japanese, Korean and Persian when in fact it succeeded.
+    langs = {r.get("lang") for r in rows if r.get("lang")}
+    quota = max(40, cap // max(len(langs), 1))
+
+    kept, used, overflow = [], {}, []
+    for r in rows:
+        code = r.get("lang", "?")
+        if used.get(code, 0) < quota:
+            used[code] = used.get(code, 0) + 1
+            kept.append(r)
+        else:
+            overflow.append(r)
+
+    # Languages that returned less than their quota leave room behind. Give
+    # it back to the busiest ones rather than wasting the capacity.
+    if len(kept) < cap:
+        kept.extend(overflow[: cap - len(kept)])
+    kept = kept[:cap]
+    kept.sort(key=lambda r: r.get("first_seen_utc", ""), reverse=True)
 
     by_lang, by_domain = {}, {}
-    for r in rows:
+    for r in kept:
         by_lang[r["lang"]] = by_lang.get(r["lang"], 0) + 1
         for d in r.get("domains", []):
             by_domain[d] = by_domain.get(d, 0) + 1
@@ -285,12 +314,13 @@ def rebuild_latest(window_days, cap):
     save_json("data/latest.json", {
         "generated_utc": now_iso(),
         "window_days": window_days,
-        "total": len(rows),
+        "total": len(kept),
+        "per_language_quota": quota,
         "by_language": by_lang,
         "by_domain": by_domain,
-        "items": rows,
+        "items": kept,
     })
-    return len(rows), by_lang, by_domain
+    return len(kept), by_lang, by_domain
 
 
 def rebuild_index():
@@ -410,8 +440,13 @@ def main():
                 except ET.ParseError:
                     health["gnews_empty"] += 1
 
-            # --- fallback: GDELT, only when the primary produced nothing ---
-            if got_g == 0:
+            # --- fallback: GDELT, when the primary came back thin ---
+            #
+            # The threshold is "thin", not "zero". Persian returned 2 items in
+            # the first live run while every other language returned about 200,
+            # and a zero-only trigger left it there. A language that is barely
+            # served by the primary needs the fallback most.
+            if got_g < THIN:
                 status, payload = http_get(
                     build_gdelt_url(query_terms[:6], lang.get("gdelt", "eng")))
                 codes_seen.add(status)
