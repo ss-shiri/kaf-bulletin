@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KAF BULLETIN — Chemical &amp; Biological Open Source Monitor</title>
+<meta name="description" content="Chemical and biological news in twelve languages, in the language it was published, with its source. A bulletin, not a verifier.">
+<meta property="og:title" content="KAF BULLETIN">
+<meta property="og:description" content="Chemical and biological open source monitor in twelve languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Noto+Serif:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   Set as a broadsheet. Newsprint ground, black ink, rules instead of boxes.
+   Two spot inks only, the way a two-colour press worked: one for chemical,
+   one for biological. They carry meaning, so they earn their ink.
+   ========================================================================== */
+:root{
+  --paper:#FAF8F2;
+  --ink:#15140F;
+  --ink-2:#3D3A31;
+  --ink-3:#6E6A5E;
+  --ink-4:#9A968A;
+  --rule:#15140F;
+  --rule-thin:#C9C4B6;
+  --rule-hair:#E0DCD0;
+  --chem:#A32B1E;   /* spot red   */
+  --bio:#1D4E7A;    /* spot blue  */
+  --serif:"Noto Serif",Georgia,"Times New Roman",serif;
+  --display:"Playfair Display",Georgia,serif;
+  --arabic:"Noto Naskh Arabic","Amiri","Scheherazade New",Tahoma,serif;
+  --hebrew:"Frank Ruehl CLM","David CLM","Times New Roman",serif;
+  --cjk-sc:"Songti SC","STSong",SimSun,"Noto Serif SC",serif;
+  --cjk-jp:"Yu Mincho","Hiragino Mincho ProN","MS Mincho","Noto Serif JP",serif;
+  --cjk-kr:"Batang","Nanum Myeongjo","Noto Serif KR",serif;
+  --max:1180px;
+}
+[data-theme="night"]{
+  --paper:#141310; --ink:#EDEAE0; --ink-2:#C2BDB0; --ink-3:#8F8B7F; --ink-4:#666257;
+  --rule:#EDEAE0; --rule-thin:#3A362D; --rule-hair:#282520;
+  --chem:#E0796B; --bio:#7FB0DB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:17px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  padding:0 22px 70px;
+}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.wrap{max-width:var(--max);margin:0 auto}
+
+/* --------------------------------------------------------------- masthead */
+.mast{padding:26px 0 0;text-align:center}
+.mast-rule-top{border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);height:4px}
+.byline{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  flex-wrap:wrap;padding:7px 0;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.byline a{border-bottom:1px solid var(--rule-thin);padding-bottom:1px}
+.byline a:hover{color:var(--ink);border-color:var(--ink)}
+.title{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(40px,9vw,86px);line-height:.94;letter-spacing:.01em;
+  padding:16px 0 8px;
+}
+.tagline{
+  font-size:12px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--ink-3);padding-bottom:14px;
+}
+.folio{
+  border-top:1px solid var(--rule);border-bottom:3px solid var(--rule);
+  padding:6px 0;display:flex;justify-content:space-between;gap:14px;
+  flex-wrap:wrap;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-2);
+}
+
+/* --------------------------------------------------------------- standfirst */
+.standfirst{
+  padding:16px 0;text-align:center;font-size:14.5px;color:var(--ink-2);
+  max-width:70ch;margin:0 auto;font-style:italic;
+}
+.standfirst b{font-style:normal;font-weight:600;color:var(--ink)}
+
+/* --------------------------------------------------------------- controls */
+.controls{border-top:1px solid var(--rule-thin);padding:14px 0 0}
+.ctl-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding-bottom:10px}
+.ctl-lab{
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-4);margin-right:4px;min-width:66px;
+}
+.chip{
+  font-size:12px;letter-spacing:.03em;color:var(--ink-2);
+  border:1px solid var(--rule-thin);padding:3px 9px;
+  transition:none;
+}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip.chem[aria-pressed="true"]{background:var(--chem);border-color:var(--chem);color:var(--paper)}
+.chip.bio[aria-pressed="true"]{background:var(--bio);border-color:var(--bio);color:var(--paper)}
+.chip .cnt{color:var(--ink-4);font-size:10.5px;margin-left:5px}
+.chip[aria-pressed="true"] .cnt{color:rgba(255,255,255,.72)}
+.search{flex:1 1 220px;min-width:170px}
+.search input{
+  width:100%;background:transparent;border:0;border-bottom:1px solid var(--rule-thin);
+  color:var(--ink);font-family:var(--serif);font-size:14px;padding:5px 2px;
+}
+.search input:focus{outline:none;border-bottom-color:var(--ink)}
+.search input::placeholder{color:var(--ink-4);font-style:italic}
+
+/* --------------------------------------------------------------- columns */
+.sheet{
+  border-top:3px solid var(--rule);margin-top:12px;padding-top:4px;
+  column-count:3;column-gap:30px;column-rule:1px solid var(--rule-hair);
+}
+@media (max-width:1000px){.sheet{column-count:2}}
+@media (max-width:660px){.sheet{column-count:1}}
+
+.story{
+  break-inside:avoid;page-break-inside:avoid;
+  padding:14px 0 13px;border-bottom:1px solid var(--rule-hair);
+}
+.story:hover .hl{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+
+.kicker{
+  display:flex;gap:7px;align-items:center;flex-wrap:wrap;
+  font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--ink-4);margin-bottom:5px;
+}
+.kicker .dot{opacity:.42}
+.tag{border:1px solid currentColor;padding:0 4px;font-size:8.5px;letter-spacing:.13em}
+.tag.chem{color:var(--chem)}
+.tag.bio{color:var(--bio)}
+.tag.unc{color:var(--ink-4);border-style:dashed}
+
+.hl{
+  display:block;font-size:19px;line-height:1.28;font-weight:600;
+  letter-spacing:-.004em;color:var(--ink);
+}
+/* Per-script typography. A bulletin that renders Arabic in a Latin serif or
+   breaks Japanese line-wrapping is not usable in those languages. */
+.hl[lang="ar"],.hl[lang="fa"]{font-family:var(--arabic);font-size:20px;line-height:1.55}
+.hl[lang="he"]{font-family:var(--hebrew);font-size:19.5px;line-height:1.42}
+.hl[lang="zh"]{font-family:var(--cjk-sc);font-size:18.5px;line-height:1.5}
+.hl[lang="ja"]{font-family:var(--cjk-jp);font-size:18px;line-height:1.6}
+.hl[lang="ko"]{font-family:var(--cjk-kr);font-size:18.5px;line-height:1.55}
+[dir="rtl"]{text-align:right}
+
+.credit{
+  margin-top:6px;font-size:11.5px;letter-spacing:.02em;color:var(--ink-3);
+  display:flex;gap:6px;align-items:baseline;flex-wrap:wrap;
+}
+.credit .src{font-weight:600;color:var(--ink-2)}
+.credit .go{border-bottom:1px solid var(--rule-thin)}
+.credit .go:hover{color:var(--ink);border-color:var(--ink)}
+
+.share{display:flex;gap:11px;margin-top:7px}
+.share button{
+  font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-4);
+  border-bottom:1px solid transparent;padding-bottom:1px;
+}
+.share button:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.share button.done{color:var(--bio)}
+
+/* --------------------------------------------------------------- states */
+.notice{
+  text-align:center;padding:64px 20px;color:var(--ink-3);
+  font-style:italic;font-size:15px;line-height:1.9;
+}
+.notice b{font-style:normal;display:block;font-size:13px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-4);margin-bottom:8px}
+
+/* --------------------------------------------------------------- colophon */
+.colophon{
+  border-top:3px solid var(--rule);margin-top:34px;padding:16px 0 0;
+  display:grid;grid-template-columns:1.6fr 1fr;gap:34px;
+}
+@media (max-width:760px){.colophon{grid-template-columns:1fr;gap:20px}}
+.col-lab{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-4);margin-bottom:7px}
+.col-txt{font-size:13px;line-height:1.6;color:var(--ink-3);max-width:62ch}
+.col-txt b{color:var(--ink-2);font-weight:600}
+.col-links{display:flex;flex-direction:column;gap:5px;font-size:13px}
+.col-links a{color:var(--ink-3);border-bottom:1px solid transparent;width:fit-content}
+.col-links a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{
+  body{padding:0}.controls,.share,.byline button{display:none}
+  .sheet{column-count:2}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="mast-rule-top"></div>
+    <div class="byline">
+      <span><a href="https://www.linkedin.com/in/sajad-shiri/" target="_blank" rel="noopener">Sajad Shiri</a></span>
+      <span>
+        <a href="https://ss-shiri.github.io/ALEF-OSINT/" target="_blank" rel="noopener">ALEF OSINT</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://ss-shiri.github.io/kaf-cbrne/" target="_blank" rel="noopener">CBRNE Reading Room</a>
+        &nbsp;&middot;&nbsp;
+        <button id="night" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)">Night</button>
+      </span>
+    </div>
+    <h1 class="title">KAF BULLETIN</h1>
+    <div class="tagline">Chemical &amp; Biological Open Source Monitor</div>
+    <div class="folio">
+      <span id="folio-date"></span>
+      <span id="folio-langs">Twelve languages</span>
+      <span id="folio-count"></span>
+    </div>
+  </header>
+
+  <p class="standfirst">
+    Every item appears in the language it was published, with its source beneath it.
+    <b>Nothing here is verified, translated, ranked or rewritten.</b>
+    The source is the only claim this bulletin makes.
+  </p>
+
+  <div class="controls">
+    <div class="ctl-row">
+      <span class="ctl-lab">Subject</span>
+      <button class="chip chem" data-domain="chemical" aria-pressed="false">Chemical <span class="cnt" id="c-chemical"></span></button>
+      <button class="chip bio" data-domain="biological" aria-pressed="false">Biological <span class="cnt" id="c-biological"></span></button>
+      <div class="search">
+        <input id="q" type="search" spellcheck="false" placeholder="filter headlines in any script…" aria-label="Filter headlines">
+      </div>
+    </div>
+    <div class="ctl-row" id="langrow">
+      <span class="ctl-lab">Language</span>
+    </div>
+  </div>
+
+  <main class="sheet" id="sheet"></main>
+
+  <footer class="colophon">
+    <div>
+      <div class="col-lab">About this bulletin</div>
+      <p class="col-txt">
+        Headlines are collected on a schedule from open sources in twelve languages,
+        using a hand-built lexicon of chemical and biological terms in each language.
+        Items are stored exactly as published, in their own script and direction.
+        <b>Appearing here is not an endorsement, a verification, or a judgement of
+        accuracy.</b> Subject labels come from matching terms in the headline itself and
+        are marked unconfirmed when the match came from the article body instead.
+        Follow the link and assess the source yourself.
+      </p>
+    </div>
+    <div>
+      <div class="col-lab">Sajad Shiri</div>
+      <nav class="col-links">
+        <a href="https://www.linkedin.com/in/sajad-shiri/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://ss-shiri.github.io/ALEF-OSINT/" target="_blank" rel="noopener">ALEF OSINT · 1,290 tools</a>
+        <a href="https://ss-shiri.github.io/kaf-cbrne/" target="_blank" rel="noopener">CBRNE OSINT Reading Room</a>
+      </nav>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+var LANGS = [
+  ["en","English"],["fr","Français"],["es","Español"],["ar","العربية"],
+  ["ru","Русский"],["zh","中文"],["de","Deutsch"],["he","עברית"],
+  ["nl","Nederlands"],["ja","日本語"],["ko","한국어"],["fa","فارسی"]
+];
+
+var S={items:[],lang:null,domain:null,q:""};
+
+function esc(s){
+  return String(s==null?"":s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+function stamp(iso){
+  var d=new Date(iso); if(isNaN(d)) return "";
+  var p=function(n){return n<10?"0"+n:""+n;};
+  var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return p(d.getUTCDate())+" "+M[d.getUTCMonth()]+" "+p(d.getUTCHours())+":"+p(d.getUTCMinutes())+" UTC";
+}
+function longDate(d){
+  var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var M=["January","February","March","April","May","June","July",
+         "August","September","October","November","December"];
+  return days[d.getUTCDay()]+", "+d.getUTCDate()+" "+M[d.getUTCMonth()]+" "+d.getUTCFullYear();
+}
+
+function visible(){
+  return S.items.filter(function(a){
+    if(S.lang && a.lang!==S.lang) return false;
+    if(S.domain && (a.domains||[]).indexOf(S.domain)<0) return false;
+    if(S.q){
+      var hay=((a.title||"")+" "+(a.source_name||"")).toLowerCase();
+      if(hay.indexOf(S.q)<0) return false;
+    }
+    return true;
+  });
+}
+
+function render(){
+  var rows=visible(), el=document.getElementById("sheet");
+
+  if(!rows.length){
+    el.style.columnCount="1";
+    el.innerHTML='<div class="notice"><b>Nothing to set</b>'
+      + (S.items.length
+          ? "No item matches the current filter."
+          : "The bulletin has not been printed yet. Run the ingest workflow once and this page fills itself.")
+      + '</div>';
+  }else{
+    el.style.columnCount="";
+    el.innerHTML=rows.map(function(a,i){
+      var tags=(a.domains||[]).map(function(d){
+        var cls=d==="chemical"?"chem":"bio";
+        return '<span class="tag '+cls+'">'+(d==="chemical"?"CHEM":"BIO")+'</span>';
+      }).join("");
+      if(a.label_confirmed===false) tags+='<span class="tag unc">UNCONF</span>';
+      var url=esc(a.url||"#");
+      return ''
+      + '<article class="story">'
+      +   '<div class="kicker">'
+      +     '<span>'+esc(a.lang_native||a.lang)+'</span>'
+      +     '<span class="dot">&middot;</span>'
+      +     '<span>'+esc(stamp(a.first_seen_utc))+'</span>'
+      +     tags
+      +   '</div>'
+      +   '<a class="hl" href="'+url+'" target="_blank" rel="noopener nofollow" '
+      +      'lang="'+esc(a.lang)+'" dir="'+esc(a.dir||"ltr")+'">'+esc(a.title)+'</a>'
+      +   '<div class="credit">'
+      +     '<span class="src">'+esc(a.source_name||"unknown")+'</span>'
+      +     '<a class="go" href="'+url+'" target="_blank" rel="noopener nofollow">read at source &nearr;</a>'
+      +   '</div>'
+      +   '<div class="share" data-i="'+i+'">'
+      +     '<button data-act="x">Post on X</button>'
+      +     '<button data-act="in">LinkedIn</button>'
+      +     '<button data-act="copy">Copy link</button>'
+      +   '</div>'
+      + '</article>';
+    }).join("");
+  }
+
+  document.getElementById("folio-count").textContent =
+    rows.length + (rows.length===S.items.length ? " items" : " of "+S.items.length+" items");
+}
+
+/* ---------------------------------------------------------------- filters */
+(function(){
+  var row=document.getElementById("langrow");
+  LANGS.forEach(function(L){
+    var b=document.createElement("button");
+    b.className="chip"; b.setAttribute("data-lang",L[0]);
+    b.setAttribute("aria-pressed","false");
+    b.innerHTML=esc(L[1])+' <span class="cnt" id="c-'+L[0]+'"></span>';
+    row.appendChild(b);
+  });
+  row.addEventListener("click",function(ev){
+    var b=ev.target.closest("[data-lang]"); if(!b) return;
+    var code=b.getAttribute("data-lang");
+    S.lang = (S.lang===code) ? null : code;
+    row.querySelectorAll("[data-lang]").forEach(function(x){
+      x.setAttribute("aria-pressed", String(x.getAttribute("data-lang")===S.lang));
+    });
+    render();
+  });
+})();
+
+document.querySelectorAll("[data-domain]").forEach(function(b){
+  b.addEventListener("click",function(){
+    var d=b.getAttribute("data-domain");
+    S.domain = (S.domain===d) ? null : d;
+    document.querySelectorAll("[data-domain]").forEach(function(x){
+      x.setAttribute("aria-pressed", String(x.getAttribute("data-domain")===S.domain));
+    });
+    render();
+  });
+});
+
+document.getElementById("q").addEventListener("input",function(e){
+  S.q=e.target.value.trim().toLowerCase(); render();
+});
+
+document.getElementById("night").addEventListener("click",function(){
+  var on=document.documentElement.getAttribute("data-theme")==="night";
+  document.documentElement.setAttribute("data-theme", on?"day":"night");
+  this.textContent = on ? "Night" : "Day";
+});
+
+/* ---------------------------------------------------------------- sharing */
+document.getElementById("sheet").addEventListener("click",function(ev){
+  var b=ev.target.closest("[data-act]"); if(!b) return;
+  var item=visible()[+b.parentNode.getAttribute("data-i")]; if(!item) return;
+  var url=item.url||"", text=item.title||"";
+  if(b.dataset.act==="x"){
+    window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(text)
+      +"&url="+encodeURIComponent(url),"_blank","noopener");
+  }else if(b.dataset.act==="in"){
+    window.open("https://www.linkedin.com/sharing/share-offsite/?url="
+      +encodeURIComponent(url),"_blank","noopener");
+  }else{
+    var done=function(){
+      var old=b.textContent; b.textContent="Copied"; b.classList.add("done");
+      setTimeout(function(){b.textContent=old;b.classList.remove("done");},1400);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(done,function(){fallback(url,done);});
+    }else{ fallback(url,done); }
+  }
+});
+function fallback(text,cb){
+  // clipboard API needs a secure context; file:// and plain http do not have one
+  var ta=document.createElement("textarea");
+  ta.value=text; ta.setAttribute("readonly","");
+  ta.style.position="fixed"; ta.style.opacity="0";
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand("copy"); cb(); }catch(e){ window.prompt("Copy this link:",text); }
+  document.body.removeChild(ta);
+}
+
+/* ---------------------------------------------------------------- counts */
+function counts(){
+  var byLang={}, byDom={};
+  S.items.forEach(function(a){
+    byLang[a.lang]=(byLang[a.lang]||0)+1;
+    (a.domains||[]).forEach(function(d){byDom[d]=(byDom[d]||0)+1;});
+  });
+  LANGS.forEach(function(L){
+    var e=document.getElementById("c-"+L[0]);
+    if(e) e.textContent = byLang[L[0]] || "";
+  });
+  ["chemical","biological"].forEach(function(d){
+    var e=document.getElementById("c-"+d);
+    if(e) e.textContent = byDom[d] || "";
+  });
+  var present=LANGS.filter(function(L){return byLang[L[0]];}).length;
+  document.getElementById("folio-langs").textContent =
+    present ? present+" of 12 languages" : "Twelve languages";
+}
+
+/* ---------------------------------------------------------------- load */
+document.getElementById("folio-date").textContent = longDate(new Date());
+
+fetch("data/latest.json",{cache:"no-store"})
+  .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+  .then(function(d){
+    S.items = d.items || [];
+    if(d.generated_utc){
+      document.getElementById("folio-date").textContent =
+        longDate(new Date()) + "  ·  set " + stamp(d.generated_utc);
+    }
+  })
+  .catch(function(){ S.items=[]; })
+  .then(function(){ counts(); render(); });
+
+})();
+</script>
+</body>
+</html>
