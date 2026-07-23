@@ -1,0 +1,929 @@
+{
+  "_comment": "Twelve language lexicon for chemical and biological subject matter. 'query' terms are sent upstream to fetch; 'match' terms are the wider set used to tag and classify what comes back. Splitting them keeps request counts low while keeping recall high. Edit freely: this file alone retunes the whole bulletin.",
+  "languages": {
+    "en": {
+      "name": "English",
+      "native": "English",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en"
+      },
+      "chemical": {
+        "query": [
+          "chemical weapon",
+          "nerve agent",
+          "sarin",
+          "chlorine gas",
+          "mustard gas",
+          "OPCW",
+          "chemical attack",
+          "toxic gas leak"
+        ],
+        "match": [
+          "chemical weapon",
+          "nerve agent",
+          "sarin",
+          "novichok",
+          "VX agent",
+          "soman",
+          "tabun",
+          "chlorine gas",
+          "mustard gas",
+          "sulfur mustard",
+          "phosgene",
+          "OPCW",
+          "chemical weapons convention",
+          "chemical attack",
+          "toxic gas",
+          "chemical spill",
+          "chemical leak",
+          "hazmat",
+          "chemical plant explosion",
+          "precursor chemical",
+          "riot control agent",
+          "chemical disarmament"
+        ]
+      },
+      "biological": {
+        "query": [
+          "biological weapon",
+          "bioterrorism",
+          "anthrax",
+          "pathogen outbreak",
+          "biosecurity",
+          "laboratory leak",
+          "epidemic",
+          "biosafety"
+        ],
+        "match": [
+          "biological weapon",
+          "bioweapon",
+          "bioterrorism",
+          "anthrax",
+          "bacillus anthracis",
+          "ricin",
+          "botulinum",
+          "smallpox",
+          "pathogen",
+          "outbreak",
+          "epidemic",
+          "pandemic",
+          "biosecurity",
+          "biosafety",
+          "BSL-4",
+          "laboratory leak",
+          "lab leak",
+          "gain of function",
+          "dual use research",
+          "virus",
+          "bacteria",
+          "toxin",
+          "quarantine",
+          "biodefense",
+          "select agent"
+        ]
+      },
+      "gdelt": "eng"
+    },
+    "fr": {
+      "name": "French",
+      "native": "Français",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "fr",
+        "gl": "FR",
+        "ceid": "FR:fr"
+      },
+      "chemical": {
+        "query": [
+          "arme chimique",
+          "agent neurotoxique",
+          "sarin",
+          "gaz chloré",
+          "gaz moutarde",
+          "OIAC",
+          "attaque chimique",
+          "fuite chimique"
+        ],
+        "match": [
+          "arme chimique",
+          "armes chimiques",
+          "agent neurotoxique",
+          "sarin",
+          "novitchok",
+          "gaz chloré",
+          "chlore",
+          "gaz moutarde",
+          "ypérite",
+          "phosgène",
+          "OIAC",
+          "attaque chimique",
+          "gaz toxique",
+          "fuite chimique",
+          "usine chimique",
+          "précurseur chimique",
+          "désarmement chimique",
+          "produit toxique"
+        ]
+      },
+      "biological": {
+        "query": [
+          "arme biologique",
+          "bioterrorisme",
+          "charbon bactéridien",
+          "agent pathogène",
+          "biosécurité",
+          "fuite de laboratoire",
+          "épidémie",
+          "biosûreté"
+        ],
+        "match": [
+          "arme biologique",
+          "armes biologiques",
+          "bioterrorisme",
+          "anthrax",
+          "charbon bactéridien",
+          "ricine",
+          "botulique",
+          "variole",
+          "agent pathogène",
+          "épidémie",
+          "pandémie",
+          "biosécurité",
+          "biosûreté",
+          "fuite de laboratoire",
+          "gain de fonction",
+          "virus",
+          "bactérie",
+          "toxine",
+          "quarantaine",
+          "biodéfense"
+        ]
+      },
+      "gdelt": "fra"
+    },
+    "es": {
+      "name": "Spanish",
+      "native": "Español",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "es",
+        "gl": "ES",
+        "ceid": "ES:es"
+      },
+      "chemical": {
+        "query": [
+          "arma química",
+          "agente nervioso",
+          "sarín",
+          "gas cloro",
+          "gas mostaza",
+          "OPAQ",
+          "ataque químico",
+          "fuga química"
+        ],
+        "match": [
+          "arma química",
+          "armas químicas",
+          "agente nervioso",
+          "sarín",
+          "novichok",
+          "gas cloro",
+          "gas mostaza",
+          "iperita",
+          "fosgeno",
+          "OPAQ",
+          "ataque químico",
+          "gas tóxico",
+          "fuga química",
+          "derrame químico",
+          "planta química",
+          "precursor químico",
+          "desarme químico",
+          "sustancia tóxica"
+        ]
+      },
+      "biological": {
+        "query": [
+          "arma biológica",
+          "bioterrorismo",
+          "ántrax",
+          "patógeno",
+          "bioseguridad",
+          "fuga de laboratorio",
+          "epidemia",
+          "brote infeccioso"
+        ],
+        "match": [
+          "arma biológica",
+          "armas biológicas",
+          "bioterrorismo",
+          "ántrax",
+          "carbunco",
+          "ricina",
+          "botulínica",
+          "viruela",
+          "patógeno",
+          "brote",
+          "epidemia",
+          "pandemia",
+          "bioseguridad",
+          "fuga de laboratorio",
+          "ganancia de función",
+          "virus",
+          "bacteria",
+          "toxina",
+          "cuarentena",
+          "biodefensa"
+        ]
+      },
+      "gdelt": "spa"
+    },
+    "ar": {
+      "name": "Arabic",
+      "native": "العربية",
+      "dir": "rtl",
+      "gnews": {
+        "hl": "ar",
+        "gl": "EG",
+        "ceid": "EG:ar"
+      },
+      "chemical": {
+        "query": [
+          "سلاح كيميائي",
+          "غاز الأعصاب",
+          "السارين",
+          "غاز الكلور",
+          "غاز الخردل",
+          "هجوم كيميائي",
+          "تسرب كيميائي",
+          "الأسلحة الكيميائية"
+        ],
+        "match": [
+          "سلاح كيميائي",
+          "الأسلحة الكيميائية",
+          "غاز الأعصاب",
+          "السارين",
+          "نوفيتشوك",
+          "غاز الكلور",
+          "غاز الخردل",
+          "الفوسجين",
+          "منظمة حظر الأسلحة الكيميائية",
+          "هجوم كيميائي",
+          "غاز سام",
+          "تسرب كيميائي",
+          "مصنع كيميائي",
+          "مواد كيميائية خطرة",
+          "نزع السلاح الكيميائي"
+        ]
+      },
+      "biological": {
+        "query": [
+          "سلاح بيولوجي",
+          "الإرهاب البيولوجي",
+          "الجمرة الخبيثة",
+          "الأمن البيولوجي",
+          "تسرب مختبري",
+          "تفشي وباء",
+          "مسبب مرضي",
+          "السلامة البيولوجية"
+        ],
+        "match": [
+          "سلاح بيولوجي",
+          "الأسلحة البيولوجية",
+          "الإرهاب البيولوجي",
+          "الجمرة الخبيثة",
+          "الريسين",
+          "البوتولينوم",
+          "الجدري",
+          "ممرض",
+          "مسبب مرضي",
+          "تفشي",
+          "وباء",
+          "جائحة",
+          "الأمن البيولوجي",
+          "السلامة البيولوجية",
+          "تسرب مختبري",
+          "فيروس",
+          "بكتيريا",
+          "سموم",
+          "حجر صحي",
+          "الدفاع البيولوجي"
+        ]
+      },
+      "gdelt": "ara"
+    },
+    "ru": {
+      "name": "Russian",
+      "native": "Русский",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "ru",
+        "gl": "RU",
+        "ceid": "RU:ru"
+      },
+      "chemical": {
+        "query": [
+          "химическое оружие",
+          "нервно-паралитический",
+          "зарин",
+          "хлор отравление",
+          "иприт",
+          "ОЗХО",
+          "химическая атака",
+          "химическая утечка"
+        ],
+        "match": [
+          "химическое оружие",
+          "нервно-паралитический",
+          "зарин",
+          "новичок",
+          "хлор",
+          "иприт",
+          "фосген",
+          "ОЗХО",
+          "химическая атака",
+          "токсичный газ",
+          "химическая утечка",
+          "разлив химикатов",
+          "химический завод",
+          "прекурсор",
+          "химическое разоружение"
+        ]
+      },
+      "biological": {
+        "query": [
+          "биологическое оружие",
+          "биотерроризм",
+          "сибирская язва",
+          "биобезопасность",
+          "утечка из лаборатории",
+          "вспышка эпидемии",
+          "патоген",
+          "биозащита"
+        ],
+        "match": [
+          "биологическое оружие",
+          "биотерроризм",
+          "сибирская язва",
+          "рицин",
+          "ботулотоксин",
+          "оспа",
+          "патоген",
+          "вспышка",
+          "эпидемия",
+          "пандемия",
+          "биобезопасность",
+          "биозащита",
+          "утечка из лаборатории",
+          "усиление функции",
+          "вирус",
+          "бактерия",
+          "токсин",
+          "карантин"
+        ]
+      },
+      "gdelt": "rus"
+    },
+    "zh": {
+      "name": "Chinese",
+      "native": "中文",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "zh-CN",
+        "gl": "CN",
+        "ceid": "CN:zh-Hans"
+      },
+      "chemical": {
+        "query": [
+          "化学武器",
+          "神经毒剂",
+          "沙林",
+          "氯气泄漏",
+          "芥子气",
+          "化学袭击",
+          "化学品泄漏",
+          "禁化武组织"
+        ],
+        "match": [
+          "化学武器",
+          "神经毒剂",
+          "沙林",
+          "诺维乔克",
+          "氯气",
+          "芥子气",
+          "光气",
+          "禁化武组织",
+          "化学武器公约",
+          "化学袭击",
+          "有毒气体",
+          "化学泄漏",
+          "化学品泄漏",
+          "化工厂爆炸",
+          "前体化学品",
+          "化学裁军"
+        ]
+      },
+      "biological": {
+        "query": [
+          "生物武器",
+          "生物恐怖主义",
+          "炭疽",
+          "生物安全",
+          "实验室泄漏",
+          "疫情爆发",
+          "病原体",
+          "生物防御"
+        ],
+        "match": [
+          "生物武器",
+          "生物恐怖主义",
+          "炭疽",
+          "蓖麻毒素",
+          "肉毒杆菌",
+          "天花",
+          "病原体",
+          "疫情",
+          "爆发",
+          "流行病",
+          "大流行",
+          "生物安全",
+          "生物安保",
+          "实验室泄漏",
+          "功能增益",
+          "病毒",
+          "细菌",
+          "毒素",
+          "隔离",
+          "生物防御"
+        ]
+      },
+      "gdelt": "zho"
+    },
+    "de": {
+      "name": "German",
+      "native": "Deutsch",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "de",
+        "gl": "DE",
+        "ceid": "DE:de"
+      },
+      "chemical": {
+        "query": [
+          "Chemiewaffe",
+          "Nervenkampfstoff",
+          "Sarin",
+          "Chlorgas",
+          "Senfgas",
+          "OVCW",
+          "Chemieangriff",
+          "Chemieunfall"
+        ],
+        "match": [
+          "Chemiewaffe",
+          "Chemiewaffen",
+          "Nervenkampfstoff",
+          "Nervengift",
+          "Sarin",
+          "Nowitschok",
+          "Chlorgas",
+          "Senfgas",
+          "Phosgen",
+          "OVCW",
+          "Chemiewaffenkonvention",
+          "Chemieangriff",
+          "Giftgas",
+          "Chemieunfall",
+          "Chemikalienaustritt",
+          "Chemiefabrik",
+          "Vorläuferchemikalie",
+          "Chemieabrüstung"
+        ]
+      },
+      "biological": {
+        "query": [
+          "Biowaffe",
+          "Bioterrorismus",
+          "Milzbrand",
+          "Biosicherheit",
+          "Laborunfall",
+          "Seuchenausbruch",
+          "Erreger",
+          "Biologische Waffen"
+        ],
+        "match": [
+          "Biowaffe",
+          "Biowaffen",
+          "biologische Waffen",
+          "Bioterrorismus",
+          "Milzbrand",
+          "Anthrax",
+          "Rizin",
+          "Botulinum",
+          "Pocken",
+          "Erreger",
+          "Ausbruch",
+          "Epidemie",
+          "Pandemie",
+          "Biosicherheit",
+          "Laborunfall",
+          "Laborleck",
+          "Gain-of-Function",
+          "Virus",
+          "Bakterien",
+          "Toxin",
+          "Quarantäne",
+          "Bioabwehr"
+        ]
+      },
+      "gdelt": "deu"
+    },
+    "he": {
+      "name": "Hebrew",
+      "native": "עברית",
+      "dir": "rtl",
+      "gnews": {
+        "hl": "iw",
+        "gl": "IL",
+        "ceid": "IL:iw"
+      },
+      "chemical": {
+        "query": [
+          "נשק כימי",
+          "חומר עצבים",
+          "סארין",
+          "גז כלור",
+          "גז חרדל",
+          "התקפה כימית",
+          "דליפה כימית",
+          "גז רעיל"
+        ],
+        "match": [
+          "נשק כימי",
+          "נשק כימיה",
+          "חומר עצבים",
+          "סארין",
+          "נוביצ'וק",
+          "גז כלור",
+          "גז חרדל",
+          "פוסגן",
+          "התקפה כימית",
+          "גז רעיל",
+          "דליפה כימית",
+          "מפעל כימי",
+          "חומרים מסוכנים",
+          "פירוק נשק כימי"
+        ]
+      },
+      "biological": {
+        "query": [
+          "נשק ביולוגי",
+          "ביוטרור",
+          "אנתרקס",
+          "ביטחון ביולוגי",
+          "דליפה ממעבדה",
+          "התפרצות מגפה",
+          "פתוגן",
+          "בטיחות ביולוגית"
+        ],
+        "match": [
+          "נשק ביולוגי",
+          "ביוטרור",
+          "טרור ביולוגי",
+          "אנתרקס",
+          "גחלת",
+          "ריצין",
+          "בוטולינום",
+          "אבעבועות שחורות",
+          "פתוגן",
+          "התפרצות",
+          "מגפה",
+          "פנדמיה",
+          "ביטחון ביולוגי",
+          "בטיחות ביולוגית",
+          "דליפה ממעבדה",
+          "וירוס",
+          "חיידק",
+          "רעלן",
+          "בידוד"
+        ]
+      },
+      "gdelt": "heb"
+    },
+    "nl": {
+      "name": "Dutch",
+      "native": "Nederlands",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "nl",
+        "gl": "NL",
+        "ceid": "NL:nl"
+      },
+      "chemical": {
+        "query": [
+          "chemisch wapen",
+          "zenuwgas",
+          "sarin",
+          "chloorgas",
+          "mosterdgas",
+          "OPCW",
+          "chemische aanval",
+          "chemisch lek"
+        ],
+        "match": [
+          "chemisch wapen",
+          "chemische wapens",
+          "zenuwgas",
+          "zenuwgifstof",
+          "sarin",
+          "novitsjok",
+          "chloorgas",
+          "mosterdgas",
+          "fosgeen",
+          "OPCW",
+          "chemische aanval",
+          "giftig gas",
+          "chemisch lek",
+          "chemische lekkage",
+          "chemische fabriek",
+          "precursor",
+          "chemische ontwapening"
+        ]
+      },
+      "biological": {
+        "query": [
+          "biologisch wapen",
+          "bioterrorisme",
+          "miltvuur",
+          "bioveiligheid",
+          "laboratoriumlek",
+          "uitbraak epidemie",
+          "ziekteverwekker",
+          "biologische veiligheid"
+        ],
+        "match": [
+          "biologisch wapen",
+          "biologische wapens",
+          "bioterrorisme",
+          "miltvuur",
+          "antrax",
+          "ricine",
+          "botulisme",
+          "pokken",
+          "ziekteverwekker",
+          "pathogeen",
+          "uitbraak",
+          "epidemie",
+          "pandemie",
+          "bioveiligheid",
+          "biobeveiliging",
+          "laboratoriumlek",
+          "gain-of-function",
+          "virus",
+          "bacterie",
+          "toxine",
+          "quarantaine"
+        ]
+      },
+      "gdelt": "nld"
+    },
+    "ja": {
+      "name": "Japanese",
+      "native": "日本語",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "ja",
+        "gl": "JP",
+        "ceid": "JP:ja"
+      },
+      "chemical": {
+        "query": [
+          "化学兵器",
+          "神経剤",
+          "サリン",
+          "塩素ガス",
+          "マスタードガス",
+          "化学攻撃",
+          "化学物質漏洩",
+          "有毒ガス"
+        ],
+        "match": [
+          "化学兵器",
+          "神経剤",
+          "神経ガス",
+          "サリン",
+          "ノビチョク",
+          "塩素ガス",
+          "マスタードガス",
+          "イペリット",
+          "ホスゲン",
+          "化学兵器禁止機関",
+          "化学攻撃",
+          "有毒ガス",
+          "化学物質漏洩",
+          "化学工場爆発",
+          "前駆物質",
+          "化学軍縮"
+        ]
+      },
+      "biological": {
+        "query": [
+          "生物兵器",
+          "バイオテロ",
+          "炭疽菌",
+          "バイオセキュリティ",
+          "実験室漏洩",
+          "感染症流行",
+          "病原体",
+          "バイオセーフティ"
+        ],
+        "match": [
+          "生物兵器",
+          "バイオテロ",
+          "炭疽菌",
+          "リシン",
+          "ボツリヌス",
+          "天然痘",
+          "病原体",
+          "集団感染",
+          "アウトブレイク",
+          "流行",
+          "パンデミック",
+          "バイオセキュリティ",
+          "バイオセーフティ",
+          "実験室漏洩",
+          "機能獲得",
+          "ウイルス",
+          "細菌",
+          "毒素",
+          "隔離",
+          "生物防御"
+        ]
+      },
+      "gdelt": "jpn"
+    },
+    "ko": {
+      "name": "Korean",
+      "native": "한국어",
+      "dir": "ltr",
+      "gnews": {
+        "hl": "ko",
+        "gl": "KR",
+        "ceid": "KR:ko"
+      },
+      "chemical": {
+        "query": [
+          "화학무기",
+          "신경작용제",
+          "사린",
+          "염소가스",
+          "겨자가스",
+          "화학공격",
+          "화학물질 유출",
+          "유독가스"
+        ],
+        "match": [
+          "화학무기",
+          "신경작용제",
+          "신경가스",
+          "사린",
+          "노비촉",
+          "염소가스",
+          "겨자가스",
+          "포스겐",
+          "화학무기금지기구",
+          "화학공격",
+          "유독가스",
+          "화학물질 유출",
+          "화학공장 폭발",
+          "전구물질",
+          "화학군축"
+        ]
+      },
+      "biological": {
+        "query": [
+          "생물무기",
+          "생물테러",
+          "탄저균",
+          "생물보안",
+          "실험실 유출",
+          "감염병 발생",
+          "병원체",
+          "생물안전"
+        ],
+        "match": [
+          "생물무기",
+          "생물학무기",
+          "생물테러",
+          "탄저균",
+          "리신",
+          "보툴리눔",
+          "천연두",
+          "병원체",
+          "발병",
+          "발생",
+          "전염병",
+          "팬데믹",
+          "생물보안",
+          "생물안전",
+          "실험실 유출",
+          "기능획득",
+          "바이러스",
+          "세균",
+          "독소",
+          "격리",
+          "생물방어"
+        ]
+      },
+      "gdelt": "kor"
+    },
+    "fa": {
+      "name": "Persian",
+      "native": "فارسی",
+      "dir": "rtl",
+      "gnews": {
+        "hl": "fa",
+        "gl": "IR",
+        "ceid": "IR:fa"
+      },
+      "chemical": {
+        "query": [
+          "سلاح شیمیایی",
+          "عامل عصبی",
+          "سارین",
+          "گاز کلر",
+          "گاز خردل",
+          "حمله شیمیایی",
+          "نشت شیمیایی",
+          "گاز سمی"
+        ],
+        "match": [
+          "سلاح شیمیایی",
+          "سلاح‌های شیمیایی",
+          "عامل عصبی",
+          "سارین",
+          "نوویچوک",
+          "گاز کلر",
+          "گاز خردل",
+          "فسژن",
+          "سازمان منع سلاح‌های شیمیایی",
+          "حمله شیمیایی",
+          "گاز سمی",
+          "نشت شیمیایی",
+          "کارخانه شیمیایی",
+          "مواد پیش‌ساز",
+          "خلع سلاح شیمیایی",
+          "جانبازان شیمیایی"
+        ]
+      },
+      "biological": {
+        "query": [
+          "سلاح بیولوژیک",
+          "بیوتروریسم",
+          "سیاه‌زخم",
+          "امنیت زیستی",
+          "نشت آزمایشگاهی",
+          "شیوع بیماری",
+          "عامل بیماری‌زا",
+          "ایمنی زیستی"
+        ],
+        "match": [
+          "سلاح بیولوژیک",
+          "سلاح زیستی",
+          "بیوتروریسم",
+          "تروریسم زیستی",
+          "سیاه‌زخم",
+          "آنتراکس",
+          "ریسین",
+          "بوتولینوم",
+          "آبله",
+          "عامل بیماری‌زا",
+          "پاتوژن",
+          "شیوع",
+          "اپیدمی",
+          "پاندمی",
+          "همه‌گیری",
+          "امنیت زیستی",
+          "ایمنی زیستی",
+          "نشت آزمایشگاهی",
+          "ویروس",
+          "باکتری",
+          "سم",
+          "قرنطینه",
+          "پدافند زیستی"
+        ]
+      },
+      "gdelt": "fas"
+    }
+  },
+  "settings": {
+    "chunk_size": 8,
+    "request_delay_seconds": 1.2,
+    "latest_window_days": 10,
+    "max_items_in_latest": 1200,
+    "seen_retention_days": 120
+  }
+}
