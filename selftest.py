@@ -246,6 +246,34 @@ def main():
     check("fallback fires and is attributed",
           any(i.get("via") == "gdelt" for i in items2))
 
+    # Regression: a flat global cap gave the whole front page to the first
+    # few languages, because every item in a run shares one timestamp.
+    print("\n[per language quota]")
+    import random as _r
+    big = []
+    for li, code in enumerate(["en", "fr", "es", "ar", "ru", "zh",
+                               "de", "he", "nl", "ja", "ko", "fa"]):
+        for n in range(200):
+            big.append({"id": "%s%04d" % (code, n), "title": "t", "url": "u",
+                        "source_name": "s", "lang": code, "lang_name": code,
+                        "lang_native": code, "dir": "ltr",
+                        "domains": ["chemical"], "label_confirmed": True,
+                        "first_seen_utc": "2026-07-23T12:00:00Z"})
+    I.save_json("data/2026-07-23.json", big)
+    total, by_lang, _ = I.rebuild_latest(10, 1200)
+    check("cap respected", total == 1200)
+    check("no language starved by the cap", len(by_lang) == 12)
+    check("every language gets a fair share", min(by_lang.values()) >= 40)
+    print("     per language: %s" % dict(sorted(by_lang.items())))
+
+    # A language that returns little must not lose its slots to a busy one.
+    thin = [r for r in big if r["lang"] != "fa"] + \
+           [r for r in big if r["lang"] == "fa"][:3]
+    I.save_json("data/2026-07-23.json", thin)
+    total2, by_lang2, _ = I.rebuild_latest(10, 1200)
+    check("thin language still fully represented", by_lang2.get("fa") == 3)
+    check("spare capacity is reused, not wasted", total2 == 1200)
+
     check("scratch tree used, real archive untouched",
           I.ROOT == SCRATCH and not os.path.exists(os.path.join(REPO, "data", "latest.json"))
           or I.ROOT == SCRATCH)
