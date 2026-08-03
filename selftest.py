@@ -78,6 +78,21 @@ GDELT_JSON = b"""{"articles":[
 ]}"""
 
 
+def make_rss(term, source, art_id, when):
+    """Build a minimal valid RSS fixture using a term pulled straight
+    from the lexicon, so we never guess at native-language wording."""
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<rss version="2.0"><channel>'
+        '<item><title>{term} - {source}</title>'
+        '<link>https://news.google.com/rss/articles/{art_id}</link>'
+        '<pubDate>{when}</pubDate>'
+        '<source url="https://example.test">{source}</source></item>'
+        '</channel></rss>'
+    ).format(term=term, source=source, art_id=art_id, when=when)
+    return xml.encode("utf-8")
+
+
 # Main -----------------------------------------------------------------
 
 def main():
@@ -158,7 +173,24 @@ def main():
     # ----------------------------- pipeline
     print("\n[pipeline, network stubbed]")
 
-    fixtures = {"en":RSS_EN,"ar":RSS_AR,"ja":RSS_JA,"he":RSS_HE}
+    # Fixtures for en/ar/ja/he are hand-written so later checks can assert
+    # on specific real-world headlines (chlorine/anthrax domain labelling).
+    # The remaining 8 languages are generated from the lexicon's own match
+    # terms, so every language actually gets exercised through the real
+    # pipeline instead of silently falling back to an empty feed.
+    literal_fixtures = {"en": RSS_EN, "ar": RSS_AR, "ja": RSS_JA, "he": RSS_HE}
+    other_codes = [c for c in langs if c not in literal_fixtures]
+
+    dynamic_fixtures = {}
+    for n, code in enumerate(other_codes):
+        term = langs[code]["chemical"]["match"][0]
+        when = "Wed, 22 Jul 2026 %02d:%02d:00 GMT" % (3, n % 60)
+        dynamic_fixtures[code] = make_rss(
+            term, source="Wire %s" % code.upper(),
+            art_id="Z%02d" % n, when=when)
+
+    fixtures = {**literal_fixtures, **dynamic_fixtures}
+    check("fixtures cover all 12 languages", set(fixtures) == set(langs))
 
     from urllib.parse import quote as urlquote
 
@@ -188,6 +220,15 @@ def main():
           all(i.get("dir") in ("ltr","rtl") for i in items))
     check("both domains represented",
           {"chemical","biological"} <= {d for i in items for d in i["domains"]})
+
+    # This is the key regression test for "all 12 languages should update":
+    # it fails loudly the moment any single language stops producing output,
+    # instead of that only being visible on the live site weeks later.
+    seen_langs = {i.get("lang") for i in items}
+    missing_langs = sorted(set(langs) - seen_langs)
+    check("all 12 languages produced at least one item", not missing_langs)
+    if missing_langs:
+        print("     missing languages:", missing_langs)
 
     chem = [i for i in items if i["domains"]==["chemical"]]
     bio = [i for i in items if i["domains"]==["biological"]]
@@ -286,9 +327,10 @@ def main():
     check("thin language still fully represented", by_lang2.get("fa")==3)
     check("spare capacity is reused, not wasted", total2==1200)
 
+    # NOTE: previously "A and B or A" (equivalent to just "A") always
+    # passed regardless of B. Fixed to actually require both conditions.
     check("scratch tree used, real archive untouched",
-          I.ROOT==SCRATCH and not os.path.exists(os.path.join(REPO,"data","latest.json"))
-          or I.ROOT==SCRATCH)
+          I.ROOT==SCRATCH and not os.path.exists(os.path.join(REPO,"data","latest.json")))
 
     print("\n%s  (%d failed)" % ("PASS" if not FAIL else "FAILURES", len(FAIL)))
     for f in FAIL:
