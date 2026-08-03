@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Offline tests. Network is stubbed, so this runs anywhere including CI."""
+"""
+Offline tests for kaf-bulletin.
+Network is stubbed, so this runs anywhere including CI.
+"""
 
 import json
 import os
@@ -10,8 +13,6 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = HERE
 
-# Run the entire pipeline against a scratch tree so the real archive is never
-# touched. The config is copied in; data and state start empty.
 SCRATCH = tempfile.mkdtemp(prefix="kaf-bulletin-test-")
 shutil.copy(os.path.join(REPO, "lexicon.json"),
             os.path.join(SCRATCH, "lexicon.json"))
@@ -29,8 +30,8 @@ def check(label, cond):
         FAIL.append(label)
 
 
-# Fixtures in four scripts, including RTL and CJK, because a bulletin that
-# mangles Arabic or Japanese is worse than one that omits them.
+# Fixtures -------------------------------------------------------------
+
 RSS_EN = b"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <item><title>OPCW confirms chlorine gas use at site - Reuters</title>
@@ -68,7 +69,6 @@ RSS_HE = """<?xml version="1.0" encoding="UTF-8"?>
 <source url="https://haaretz.co.il">הארץ</source></item>
 </channel></rss>""".encode("utf-8")
 
-
 EMPTY_RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>"""
 
 GDELT_JSON = b"""{"articles":[
@@ -78,61 +78,62 @@ GDELT_JSON = b"""{"articles":[
 ]}"""
 
 
+# Main -----------------------------------------------------------------
+
 def main():
     cfg = I.load_json("lexicon.json", default={})
     langs = cfg.get("languages") or {}
 
-    # ---------------------------------------------------------- lexicon
+    # ----------------------------- lexicon
     print("\n[lexicon]")
     check("twelve languages configured", len(langs) == 12)
-    expected = {"en", "fr", "es", "ar", "ru", "zh", "de", "he", "nl", "ja", "ko", "fa"}
+    expected = {"en","fr","es","ar","ru","zh","de","he","nl","ja","ko","fa"}
     check("all requested languages present", set(langs) == expected)
 
     ok_struct = True
     for code, lang in langs.items():
-        for key in ("name", "native", "dir", "gnews", "chemical", "biological"):
+        for key in ("name","native","dir","gnews","chemical","biological"):
             if key not in lang:
                 ok_struct = False
-                print("     missing %s in %s" % (key, code))
-        for dom in ("chemical", "biological"):
-            if not lang.get(dom, {}).get("query") or not lang.get(dom, {}).get("match"):
+        for dom in ("chemical","biological"):
+            if not lang.get(dom,{}).get("query") or not lang.get(dom,{}).get("match"):
                 ok_struct = False
-                print("     %s/%s has no terms" % (code, dom))
     check("every language has both domains with terms", ok_struct)
 
-    rtl = {c for c, l in langs.items() if l["dir"] == "rtl"}
-    check("rtl marked for ar, he, fa", rtl == {"ar", "he", "fa"})
+    rtl = {c for c,l in langs.items() if l["dir"]=="rtl"}
+    check("rtl marked for ar, he, fa", rtl == {"ar","he","fa"})
 
     total_terms = sum(len(l[d]["match"]) for l in langs.values()
-                      for d in ("chemical", "biological"))
+                      for d in ("chemical","biological"))
     check("lexicon has substantial coverage (>300 terms)", total_terms > 300)
-    print("     total terms: %d" % total_terms)
+    print("     total terms:", total_terms)
 
-    # ---------------------------------------------------------- parsing
+    # ----------------------------- parsing
     print("\n[parsing]")
     items = I.parse_rss(RSS_EN)
-    check("linkless item dropped", len(items) == 2)
+    check("linkless item dropped", len(items)==2)
     check("source suffix stripped from headline",
-          items[0]["title"] == "OPCW confirms chlorine gas use at site")
-    check("source name captured", items[0]["source_name"] == "Reuters")
+          items[0]["title"]=="OPCW confirms chlorine gas use at site")
+    check("source name captured", items[0]["source_name"]=="Reuters")
     check("pubDate converted to iso",
-          items[0]["published"] == "2026-07-22T09:15:00Z")
+          items[0]["published"]=="2026-07-22T09:15:00Z")
 
     ar = I.parse_rss(RSS_AR)[0]
     check("arabic text preserved intact",
-          ar["title"] == "تسرب غاز الكلور في مصنع كيميائي")
-    check("arabic source name preserved", ar["source_name"] == "الجزيرة")
+          ar["title"]=="تسرب غاز الكلور في مصنع كيميائي")
+    check("arabic source name preserved", ar["source_name"]=="الجزيرة")
 
     ja = I.parse_rss(RSS_JA)[0]
-    check("japanese text preserved intact", ja["title"] == "化学兵器の使用を確認")
+    check("japanese text preserved intact", ja["title"]=="化学兵器の使用を確認")
 
     he = I.parse_rss(RSS_HE)[0]
-    check("hebrew text preserved intact", he["title"] == "דליפה כימית במפעל")
+    check("hebrew text preserved intact", he["title"]=="דליפה כימית במפעל")
 
-    # ---------------------------------------------------------- matching
+    # ----------------------------- matching
     print("\n[matching]")
     check("cjk matching works without word boundaries",
-          "化学兵器" in I.match_terms("化学兵器の使用を確認", langs["ja"]["chemical"]["match"]))
+          "化学兵器" in I.match_terms("化学兵器の使用を確認",
+                                     langs["ja"]["chemical"]["match"]))
     check("arabic matching works",
           "غاز الكلور" in I.match_terms("تسرب غاز الكلور في مصنع",
                                         langs["ar"]["chemical"]["match"]))
@@ -140,23 +141,24 @@ def main():
           "سلاح شیمیایی" in I.match_terms("گزارش تازه درباره سلاح شیمیایی",
                                           langs["fa"]["chemical"]["match"]))
     check("matching is case insensitive for latin",
-          "sarin" in I.match_terms("SARIN traces found", langs["en"]["chemical"]["match"]))
+          "sarin" in I.match_terms("SARIN traces found",
+                                   langs["en"]["chemical"]["match"]))
 
-    # ---------------------------------------------------------- url
+    # ----------------------------- query building
     print("\n[query building]")
-    url = I.build_url(["chemical weapon", "sarin"], langs["en"]["gnews"])
+    url = I.build_url(["chemical weapon","sarin"], langs["en"]["gnews"])
     check("multiword terms are quoted", "%22chemical+weapon%22" in url)
     check("language params present", "hl=en-US" in url and "ceid=US%3Aen" in url)
     check("url is fully encoded", " " not in url)
     ar_url = I.build_url(["سلاح كيميائي"], langs["ar"]["gnews"])
     check("non latin query encodes safely", ar_url.isascii())
-
     check("chunking splits oversized term lists",
-          len(I.chunks(list(range(20)), 8)) == 3)
+          len(I.chunks(list(range(20)),8))==3)
 
-    # ---------------------------------------------------------- pipeline
+    # ----------------------------- pipeline
     print("\n[pipeline, network stubbed]")
-    fixtures = {"en": RSS_EN, "ar": RSS_AR, "ja": RSS_JA, "he": RSS_HE}
+
+    fixtures = {"en":RSS_EN,"ar":RSS_AR,"ja":RSS_JA,"he":RSS_HE}
 
     from urllib.parse import quote as urlquote
 
@@ -164,7 +166,7 @@ def main():
         if "gdeltproject" in url:
             return 200, GDELT_JSON
         for code, lang in langs.items():
-            if "hl=" + urlquote(lang["gnews"]["hl"]) in url:
+            if "hl="+urlquote(lang["gnews"]["hl"]) in url:
                 body = fixtures.get(code)
                 return (200, body) if body else (200, EMPTY_RSS)
         return 200, EMPTY_RSS
@@ -173,114 +175,125 @@ def main():
     I.time.sleep = lambda s: None
 
     rc = I.main()
-    check("run completes cleanly", rc == 0)
+    check("run completes cleanly", rc==0)
 
     latest = I.load_json("data/latest.json", default={})
-    items = latest.get("items", [])
-    check("items written to latest", len(items) > 0)
+    items = latest.get("items",[])
+    check("items written to latest", len(items)>0)
     check("every item has an id, title and url",
           all(i.get("id") and i.get("title") and i.get("url") for i in items))
     check("every item carries first_seen_utc",
           all(i.get("first_seen_utc") for i in items))
     check("every item carries direction for rendering",
-          all(i.get("dir") in ("ltr", "rtl") for i in items))
+          all(i.get("dir") in ("ltr","rtl") for i in items))
     check("both domains represented",
-          {"chemical", "biological"} <= {d for i in items for d in i["domains"]})
+          {"chemical","biological"} <= {d for i in items for d in i["domains"]})
 
-    # Regression: an earlier version labelled by which query returned the item,
-    # which tagged nearly everything as both chemical and biological and made
-    # the category filter useless.
-    chem = [i for i in items if i["domains"] == ["chemical"]]
-    bio = [i for i in items if i["domains"] == ["biological"]]
+    chem = [i for i in items if i["domains"]==["chemical"]]
+    bio = [i for i in items if i["domains"]==["biological"]]
     check("labels are discriminating, not all-both",
-          len(chem) > 0 and len(bio) > 0)
-    both = [i for i in items if len(i["domains"]) == 2]
-    check("dual labels are the exception not the rule", len(both) < len(items))
+          len(chem)>0 and len(bio)>0)
+    both = [i for i in items if len(i["domains"])==2]
+    check("dual labels are the exception not the rule",
+          len(both)<len(items))
+
     anthrax = [i for i in items if "Anthrax" in i["title"]]
     check("anthrax headline labelled biological only",
-          anthrax and anthrax[0]["domains"] == ["biological"])
+          anthrax and anthrax[0]["domains"]==["biological"])
     chlorine = [i for i in items if "chlorine" in i["title"]]
     check("chlorine headline labelled chemical only",
-          chlorine and chlorine[0]["domains"] == ["chemical"])
+          chlorine and chlorine[0]["domains"]==["chemical"])
     check("label confidence recorded on every item",
           all("label_confirmed" in i for i in items))
     check("rtl languages present in output",
-          any(i["dir"] == "rtl" for i in items))
+          any(i["dir"]=="rtl" for i in items))
 
-    stamps = {i["id"]: i["first_seen_utc"] for i in items}
+    stamps = {i["id"]:i["first_seen_utc"] for i in items}
     count1 = len(items)
 
-    # ---------------------------------------------------------- rerun
+    # ----------------------------- rerun
     print("\n[rerun, identical upstream]")
     rc2 = I.main()
     latest2 = I.load_json("data/latest.json", default={})
-    items2 = latest2.get("items", [])
-    check("no duplicates created", len(items2) == count1)
+    items2 = latest2.get("items",[])
+    check("no duplicates created", len(items2)==count1)
     check("first_seen_utc never rewritten",
-          {i["id"]: i["first_seen_utc"] for i in items2} == stamps)
+          {i["id"]:i["first_seen_utc"] for i in items2} == stamps)
     ids = [i["id"] for i in items2]
-    check("ids unique", len(ids) == len(set(ids)))
+    check("ids unique", len(ids)==len(set(ids)))
     order = [i["first_seen_utc"] for i in items2]
-    check("sorted newest first", order == sorted(order, reverse=True))
+    check("sorted newest first", order==sorted(order, reverse=True))
 
     idx = I.load_json("data/index.json", default={})
-    check("archive manifest written", idx.get("total_archived", 0) > 0)
+    check("archive manifest written", idx.get("total_archived",0)>0)
 
-    # ---------------------------------------------------------- outage
+    # ----------------------------- outage
     print("\n[upstream outage]")
     I.http_get = lambda url, **kw: (0, None)
     rc3 = I.main()
     latest3 = I.load_json("data/latest.json", default={})
-    check("exit code clean on outage", rc3 == 0)
+    check("exit code clean on outage", rc3==0)
     check("existing archive survives an outage",
-          len(latest3.get("items", [])) == count1)
+          len(latest3.get("items",[]))==count1)
 
     check("gdelt language codes present for all 12",
           all("gdelt" in l for l in langs.values()))
     check("gdelt parser drops titleless records",
-          len(I.parse_gdelt(GDELT_JSON)) == 1)
+          len(I.parse_gdelt(GDELT_JSON))==1)
     gd_url = I.build_gdelt_url(["nerve agent"], "fra")
-    check("gdelt query carries sourcelang filter", "sourcelang%3Afra" in gd_url)
+    check("gdelt query carries sourcelang filter",
+          "sourcelang%3Afra" in gd_url)
     check("http_get returns a status code",
-          isinstance(I.http_get("https://x", ), tuple))
+          isinstance(I.http_get("https://x"), tuple))
     check("fallback fires and is attributed",
-          any(i.get("via") == "gdelt" for i in items2))
+          any(i.get("via")=="gdelt" for i in items2))
 
-    # Regression: a flat global cap gave the whole front page to the first
-    # few languages, because every item in a run shares one timestamp.
+    # ----------------------------- per language quota
     print("\n[per language quota]")
-    import random as _r
-    big = []
-    for li, code in enumerate(["en", "fr", "es", "ar", "ru", "zh",
-                               "de", "he", "nl", "ja", "ko", "fa"]):
-        for n in range(200):
-            big.append({"id": "%s%04d" % (code, n), "title": "t", "url": "u",
-                        "source_name": "s", "lang": code, "lang_name": code,
-                        "lang_native": code, "dir": "ltr",
-                        "domains": ["chemical"], "label_confirmed": True,
-                        "first_seen_utc": "2026-07-23T12:00:00Z"})
-    I.save_json("data/2026-07-23.json", big)
-    total, by_lang, _ = I.rebuild_latest(10, 1200)
-    check("cap respected", total == 1200)
-    check("no language starved by the cap", len(by_lang) == 12)
-    check("every language gets a fair share", min(by_lang.values()) >= 40)
-    print("     per language: %s" % dict(sorted(by_lang.items())))
 
-    # A language that returns little must not lose its slots to a busy one.
-    thin = [r for r in big if r["lang"] != "fa"] + \
-           [r for r in big if r["lang"] == "fa"][:3]
+    # Build large synthetic dataset
+    big = []
+    for code in ["en","fr","es","ar","ru","zh","de","he","nl","ja","ko","fa"]:
+        for n in range(200):
+            big.append({
+                "id": f"{code}{n:04d}",
+                "title": "t",
+                "url": "u",
+                "source_name": "s",
+                "lang": code,
+                "lang_name": code,
+                "lang_native": code,
+                "dir": "ltr",
+                "domains": ["chemical"],
+                "label_confirmed": True,
+                "first_seen_utc": "2026-07-23T12:00:00Z"
+            })
+
+    I.save_json("data/2026-07-23.json", big)
+
+    # FIXED rebuild_latest: fair distribution
+    total, by_lang, _ = I.rebuild_latest(10, 1200)
+    check("cap respected", total==1200)
+    check("no language starved by the cap", len(by_lang)==12)
+    check("every language gets a fair share", min(by_lang.values())>=40)
+    print("     per language:", dict(sorted(by_lang.items())))
+
+    # Thin language test
+    thin = [r for r in big if r["lang"]!="fa"] + \
+           [r for r in big if r["lang"]=="fa"][:3]
     I.save_json("data/2026-07-23.json", thin)
     total2, by_lang2, _ = I.rebuild_latest(10, 1200)
-    check("thin language still fully represented", by_lang2.get("fa") == 3)
-    check("spare capacity is reused, not wasted", total2 == 1200)
+    check("thin language still fully represented", by_lang2.get("fa")==3)
+    check("spare capacity is reused, not wasted", total2==1200)
 
     check("scratch tree used, real archive untouched",
-          I.ROOT == SCRATCH and not os.path.exists(os.path.join(REPO, "data", "latest.json"))
-          or I.ROOT == SCRATCH)
+          I.ROOT==SCRATCH and not os.path.exists(os.path.join(REPO,"data","latest.json"))
+          or I.ROOT==SCRATCH)
 
     print("\n%s  (%d failed)" % ("PASS" if not FAIL else "FAILURES", len(FAIL)))
     for f in FAIL:
         print("   -", f)
+
     shutil.rmtree(SCRATCH, ignore_errors=True)
     return 1 if FAIL else 0
 
