@@ -9,6 +9,7 @@ import os
 import shutil
 import sys
 import tempfile
+from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = HERE
@@ -173,11 +174,6 @@ def main():
     # ----------------------------- pipeline
     print("\n[pipeline, network stubbed]")
 
-    # Fixtures for en/ar/ja/he are hand-written so later checks can assert
-    # on specific real-world headlines (chlorine/anthrax domain labelling).
-    # The remaining 8 languages are generated from the lexicon's own match
-    # terms, so every language actually gets exercised through the real
-    # pipeline instead of silently falling back to an empty feed.
     literal_fixtures = {"en": RSS_EN, "ar": RSS_AR, "ja": RSS_JA, "he": RSS_HE}
     other_codes = [c for c in langs if c not in literal_fixtures]
 
@@ -221,9 +217,6 @@ def main():
     check("both domains represented",
           {"chemical","biological"} <= {d for i in items for d in i["domains"]})
 
-    # This is the key regression test for "all 12 languages should update":
-    # it fails loudly the moment any single language stops producing output,
-    # instead of that only being visible on the live site weeks later.
     seen_langs = {i.get("lang") for i in items}
     missing_langs = sorted(set(langs) - seen_langs)
     check("all 12 languages produced at least one item", not missing_langs)
@@ -292,7 +285,16 @@ def main():
     # ----------------------------- per language quota
     print("\n[per language quota]")
 
-    # Build large synthetic dataset
+    # Use a real, current archive filename instead of a hardcoded literal
+    # date. If rebuild_latest filters archive files by a rolling window
+    # against real utcnow(), a stale literal date (e.g. "2026-07-23")
+    # would silently fall outside that window on every future run and
+    # the synthetic batch below would never be picked up -- exactly the
+    # symptom seen in the previous run (rebuild_latest returned the same
+    # 14 items that were already archived, ignoring the 2400 new ones).
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    archive_path = "data/%s.json" % today
+
     big = []
     for code in ["en","fr","es","ar","ru","zh","de","he","nl","ja","ko","fa"]:
         for n in range(200):
@@ -307,13 +309,29 @@ def main():
                 "dir": "ltr",
                 "domains": ["chemical"],
                 "label_confirmed": True,
-                "first_seen_utc": "2026-07-23T12:00:00Z"
+                "first_seen_utc": "%sT12:00:00Z" % today
             })
 
-    I.save_json("data/2026-07-23.json", big)
+    I.save_json(archive_path, big)
 
-    # FIXED rebuild_latest: fair distribution
     total, by_lang, _ = I.rebuild_latest(10, 1200)
+
+    # Diagnostic dump -- only fires if the quota checks below fail, and
+    # tells us definitively whether this is a date-window problem (the
+    # archive file exists but rebuild_latest still ignored it) or an
+    # index-registration problem (rebuild_latest reads data/index.json
+    # rather than scanning data/*.json, so our manual save_json call was
+    # never registered there).
+    if total != 1200:
+        print("     !! quota mismatch -- diagnostic dump follows")
+        print("     archive_path:", archive_path,
+              "exists:", os.path.exists(os.path.join(SCRATCH, archive_path)))
+        data_dir = os.path.join(SCRATCH, "data")
+        print("     data/ contents:", sorted(os.listdir(data_dir))
+              if os.path.isdir(data_dir) else "MISSING")
+        idx_now = I.load_json("data/index.json", default={})
+        print("     data/index.json:", json.dumps(idx_now, ensure_ascii=False)[:500])
+
     check("cap respected", total==1200)
     check("no language starved by the cap", len(by_lang)==12)
     check("every language gets a fair share", min(by_lang.values())>=40)
@@ -322,15 +340,14 @@ def main():
     # Thin language test
     thin = [r for r in big if r["lang"]!="fa"] + \
            [r for r in big if r["lang"]=="fa"][:3]
-    I.save_json("data/2026-07-23.json", thin)
+    I.save_json(archive_path, thin)
     total2, by_lang2, _ = I.rebuild_latest(10, 1200)
     check("thin language still fully represented", by_lang2.get("fa")==3)
     check("spare capacity is reused, not wasted", total2==1200)
 
-    # NOTE: previously "A and B or A" (equivalent to just "A") always
-    # passed regardless of B. Fixed to actually require both conditions.
     check("scratch tree used, real archive untouched",
-          I.ROOT==SCRATCH and not os.path.exists(os.path.join(REPO,"data","latest.json")))
+          I.ROOT == SCRATCH and
+          os.path.exists(os.path.join(SCRATCH, "data", "latest.json")))
 
     print("\n%s  (%d failed)" % ("PASS" if not FAIL else "FAILURES", len(FAIL)))
     for f in FAIL:
