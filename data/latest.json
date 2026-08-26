@@ -1,27 +1,407 @@
 {
- "generated_utc": "2026-08-25T19:03:27Z",
+ "generated_utc": "2026-08-26T02:03:06Z",
  "window_days": 10,
  "total": 1200,
  "per_language_quota": 100,
  "by_language": {
-  "en": 149,
-  "fr": 120,
+  "en": 156,
+  "fr": 134,
   "es": 100,
-  "ar": 189,
   "zh": 100,
-  "de": 93,
-  "nl": 62,
-  "ja": 81,
-  "ko": 133,
-  "he": 56,
+  "de": 86,
+  "nl": 55,
+  "ko": 136,
+  "ar": 189,
+  "ja": 75,
+  "he": 52,
   "ru": 115,
   "fa": 2
  },
  "by_domain": {
-  "chemical": 494,
-  "biological": 707
+  "chemical": 479,
+  "biological": 722
  },
  "items": [
+  {
+   "id": "9dbe95802fe9b5e5",
+   "title": "The US Army made sarin and napalm on 17,000 acres outside Denver, and when biologists surveyed the fenced buffer land in 1986 they found a winter roost of bald eagles, so America's most contaminated square miles became a refuge that now runs bison a",
+   "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPa3JVQmZ0ZDNqZ0VjMko0VXNWQW52MDRIQlpNVGlSMkVsT2JFUFVXczN5TVU0aTBHc1FlZXNjTDEwRl9Ed1ZnT0VWNDNBa2E4UE9Vd2tGVEJId2RrRy1IX3pGX282YkRuVDA4Ukc3Y1lfWDRlQkUyT3JBUldHSDlOOFpvNXRnV3EyQU9HNHRZeXp3amRVS0txUmRCNzhQcXlBTDhxR0tzUUhBNzlOLXhUZkVScVdJVzNxaGlQZ3o2MEZmcnhUZ1E0OFZRb0R6dE4zb0RNekl3MlRMRHZZQVd3MDh5RkRycEhDNG5MM2RFZVBJelBRa1g4U3BqVTBEZWoyenZpZGM4TmpDWXhxVkxpWkdiS0lBMjlYa3B2MFI2NFRwcDhZMUo2NlZZSFdVcnQ1Szg4eHp4YmVBUFoyLVhsTHRLdllhM3Rj?oc=5",
+   "source_name": "ScienceBlog.com",
+   "source_url": "https://scienceblog.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "sarin"
+   ],
+   "published_utc": "2026-08-25T23:38:12Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "fba349f064961cf9",
+   "title": "Health Brief: Washington’s AI biosecurity gap",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVBpWnZaQ1lvcnhya1Z6RWdfcVdONlZuUFBlNm1KYXBLVk83ZVJVdURmZHNQc3liYmo4X3V2T3RxaTNOTnEyX0pCTkwyQXZoa3VWLWZHMnM5WV9sZXZCTTZDRHAtc0RQcFk4OEdDbUZNdTN4dVkyTDNSRXFEc1VEaVNwcmJUaGZaQmlJZmJUN0h1V3lKekNKWWlybkY0SkwyMkxYekJYMzRCTVlRRjV2bXJjNlNXQQ?oc=5",
+   "source_name": "The Washington Post",
+   "source_url": "https://www.washingtonpost.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-08-26T01:07:58Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "a4b42a5afbeed32d",
+   "title": "County surveillance failed to detect that measles transmission reached epidemic threshold in schools",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UNDhXVWNnU0tTdm1Fc09oalo4THJFYWdMd3QzOUtIY09ldU0xNHZuZkxKa2NpYjlaMGpBY0ZETGRZbUVvOEdZbzE0RlJyczU3eVBndTlwMmJMLWZfNmp3?oc=5",
+   "source_name": "nature.com",
+   "source_url": "https://www.nature.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-08-20T14:51:45Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "af02d434382f686e",
+   "title": "Inauguration of a new biosafety level 3+ laboratory (P3 +) at the Institut Pasteur of French Guiana",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLTJKS3BXTEV1bExreGVmcVJDX1dlRHhuY2hwX25EMm8zZVljREdIR0t3amtqZHNfZFZNUGk5NUtSZVJac3Jucjhxbkh3ZGJkRkM0NXJZUnhwd2x4eS1IMDFGd0JIS1dYekpxTGl3LTJNU0t2dVlraEszZi1KYmJUX01iTHVCRjhpSkZWMl9YWDByZy1QZjJTbUdjZzlDVy1ScnE0YTY4b1lFLTMycGt1RW1EQ0ZDTVBMbUVSa3hzMF83amVCbVpjcnV0V2I?oc=5",
+   "source_name": "Pasteur.fr",
+   "source_url": "https://www.pasteur.fr",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosafety"
+   ],
+   "published_utc": "2026-08-21T12:23:34Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "f3a298e3577469aa",
+   "title": "The Burnout Epidemic: A Design Flaw and Warning of Impending \"Per",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRFFCU0VsY05tVU9QNGtpbktUd0kxZVpqZXpFZnY2dFBuVktxbUstQmkwZEFYQmp0ejRXa1Z5YmNLai1GNUlXei1QdnQ1MUY2OXNISC1NN3h1d3dtYjB6UTFlUi1tMEZhRzNPMDNCVjR5blNjdlN0ZUhmQ2hSbGFjSG1WckV0MzBtN3NiN2pRRGpWYkFGQnBWUzF0NllQTnhBYVBMYjRZVkgxRklaMU1VUw?oc=5",
+   "source_name": "The National Law Review",
+   "source_url": "https://natlawreview.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-08-25T08:26:45Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "694f523b99e935e5",
+   "title": "National Biosecurity Week 2026: DPIRD’s Quarantine WA service protecting today for tomorrow",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1NV3VxMDJhXzQ2aHBLc25ldTl0LVU0Tl8xUHFYTDhWVnNnOHZBOFFkZGlCREhEYXh0RHBIZDZ2YUlBT2ZBR0RKN1VfODVvUXREcm9hRWlNNXd6cDZtWDVBWVNvaDBPUHBkcWUwZElUV28tX3pNWXdjekM0cjhadFI5Q0lSRzNkamVFTGJXR1Z0bkhZOHFlTHZqODhnWm5hQWJwR1F1bG10czJRUzBuZ0Ffc2xGd05hSXpsbmZjS2Y4SXJmNVZDWVh1U2w?oc=5",
+   "source_name": "Western Australian Government",
+   "source_url": "https://www.wa.gov.au",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity",
+    "quarantine"
+   ],
+   "published_utc": "2026-08-24T02:15:54Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "afcb891dc53d2a3d",
+   "title": "Bird flu is testing how Australia governs biosecurity",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeUt0b0FTcUhWNzJKYWpBdnZNY01xMjU4SlE3X05SVFd4RE1ZdFY4WmZkbGFZLWtueGQwMFhJQm10bXhWc01td2xGa3VxaFBEVkJrbjZEVkhEbTFFRlFMYmt1aHF4M2tuN0ZfYk50cUZia0FnZnBWTm1fa0tKR2JkT1RTckVlX2tSWF9QTFVoMkFpWUlOa2ZZ?oc=5",
+   "source_name": "The Mandarin",
+   "source_url": "https://www.themandarin.com.au",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-08-26T00:31:12Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "7e2485288e6d7213",
+   "title": "Ebola : l’Institut Pasteur en première ligne pour lutter contre l’épidémie.",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMFlPODFLM0xVT3d5aWY3VXlPNnVJaGc3QnM1UHZhaGFURUlzdGJqWDFjdkdTUlIyVF90NW1VbWZwU1d2TGVNaERSeW5WUXNQaVo5UmU1QkdfbkxyNlJoSHgtMVp4bUFQQzRpWmZldnJHb3V5eVo2QmF6MjdWMkdZTE8ydldHZURuMERqRldTemNBZGE4S1MxTmwxaWEzQV80Wkl2QWlSOUZqd0NISUtEVzEybE1LdzN3OUJVWHRrdGc4LTBtbDk0ME5DOENkTjZp?oc=5",
+   "source_name": "Pasteur.fr",
+   "source_url": "https://www.pasteur.fr",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-20T18:24:13Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "009e43b8496ad5e7",
+   "title": "Cent jours d’Ebola en RDC : la course pour enrayer la transmission",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtMi1mNVhaTFNQTW5TZjBHN2dTUFpIeE5wd1dLSE5sZU9iN1NrYXpvSmpaektoNWZEZTJJSEZtSTFfMk9zN2ZLV0t5V3VBZHNRTV8wS2NQOA?oc=5",
+   "source_name": "UN News",
+   "source_url": "https://news.un.org",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-08-24T16:36:42Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "3902839855dff0f7",
+   "title": "Desactivó CNPC alerta por robo de gas cloro",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkUzcmhEN1VqWktlSXVCWVVZcUFzelRfQ0pabTRIQnVDR0MteFR5OVBPYUY1UldSb0FUQlo1TUNHS2ozc1B0STBaYUVVTnNLRFRtaEFpaUQzeDMzZDZTY0hXTi0xRUFMRVdvdU5kTnpablJTeVFZVWF6WDIxS0VKTVNoWGZodDdaNkE?oc=5",
+   "source_name": "reynosa.gob.mx",
+   "source_url": "https://www.reynosa.gob.mx",
+   "lang": "es",
+   "lang_name": "Spanish",
+   "lang_native": "Español",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "gas cloro"
+   ],
+   "published_utc": "2026-08-18T21:24:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "0861996a264c0629",
+   "title": "La epidemia de ébola en RDCongo está \"lejos de estar bajo control\", alerta la OMS",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNzNxQXVtYzIzc2E1RFViWHR2anJlSUhHWUlscHhib1FMQ0l4dThoOHNDOHNCVHppc3J5Q1hzS0dFbDNKdDM1X0ZmdTdXR2xwMHctZnZtaEdlbkxCbmhtanl6ZUZUTUQ0QlVPbG8tSTItZmRsNjVjNVpoNGtWZUlJTkVUWk5WOEJ1M1JYSkkyNlpFRlRUU19RaTA0VERKbkdka29sQzVDektqSl9DcWpKZ3d2VF9fM3BhcmdIcDA4bEdsVVlGU3lOVEhGZl9lUmlNd25Kb2ppWF8?oc=5",
+   "source_name": "France 24",
+   "source_url": "https://www.france24.com",
+   "lang": "es",
+   "lang_name": "Spanish",
+   "lang_native": "Español",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemia"
+   ],
+   "published_utc": "2026-08-18T14:57:11Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "cea6456d9ac561cd",
+   "title": "“小柯”秀|爱荷华大学|细胞外基质|病原体|激酶|美国_手机新浪网",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLVFCckRCYVRBZG54cnk1S3FiQk43WHNfUjZrSkdFbnNVU0UtT3dTMnc0TXFjSGdXaG5SellLNW1VYXAzc2xVek11VjJhYUxuWmRYcV9RYkZKYlMtTjNKWHcxTEFNR3ZadnNCbzZ2bndEcDl1Z3RPVXVIeE45dV9WMDZaZW1ZaHdCMlZKei1ZMWZIYjd5RGRkV05VTzUzSzJ1N1RvQTYzRXpYQlNIUVE2Q2g0Y2prbmFZNXRqM0l4WGNZblRweWswaWdoSmpyU1NHa3lQY005V0Y5aHpYVFpaY0xUaktCV0JvT3hmTldEeV9tT0cwa3RvaWp0cmpXMG8?oc=5",
+   "source_name": "新浪财经",
+   "source_url": "https://finance.sina.cn",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体"
+   ],
+   "published_utc": "2026-08-25T14:26:15Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "afa719f604eba704",
+   "title": "张柱分别会见越南农业与环境部部长和新西兰生物安全、食品安全部长",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNkxGR0tjV19SZVNRRllWdWpIZnJSMzZmUUtoa2lZdmJGT1Y4cUFKVm5vNnQ2Q0Z1dTZtNE0yU3o3MlJZaFlGdjNJMWxMZ3FxdzVWc2hrRzhZTWF5T1lnVGZORDBpSVdZOEFoc1hFMXVSU2g3akJBLWpqUWY5Zm9FYkxxUy1sbDk3VlFQbU5xd0tDMFpEdGNVZw?oc=5",
+   "source_name": "新浪财经",
+   "source_url": "https://finance.sina.cn",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物安全"
+   ],
+   "published_utc": "2026-08-25T03:20:50Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "efcedc377d1f2406",
+   "title": "Schlafende HIV-Erreger ausschalten – Ein Life Sciences Bridge Award geht an Frauke Mücksch",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRHpLUk5YcnUweVY0TzhCMXRYZ0h5aDFHVE9nSkxJNTRBbHRYMDAxTzJvRVI2LTJVZWN1cEZmUzM0VTVNa3ZrZGFiajUzQTltc2tfbGF3Sm1FajYyQV83eDhfdWFXdC14b3J5UjZ3WGpnUThGVVZEd0swVnEwTVlleU9heHBvYXI4Mjl3cE5PaHZMYzZjand6aDJkSDRfckNEY19hS3BOR1NrNjkyblhoVGZnbnRNV2dhWk9Kajh6YU1ZcHVLaUxYdHI5VEVtNFk?oc=5",
+   "source_name": "idw – Informationsdienst Wissenschaft",
+   "source_url": "https://nachrichten.idw-online.de",
+   "lang": "de",
+   "lang_name": "German",
+   "lang_native": "Deutsch",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "Erreger"
+   ],
+   "published_utc": "2025-09-26T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "1c2e3d90ae9d2157",
+   "title": "Amerikaans lab blundert met antrax-bacterie",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWVFzZndRbkgyLUpOLUU5M3JtbHVkMWJEX0xVbFZQbjBLd21tanZPczVLaE5GWEdIRVRnZzJUNkswTGlMWjNudG5mWDdxM0lYd1k2NHlsSzJZS1Z3Y0xGYUhTaGkxc2pEZ1JjbHVMQ3FiWXlhZ0hBYWM0NTBhN2NUVUZHUS1adUJj?oc=5",
+   "source_name": "Trouw",
+   "source_url": "https://www.trouw.nl",
+   "lang": "nl",
+   "lang_name": "Dutch",
+   "lang_native": "Nederlands",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "antrax",
+    "bacterie"
+   ],
+   "published_utc": "2015-05-28T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "d7d730d09680ccda",
+   "title": "전북도, ‘생물안전3등급’ 연구동 가동… 가축전염병 초동방역 빨라진다",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NTzR3Z3N6WFlfNG1kQmpRS2hrUS1LTkM2NW9mOXB4LUhIaTZtVXhZTjBVakVxb3ZHTFJDbUFuMGJPb0Nra0JmNWJaSFBwWFRGRzlvRzhfUGtwN0trMUZSbDlmR1k4cjBM0gFsQVVfeXFMUEJ4NHVaSllDMXdLWmtueVc2d1pTc09LVFQ5YnFVa3hINXk1b0ZDRDktaGJKc1QtZGZUazJVWmx1WlNvOWtQS3Z3YU9ORmRyZWxoOXVxOW9KZEZBRFhSVFZtMTVWVnFNR1Q0ZVdv?oc=5",
+   "source_name": "한돈뉴스",
+   "source_url": "http://www.pignpork.com",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "전염병",
+    "생물안전"
+   ],
+   "published_utc": "2026-08-25T19:53:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "beee37fcfee90161",
+   "title": "전북특별자치도, 생물안전연구동 개소… 가축전염병 대응 역량 강화",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOHJKVHFxYkxqbzRENVc3dmV5d09XUWh0Y3BMN18yd1JhYVEzSVNIMFJjU1UybVQ4c3B2NjJHX2hxSVNQdHdqMFN0R1gtX0VXUDJKS0xSc1Y3bGNGdlBsNl9YT25NQlhGbHNwWWRWc04zQUtPMmRPdlBhZE5Eb2PSAX9BVV95cUxOcDhySlRxcWJMam80RDVXN3ZleXdPV1FodGNwTDdfMndSYWFRM0lTSDBSY1NVMm1UOHNwdjYyR19ocUlTUHR3ajBTdEdYLV9FV1AySktMUnNWN2xjRnZQbDZfWE9uTUJYRmxzcFlkVnNOM0FLTzJkT3ZQYWRORG9j?oc=5",
+   "source_name": "데일리스포츠한국",
+   "source_url": "https://www.dailysportshankook.co.kr",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "전염병",
+    "생물안전"
+   ],
+   "published_utc": "2026-08-24T01:17:06Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
+  {
+   "id": "8fdeeb387c5333b8",
+   "title": "\"코로나19 기원, 동물 전파 가장 유력\"…실험실 유출 가설 결론못내",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfTFoxbmxwVHVOTFhjdnFXX0NiOEhRcklmWlFoU0xYZWRBUjV2R2EzQmFPUU54b0ZrWkhmc0wzQzhOcjFfSmNKUWZlX3pxcWN3d2hSbA?oc=5",
+   "source_name": "DongA Science",
+   "source_url": "https://www.dongascience.com",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "실험실 유출"
+   ],
+   "published_utc": "2026-02-25T08:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-26T02:03:06Z"
+  },
   {
    "id": "e39bc1e2d23f9150",
    "title": "Spot a nerve agent in 13 secs",
@@ -9469,69 +9849,6 @@
    "first_seen_utc": "2026-08-23T13:06:09Z"
   },
   {
-   "id": "d764735c9aa04152",
-   "title": "Tech Is Fueling A Loneliness Epidemic. Can It Reignite Friendship?",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUo1b1JFNTVUUEczUy03T0Vkd0NVOUNtZklJeXF5dm9uNEdEc1k1Wm5HWkRYX1JzWnpwSWtMRUhhMUNsbFN3MTlyMlM4VHBqeThwOFkwdDFXWWhhQXRESUtCcVEya1FqMUlLSzF1QmozVEFRWFpGMmFoZnZFREFvWE9Sb3M4QV9ld1NGSVVnTEE2Q3ZkLWp1SkNxZzFVbGV6WEJfZkdqeHpsWmRSeUJualJjY3ljczJMRUNN?oc=5",
-   "source_name": "Forbes",
-   "source_url": "https://www.forbes.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-08-23T11:43:12Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T13:06:09Z"
-  },
-  {
-   "id": "1f9d7d096a319d2b",
-   "title": "Youth for Biosecurity",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Cb1Y5alh2cDkzd1lVZFQyMzlYQU9oWFloRzlfQmdJOXEzSGJYU1JhOEJOVWM1WUtodVpsWVA3Y0NOR0JjY3NGZWRyZGJUelV1cGkta0hiS093ZU5rUVduRy0xNm5yVTBldTRUZkRwLUZnWUJqRzdMWQ?oc=5",
-   "source_name": "European External Action Service (EEAS)",
-   "source_url": "https://www.eeas.europa.eu",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biosecurity"
-   ],
-   "published_utc": "2026-08-18T18:27:20Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T13:06:09Z"
-  },
-  {
-   "id": "172ace19f54550b9",
-   "title": "At last, some light on ‘silent epidemic’ with a heartbreaking toll",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQalhKYlU2c1hBWXBRRnJSb3ktUXpvd0hFUXAyclRlMUpVTGZaTnlIdzh1VXlVRUtVbjdQcE9QaThHa3k5UGcyMGZ2bjF6b3dxNGR3R0VuTkd1QlBVY2M5X3hCaU9pX3FJNVpZSGkyQkZ5V3JmREllc3JLRjVBOEdjVHoxemd2T2pDYmstMg?oc=5",
-   "source_name": "The New Daily",
-   "source_url": "https://www.thenewdaily.com.au",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-08-23T12:31:50Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T13:06:09Z"
-  },
-  {
    "id": "1b527b47ca4c02da",
    "title": "L’art contemporain d’Edgar Sarin dialogue avec la pierre au Donjon de Vez",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbEdHMnZseVB1WWcyQzVLLUs2WEk1YkZVU0tXV1NfNEgtbGUtbFRoU2dhMC1vUDczelMzMjV6ODhiYmxiTVNsdnU2SVI0VmJ3OW5pLUViczlmT19MZGZLTnN0dG9HVkNiZ092SkNDbXY1SVJxQUh2bTlFTGhqbjF0Q2VFNmJrTkE3dmhwUE0wNmJlSTZlRjNYZjlFdlgxWlZic0l3TURIVThQZEFJOFQtUFVKOWpiVGtYWWR2bHVn?oc=5",
@@ -10202,32 +10519,11 @@
    "first_seen_utc": "2026-08-23T13:06:09Z"
   },
   {
-   "id": "5510084f4726d826",
-   "title": "Surgeon Vice Admiral Arti Sarin’s Inspiring Journey of Service and Leadership to Feature on RakshaSutra",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oUURzVlVXUUZ1cmZFUW5McUFnLS1RaFpkY0I5MFpXaHFkOXpabmluZ2NlRDQzU1ZJeEE2TVhuVlByVWFCZFJsOG05ODM4VUh1dzE3cQ?oc=5",
-   "source_name": "thepublicworld.com",
-   "source_url": "https://thepublicworld.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "sarin"
-   ],
-   "published_utc": "2026-08-23T06:51:06Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T07:06:34Z"
-  },
-  {
-   "id": "934e650c2d61700f",
-   "title": "China builds world’s first custom plant immunity system for epidemic response",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWmZJNFZZcGx4Q3FtX1VUQWxrWXgxTzUyS3NGNWJNT0xBeGI5LXpJeGZ6eVlFOWhfLXE4ZV80Z0dOSmxTOWxsc2VjaS0xaDhyaEdMS0RCdHdCVFZ5eElReF9VdEZxbVhkVTgxZHkxclVNbTJkQy14LWRzdk1hNWlwZlg5dFJGR1pfSFJXOEVJQzhiNk9yQzZlTWRQLU9ya0ZHVXUzblJLOVlqSlVtYmx3Z0xsTTlTSGV0Q3lmcjFJMVdOWmhsWHFv0gHHAUFVX3lxTE5CTlRKVHJOTk9ZTWRUTmtGMC10VVJOLWdNaUVvWmlxSDNNa0hMYkNtWEZ5R0tmVW9JVGhIRmw1ZUxqUXV6cl92eGZfOVdsd1ZXR1B3YVpMOUF1T0ppc3VUdnFFTjdDd2h6Tjcyd29sNy12RGlMOFhMZlVzdUpOVUEyQTlHWERsMkdxT2otUGhPNmVxZmhtY09lVjJtUDdjbkVWVkt1NUF5ZVpPakczNGxPN2x6R1pvanhyTkpDc0JFSENWZmdpTGc?oc=5",
-   "source_name": "South China Morning Post",
-   "source_url": "https://www.scmp.com",
+   "id": "d764735c9aa04152",
+   "title": "Tech Is Fueling A Loneliness Epidemic. Can It Reignite Friendship?",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUo1b1JFNTVUUEczUy03T0Vkd0NVOUNtZklJeXF5dm9uNEdEc1k1Wm5HWkRYX1JzWnpwSWtMRUhhMUNsbFN3MTlyMlM4VHBqeThwOFkwdDFXWWhhQXRESUtCcVEya1FqMUlLSzF1QmozVEFRWFpGMmFoZnZFREFvWE9Sb3M4QV9ld1NGSVVnTEE2Q3ZkLWp1SkNxZzFVbGV6WEJfZkdqeHpsWmRSeUJualJjY3ljczJMRUNN?oc=5",
+   "source_name": "Forbes",
+   "source_url": "https://www.forbes.com",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -10239,16 +10535,37 @@
    "matched": [
     "epidemic"
    ],
-   "published_utc": "2026-08-23T02:00:10Z",
+   "published_utc": "2026-08-23T11:43:12Z",
    "via": "gnews",
-   "first_seen_utc": "2026-08-23T07:06:34Z"
+   "first_seen_utc": "2026-08-23T13:06:09Z"
   },
   {
-   "id": "865351f42c95a4f3",
-   "title": "Canada's Car Theft Epidemic Is Starting To Cool Off",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfT01WSlVWd3FYQzU0YWNrQ2o0T2w0aXZlS3R1eEh4c1k3dm1YdnNDZUZSaGRJSWp4YTgyRGplTGo2MmhXOW51NzllWkFxTTlwLUVPdWZtel9jRTFzdEo4QUczVjlFWS1ZNTI4VWJ1eEc4cUZYR21VMWFteTA?oc=5",
-   "source_name": "Jalopnik",
-   "source_url": "https://www.jalopnik.com",
+   "id": "1f9d7d096a319d2b",
+   "title": "Youth for Biosecurity",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Cb1Y5alh2cDkzd1lVZFQyMzlYQU9oWFloRzlfQmdJOXEzSGJYU1JhOEJOVWM1WUtodVpsWVA3Y0NOR0JjY3NGZWRyZGJUelV1cGkta0hiS093ZU5rUVduRy0xNm5yVTBldTRUZkRwLUZnWUJqRzdMWQ?oc=5",
+   "source_name": "European External Action Service (EEAS)",
+   "source_url": "https://www.eeas.europa.eu",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-08-18T18:27:20Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T13:06:09Z"
+  },
+  {
+   "id": "172ace19f54550b9",
+   "title": "At last, some light on ‘silent epidemic’ with a heartbreaking toll",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQalhKYlU2c1hBWXBRRnJSb3ktUXpvd0hFUXAyclRlMUpVTGZaTnlIdzh1VXlVRUtVbjdQcE9QaThHa3k5UGcyMGZ2bjF6b3dxNGR3R0VuTkd1QlBVY2M5X3hCaU9pX3FJNVpZSGkyQkZ5V3JmREllc3JLRjVBOEdjVHoxemd2T2pDYmstMg?oc=5",
+   "source_name": "The New Daily",
+   "source_url": "https://www.thenewdaily.com.au",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -10260,30 +10577,9 @@
    "matched": [
     "epidemic"
    ],
-   "published_utc": "2026-08-22T19:05:00Z",
+   "published_utc": "2026-08-23T12:31:50Z",
    "via": "gnews",
-   "first_seen_utc": "2026-08-23T07:06:34Z"
-  },
-  {
-   "id": "fb5df7f7cfbd0e79",
-   "title": "What’s fuelling the loneliness epidemic among young men",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYzVvWUpoUmFfREF2b2NPM2ZDRVpQOXFPY1dBR0NZZjJIOWk1M1VTOEJtRXdST0pEMjR1S1FlR3NVSncxMEpOV1FPVlBpeGxBZDlBQVdSNWNSMG9xVHQ2SmxwN0xSSkxkSjFNYko5ZzRONXZoWTdESUxuSl9hTHZJa2lsSXRmYjZ5VGFHdEpHRDRyU0o1WXN5TVVYWXJnUnFLeVZZVTg2YTNtVE1MdWcyaXlaSkFLNE15YUw5c3VjUHRUc3lJM1NYMFpzemRvVnh1VzBnaHdab296TVJFU1c2Z1JmNzBQOUhvX2Y0cWREZGFLX0hIQUxvUdIB_gFBVV95cUxPbDRXaVRvNy1PMDVSaG5kY2wzS1lXaDFSLVBfaG0yb0k3Wlc5SDdvV3piOUhRcG5tV0kyQWNTcEEzUTBxQWdWVFJGSVh4RGdGVThMMlcyX0thOG5JWjh5QW51YWswT1BmZ2JGZmotZTFNM0NJOVE5Rk5RNDE0SkRzMDFMZ0JHZFVxWVdiclpDUXhHRlhvUEowTWRpX1NtMEdrbzBjazRxYkNCY01JeF81dVNpMHBHT0hYblVBWkJoM0twTC10b2tYSkVUenl2UTZEUFBkbXZMcE92eHluTFk2a2tNR1NVRnpUb0lINzY0ZTQzemJXY2pyX0RrM2UzQQ?oc=5",
-   "source_name": "The Australian",
-   "source_url": "https://www.theaustralian.com.au",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-08-22T19:31:41Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T07:06:34Z"
+   "first_seen_utc": "2026-08-23T13:06:09Z"
   },
   {
    "id": "9e6dc910a9417530",
@@ -10828,6 +11124,90 @@
     "OPCW"
    ],
    "published_utc": "2013-10-11T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T07:06:34Z"
+  },
+  {
+   "id": "5510084f4726d826",
+   "title": "Surgeon Vice Admiral Arti Sarin’s Inspiring Journey of Service and Leadership to Feature on RakshaSutra",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oUURzVlVXUUZ1cmZFUW5McUFnLS1RaFpkY0I5MFpXaHFkOXpabmluZ2NlRDQzU1ZJeEE2TVhuVlByVWFCZFJsOG05ODM4VUh1dzE3cQ?oc=5",
+   "source_name": "thepublicworld.com",
+   "source_url": "https://thepublicworld.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "sarin"
+   ],
+   "published_utc": "2026-08-23T06:51:06Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T07:06:34Z"
+  },
+  {
+   "id": "934e650c2d61700f",
+   "title": "China builds world’s first custom plant immunity system for epidemic response",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWmZJNFZZcGx4Q3FtX1VUQWxrWXgxTzUyS3NGNWJNT0xBeGI5LXpJeGZ6eVlFOWhfLXE4ZV80Z0dOSmxTOWxsc2VjaS0xaDhyaEdMS0RCdHdCVFZ5eElReF9VdEZxbVhkVTgxZHkxclVNbTJkQy14LWRzdk1hNWlwZlg5dFJGR1pfSFJXOEVJQzhiNk9yQzZlTWRQLU9ya0ZHVXUzblJLOVlqSlVtYmx3Z0xsTTlTSGV0Q3lmcjFJMVdOWmhsWHFv0gHHAUFVX3lxTE5CTlRKVHJOTk9ZTWRUTmtGMC10VVJOLWdNaUVvWmlxSDNNa0hMYkNtWEZ5R0tmVW9JVGhIRmw1ZUxqUXV6cl92eGZfOVdsd1ZXR1B3YVpMOUF1T0ppc3VUdnFFTjdDd2h6Tjcyd29sNy12RGlMOFhMZlVzdUpOVUEyQTlHWERsMkdxT2otUGhPNmVxZmhtY09lVjJtUDdjbkVWVkt1NUF5ZVpPakczNGxPN2x6R1pvanhyTkpDc0JFSENWZmdpTGc?oc=5",
+   "source_name": "South China Morning Post",
+   "source_url": "https://www.scmp.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-08-23T02:00:10Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T07:06:34Z"
+  },
+  {
+   "id": "865351f42c95a4f3",
+   "title": "Canada's Car Theft Epidemic Is Starting To Cool Off",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfT01WSlVWd3FYQzU0YWNrQ2o0T2w0aXZlS3R1eEh4c1k3dm1YdnNDZUZSaGRJSWp4YTgyRGplTGo2MmhXOW51NzllWkFxTTlwLUVPdWZtel9jRTFzdEo4QUczVjlFWS1ZNTI4VWJ1eEc4cUZYR21VMWFteTA?oc=5",
+   "source_name": "Jalopnik",
+   "source_url": "https://www.jalopnik.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-08-22T19:05:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T07:06:34Z"
+  },
+  {
+   "id": "fb5df7f7cfbd0e79",
+   "title": "What’s fuelling the loneliness epidemic among young men",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYzVvWUpoUmFfREF2b2NPM2ZDRVpQOXFPY1dBR0NZZjJIOWk1M1VTOEJtRXdST0pEMjR1S1FlR3NVSncxMEpOV1FPVlBpeGxBZDlBQVdSNWNSMG9xVHQ2SmxwN0xSSkxkSjFNYko5ZzRONXZoWTdESUxuSl9hTHZJa2lsSXRmYjZ5VGFHdEpHRDRyU0o1WXN5TVVYWXJnUnFLeVZZVTg2YTNtVE1MdWcyaXlaSkFLNE15YUw5c3VjUHRUc3lJM1NYMFpzemRvVnh1VzBnaHdab296TVJFU1c2Z1JmNzBQOUhvX2Y0cWREZGFLX0hIQUxvUdIB_gFBVV95cUxPbDRXaVRvNy1PMDVSaG5kY2wzS1lXaDFSLVBfaG0yb0k3Wlc5SDdvV3piOUhRcG5tV0kyQWNTcEEzUTBxQWdWVFJGSVh4RGdGVThMMlcyX0thOG5JWjh5QW51YWswT1BmZ2JGZmotZTFNM0NJOVE5Rk5RNDE0SkRzMDFMZ0JHZFVxWVdiclpDUXhHRlhvUEowTWRpX1NtMEdrbzBjazRxYkNCY01JeF81dVNpMHBHT0hYblVBWkJoM0twTC10b2tYSkVUenl2UTZEUFBkbXZMcE92eHluTFk2a2tNR1NVRnpUb0lINzY0ZTQzemJXY2pyX0RrM2UzQQ?oc=5",
+   "source_name": "The Australian",
+   "source_url": "https://www.theaustralian.com.au",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-08-22T19:31:41Z",
    "via": "gnews",
    "first_seen_utc": "2026-08-23T07:06:34Z"
   },
@@ -11881,69 +12261,6 @@
    "first_seen_utc": "2026-08-23T02:03:08Z"
   },
   {
-   "id": "3ed8ca73e3f0a763",
-   "title": "[현장 In] 부산항서 수백만명 살상 가능한 탄저균·페스트균 실험?",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83c2pBbDZ6WDlwbE53TFJEOXJWT2pQdkZiYTlvekJra0ZmNzFQem1rTlQtYnc5NnVlZEJ3Qi1GTlREb0F6RlVQdWlsMkp5dHZOTWIxSGcxZlQwOFXSAWBBVV95cUxOTG9Qcm5OZWZUc2lRZEFMdmk0YWhybS1pR1B6LW1ISGN4TjFmUXBhSWVVWWhUaS1qd293NmVJNDJTMFFTM09aSHhzRnZHZ1RpS1g0TkphZERkX05jcXgwUmw?oc=5",
-   "source_name": "연합뉴스",
-   "source_url": "https://www.yna.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "탄저균"
-   ],
-   "published_utc": "2019-03-27T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T02:03:08Z"
-  },
-  {
-   "id": "9236a048937a4b7d",
-   "title": "미, 탄저균 테러로 우편업무 차질",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mV2hPTzRJX21VcExQNDMxZWR0MFQ5T0ExamhFUGdLdnNJQnRxQkFPVkUwZlBrYVBWbk1mbVlKV0Izd2licnVtbXV1LXFFdVZqYjVrZk1scmZyUQ?oc=5",
-   "source_name": "KBS 뉴스",
-   "source_url": "https://news.kbs.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "탄저균"
-   ],
-   "published_utc": "2020-09-08T22:36:09Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T02:03:08Z"
-  },
-  {
-   "id": "a49326823772ce44",
-   "title": "\"러, 소련 시절 생물무기 연구한 비밀 군사시설 대폭 확장\"",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTZUpVSEFZYWJFS2xPLUtBeDVxVmxKN1dnd2tjTE5rdGJLR0FzVlNsTnJZa2FxWktlWjVWa3V1cDBsa0FBcENlcU5wS0llUFFZU2d0RWRUSm1BOEXSAWBBVV95cUxNQ3pQdTdpdWNjWTk2aExfN21XV3Z4emx2TktPRC1GSHdLeTVCa0ZqZ1A2QzU3X1V1NExic3FRODYxUFpvUTRSY3d5a0tFNWZzVWNGc2Q5NEZfZVVJaEN3N0c?oc=5",
-   "source_name": "연합뉴스",
-   "source_url": "https://www.yna.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "생물무기"
-   ],
-   "published_utc": "2024-10-27T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-23T02:03:08Z"
-  },
-  {
    "id": "0f00b92e689bfa1b",
    "title": "Canada's Car Theft Epidemic Is Starting To Cool Off",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX05hb05wTTFveldQOEU5Ym8wbGtpT1FfeHA4QzExVzJPVHpDbkhDakxBakIwc0taSldCRU5od0gwdjlmeHJzazB5bF9NUm5WUm50bDBDNjNwWlIzNF9fWXdXbG0wVTNLVHNta1ktQXE3MzVqNi1sSVZYS0c5VjhZLTJ0VQ?oc=5",
@@ -12003,6 +12320,69 @@
     "epidemic"
    ],
    "published_utc": "2026-06-04T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T02:03:08Z"
+  },
+  {
+   "id": "3ed8ca73e3f0a763",
+   "title": "[현장 In] 부산항서 수백만명 살상 가능한 탄저균·페스트균 실험?",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83c2pBbDZ6WDlwbE53TFJEOXJWT2pQdkZiYTlvekJra0ZmNzFQem1rTlQtYnc5NnVlZEJ3Qi1GTlREb0F6RlVQdWlsMkp5dHZOTWIxSGcxZlQwOFXSAWBBVV95cUxOTG9Qcm5OZWZUc2lRZEFMdmk0YWhybS1pR1B6LW1ISGN4TjFmUXBhSWVVWWhUaS1qd293NmVJNDJTMFFTM09aSHhzRnZHZ1RpS1g0TkphZERkX05jcXgwUmw?oc=5",
+   "source_name": "연합뉴스",
+   "source_url": "https://www.yna.co.kr",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "탄저균"
+   ],
+   "published_utc": "2019-03-27T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T02:03:08Z"
+  },
+  {
+   "id": "9236a048937a4b7d",
+   "title": "미, 탄저균 테러로 우편업무 차질",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mV2hPTzRJX21VcExQNDMxZWR0MFQ5T0ExamhFUGdLdnNJQnRxQkFPVkUwZlBrYVBWbk1mbVlKV0Izd2licnVtbXV1LXFFdVZqYjVrZk1scmZyUQ?oc=5",
+   "source_name": "KBS 뉴스",
+   "source_url": "https://news.kbs.co.kr",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "탄저균"
+   ],
+   "published_utc": "2020-09-08T22:36:09Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-23T02:03:08Z"
+  },
+  {
+   "id": "a49326823772ce44",
+   "title": "\"러, 소련 시절 생물무기 연구한 비밀 군사시설 대폭 확장\"",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTZUpVSEFZYWJFS2xPLUtBeDVxVmxKN1dnd2tjTE5rdGJLR0FzVlNsTnJZa2FxWktlWjVWa3V1cDBsa0FBcENlcU5wS0llUFFZU2d0RWRUSm1BOEXSAWBBVV95cUxNQ3pQdTdpdWNjWTk2aExfN21XV3Z4emx2TktPRC1GSHdLeTVCa0ZqZ1A2QzU3X1V1NExic3FRODYxUFpvUTRSY3d5a0tFNWZzVWNGc2Q5NEZfZVVJaEN3N0c?oc=5",
+   "source_name": "연합뉴스",
+   "source_url": "https://www.yna.co.kr",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "생물무기"
+   ],
+   "published_utc": "2024-10-27T07:00:00Z",
    "via": "gnews",
    "first_seen_utc": "2026-08-23T02:03:08Z"
   },
@@ -14981,48 +15361,6 @@
    "first_seen_utc": "2026-08-22T01:54:30Z"
   },
   {
-   "id": "07bf50e9c50c53c7",
-   "title": "“L’épidémie d’Ebola en RDC progresse de façon exponentielle”: l’avertissement lancé par l’ONU",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORUJTSDNXZkNMWHNWY01PcjJSTlo4NmtOczNGbUlnWG5OSlctTzFNajk4SzhKNWcxR3c5aVdHZlJQNTZ0M2dScjFFODI4UzNMNlV6MFFxYUYyR1d1UDJULUxST1pIRC1OMzROZHZPeVM2V2dCVnVjSndEM0xNZm1uRkJXNThoaVE5VjU1MVJGOHNZMEVoMW81Y3l0QzVUVmk0ajhzOGhNUW5yRXEwLTRsNUFoaFU2WkR0SEFUQkxUb2g?oc=5",
-   "source_name": "7sur7.be",
-   "source_url": "https://www.7sur7.be",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-08-21T14:19:39Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-22T01:54:30Z"
-  },
-  {
-   "id": "26e86c12d5ee6bd8",
-   "title": "Braine-l’Alleud > Conférence > La douleur chronique, une épidémie silencieuse et invisible",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUmpRUFJ1UTBIQzJya2hEYm5rSlcxMDZKakhFUDE0WjhtUDdpWGtVb0JLU21FWUdpcHZ5ZVd1NmI3b19MRTIwWjBSWk1wb0FiR3NfUFBKN3ljaHVqSWVDSGF0M3VZaDV6X3FRZE5CNW9JSVdxdnBzQUQ2NUN1X0NrVW14NHVIVDdJLVN4N2FiNzRGV2h5SEE0NENyWDdiTTdWR09KN2hPWC0zMlBucklLcWtxUV9zVV9mWmhTMVlfM3I2U1hMTGJqR1ltZGVCNzg3RTd0dFdwV3ZLQXkyejV1cEtTbmdSZV9uN3pmSjlQMFJ0Q3ZnWTJpdUZLRV9qR2laVHNJTU9n?oc=5",
-   "source_name": "Info-lux.com",
-   "source_url": "https://www.info-lux.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-08-21T19:50:03Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-22T01:54:30Z"
-  },
-  {
    "id": "5eec89a9e0f53bce",
    "title": "Decenas de hospitalizados tras una fuga química que causa «importantes interrupciones» en el puerto de Amberes",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQakQzWlg5WkdwSjVhdV92VlJrcnVBUkV3cGR5cXEweXU2QWRJWlpyLUJZSXJLcFJHODBMcmQ2SjJoZjVLdjhncjV4cjNtVFVRSmRDOV8tbHhiRzFfUVF2anVOSXYxX3JLTG5wZFNoWENYS3I0WW1RNmZTcDJPYUNzN1N1NXh6ZkE5OXh1V2lMeXNVQWJOUEJrVEp4SWR0OFRhSTVZUnFEM3ZnUVRORll2aGZwOFh2ZmRnRk1WYU9MdkRBQ1Q0dy0zXy0zRzNsellfM1JHN00zZw?oc=5",
@@ -15823,6 +16161,48 @@
     "outbreak"
    ],
    "published_utc": "2026-08-21T05:49:32Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-22T01:54:30Z"
+  },
+  {
+   "id": "07bf50e9c50c53c7",
+   "title": "“L’épidémie d’Ebola en RDC progresse de façon exponentielle”: l’avertissement lancé par l’ONU",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORUJTSDNXZkNMWHNWY01PcjJSTlo4NmtOczNGbUlnWG5OSlctTzFNajk4SzhKNWcxR3c5aVdHZlJQNTZ0M2dScjFFODI4UzNMNlV6MFFxYUYyR1d1UDJULUxST1pIRC1OMzROZHZPeVM2V2dCVnVjSndEM0xNZm1uRkJXNThoaVE5VjU1MVJGOHNZMEVoMW81Y3l0QzVUVmk0ajhzOGhNUW5yRXEwLTRsNUFoaFU2WkR0SEFUQkxUb2g?oc=5",
+   "source_name": "7sur7.be",
+   "source_url": "https://www.7sur7.be",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T14:19:39Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-22T01:54:30Z"
+  },
+  {
+   "id": "26e86c12d5ee6bd8",
+   "title": "Braine-l’Alleud > Conférence > La douleur chronique, une épidémie silencieuse et invisible",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUmpRUFJ1UTBIQzJya2hEYm5rSlcxMDZKakhFUDE0WjhtUDdpWGtVb0JLU21FWUdpcHZ5ZVd1NmI3b19MRTIwWjBSWk1wb0FiR3NfUFBKN3ljaHVqSWVDSGF0M3VZaDV6X3FRZE5CNW9JSVdxdnBzQUQ2NUN1X0NrVW14NHVIVDdJLVN4N2FiNzRGV2h5SEE0NENyWDdiTTdWR09KN2hPWC0zMlBucklLcWtxUV9zVV9mWmhTMVlfM3I2U1hMTGJqR1ltZGVCNzg3RTd0dFdwV3ZLQXkyejV1cEtTbmdSZV9uN3pmSjlQMFJ0Q3ZnWTJpdUZLRV9qR2laVHNJTU9n?oc=5",
+   "source_name": "Info-lux.com",
+   "source_url": "https://www.info-lux.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T19:50:03Z",
    "via": "gnews",
    "first_seen_utc": "2026-08-22T01:54:30Z"
   },
@@ -19924,6 +20304,258 @@
    "first_seen_utc": "2026-08-21T13:15:56Z"
   },
   {
+   "id": "dc3dd603d13b3776",
+   "title": "RDC: l'épidémie d'Ebola franchit le cap des 2.500 morts, selon l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1pSaEZQSVh2OHItbVlYd1ZtR21pbEE3QTBjMTNHLVZ6ZmRrMXZyNzN5M2ZJYlgzV3JGc2k5V3FDQ2djQlRpMVZ2R2hRY2kwQ3ZNbHp5Zl85WmhlRWFlVjFwbkN1a1I4RjlWZ1Q4Z3E3SG9taGtseGdrZ0xWc0tuTWdhM3J0c0x0TEdDaFBEQnQyZk5ubTliUjZrRE15NFpub0c1dHcxSUZRRkE?oc=5",
+   "source_name": "Ici Beyrouth",
+   "source_url": "https://icibeyrouth.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T09:47:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "5a1d558b576eb8c3",
+   "title": "Autriche. Linz : une épidémie de légionellose fait trois morts, au moins 26 personnes hospitalisées",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdVBOUmZZWGtHZnFoSDBaNG1iWmhOQTBpSnhwY2JCVEFWRy1CZzFqdHdoRGhkZGdRNUhaR0F0cVRRc0xBQjBnMURtNzRoUWNwYmtfTDlfNktCcGYyQzZWb2J3czRXa2FBejdqaUhJMWpNYy02cWdiaGloaVp4MFR6cXBhQnBRbURTRzB2SkNEYzZnZzJOc0ZjQWVCdjdpMnZUbW1OQTFablRxSTFmY0tBSjY4R2RfaDlDZTN3d0s1N3BVNUY5dzc1QzNn?oc=5",
+   "source_name": "Le Dauphiné Libéré",
+   "source_url": "https://www.ledauphine.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T11:30:08Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "bdf85a1166762df9",
+   "title": "L'épidémie d'Ebola en RDC \"progresse de façon exponentielle\", alerte l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbkhHd2V0dE81WUs2bE9DcC1EV2F3eGhPLWp3WFRNRy1oc01nMTN5aGwyNFJZaUFFMzdxYTRzZ3J0YkthLWExMzdzcFY3QXNXbjRLRVhNZTBrUEFHbm9mTTRoVDVMUDZBMFpsaXMtY0ljVWlhR2c1cXlXRDg5d2Fleko1aUJSZzh1TWNFQUdnV0g0aXB5SGRMX0Q3WXJIeklwSnM0TGN1aF8zaEpodndidWNya0xqVVZVNy13b1NZZG0zaGdRd1ZsY1UwRDQwcmZ1NFRCYnVUZ2RYWFJq?oc=5",
+   "source_name": "La Libre.be",
+   "source_url": "https://www.lalibre.be",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T09:29:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "7d26375b9f6212c4",
+   "title": "L'épidémie d'Ebola en RDC «progresse de façon exponentielle» avec plus de 2500 morts, alerte l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRzVxNldqWTZJcWI2NnIwbVlFTC1EYk0wQnM0WVhlMTVLMEJZUzFDR3BzUWpTMWUxMFh2c1RwejZSVEM3MDRzaU5nUmN3WFZTaWVaQm5meTQtYzJrZ19oSEJ0S09pTXAyRXIxN2xjNzg3RmdLOEthbko2TTdLUHA4bDBRRUx5UVR2QUlWTjJpSUZUYVNfQUtZbFR1d0R6cTdEOUdTZ09tY3pRQ3N6T0QtSkZ5NjZBVE81aV9JNHVLdFNMOWc?oc=5",
+   "source_name": "RFI",
+   "source_url": "https://www.rfi.fr",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T09:11:22Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "2f631f5a83927dad",
+   "title": "Ebola en RDC : pour lutter contre l’épidémie, l’OMS déploie 70 000 doses du vaccin Ervebo",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeVpPMlVha3pha24xRU5IZnlKbkVSYlgyemw0N1c3a2drOE85ZEJLYTJ5bUdVdDFkMkZLZ1dTbFNjaG9XWHR0V1pGVXFVX0VUcURxQUFibWVlNDFLYnF5b0xneUFyZnFaZlJ5b1djVDVNYV81djRVVDVld3d0cm9UM0pTQUd0LUloUzBwOWgxNzZBR2NmY0taYzdWNllUbl9uLUtJNnRrWjlscVF5VXI4X194VGlMTzJETkdYbWQybzBMUExuU0dKYTdRVEZpZw?oc=5",
+   "source_name": "Regards protestants",
+   "source_url": "https://regardsprotestants.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T11:01:05Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "4a7e687af0967798",
+   "title": "RDC: l'épidémie d'Ebola franchit le cap des 2.500 morts, selon l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPakIyT2hHTUZZRHV0OHdSdFBRdVFsRnJGNUxZWDBfMVduVlFzRVdxcGtZX0RWUDZiRkJkMWhDb2tjV2p5Ti1oTHFuUHpFSWUyQ0tGbExnWkNXazlBOFIwYUctQncwT2gzdjBlS3ZQTE01RXNFWHZmTEZocElzQ1ZKXzVBX3VodzlVWWxPZnlVY2RPUDhKTjlELXZ1TlNKSkc4Tzhub2l4MlNUYWQzcmxQOG5MOUZ1NS1qcEdmSnFuTlVkZnBaMDJ1Yk81SjZIR2FtS29JOWVSRnZIN2dt0gHiAUFVX3lxTE4waEtkRXdiNGJGY01lcWFEX25SaGxLYjV5RUkwdU9lTzdRZ0w1bGtSbmQ4V0JiQ24zblQ1Y2Q2WFBOZjkyZ1pEM3V0dkJ3N0NqenRQM1A1QS15cTVFbDBpc1lidkhQMWpuMFhaamg0VEpVbWNPWm04QVRoRV9aWWJXbG8ybmRJRXlVMGNZSVl5V0RiYnZYMHNyc29ubUlDWi1TR1lTcm1DZThhQ2owRkZaRkdNUWRrTTBvRy0zYzF2T3FQa0FyM1NNMFNmVDJsaGFOWnVSU2V6ZnQtbTlpNnotaHc?oc=5",
+   "source_name": "Boursorama",
+   "source_url": "https://www.boursorama.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T12:19:38Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "a56411d4d88904a6",
+   "title": "Semaine en bref : la loi sur l’aide à mourir promulguée en France, épidémie galopante d’Ebola en RDC, rougeole au Yémen",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ2tScFliek5waURRRzdLbE5McnE1TmlaclZ0cUNMNW1CSWxIVE1UOFV3UkZfMldjNU8wcnlkYjlLSG5lN1F2ejA0c1ktc2JCbExqb1g1YTZVNC1rM1lpTERuOGRkSE5CczNEOU9OX0pJZE5hV253TGVBZTRtWFFORmFoT3BIdGZyVDhndUh6cDZwODFkTGdfTkNSMEFBN0xTTjI0OVYwcWNha1E?oc=5",
+   "source_name": "Medscape",
+   "source_url": "https://francais.medscape.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T07:55:56Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "09bb126dde46fdac",
+   "title": "L'épidémie d'Ebola progresse de manière exponentielle au Congo et dépasse les 2 500 morts, selon l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV1VHNHRmMXQ3Z3RHYnZUOEJfdnVVRm9pZnJac25oX2ZQNS1EUGRpekNkYmVrOUtzeW1fWFdjenFrM3k4Tk4xTmFjNDVrbUhsRW12Y0dfWjRodDBjN2Nkd3c0blpldVpxaHdHcG9vUHdtN0xYTFBzZ08wNjdJYWNYUWl2MWw3Rkt6dnQ4T2lSNjY5Ukk4WjlnNUtnYVFISnRGY0dleXlZejY2WmdJUXVhQ01McmJNSnB0a0lZeFU3TE9Cek02ZWNDMGpSTTlKelU4TmJIcFNOLWRuamJkYm5uMW1GRW9MZkZLa0k4R1hIMzk?oc=5",
+   "source_name": "Zonebourse Suisse",
+   "source_url": "https://ch.zonebourse.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T11:21:26Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "6b3a74481b8ee534",
+   "title": "Ebola. L'épidémie \"progresse de façon exponentielle\" en RDC, alerte l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVFXY1RERXY1bXVjQkdyaW5Uc1lxX2ZNYWpKaHBSZWdSTk1LYmJIWEpIeF9SQnQxYU5Tb3JWRUU2ckt3SGRfR2loU3JNUFBuWmtoVkluaWo4NlRXM2dxLWluQXpNbTlIS1U5LWpLY0h2d05kOFJEbTJRZjlXand6WjZtVGh1TnJ0eGxPREpwUUZCclBuR011OS05Um53SWVOWVMwMXBOaDV5bmFQMl9yNWJmZmw?oc=5",
+   "source_name": "africaradio.com",
+   "source_url": "https://www.africaradio.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T13:05:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "29cadfce1a89f6d5",
+   "title": "L'épidémie d'Ebola au Congo se propage de manière exponentielle alors que le bilan dépasse les 2 500 morts, selon le coordinateur de l'ONU",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMkR2XzNHQ002a2pBYlJUZzRwUGdMMHI1MTBGbEdyUktkZ3FJTFVjWlFJN05WWXRTMGZYallVWHNuX3FiY3Z1UjJLT0hDcV9TZ015bWExa0ZpWUNtcUFzdzZuTC11ZGtWandlN1B5Vk5mamRDNVlMdjhZSkxxTXJFRlpnUmpoY09NWjlHcWtseElqVmZ3eUtPdE5DZlNQTVdzUGZMeDlLY3RkOGNaRWk1MVZVWnFtbEUxT2VsT2YxLTRBTk5jalhEcVRkTkJmX1BXNzEycGcxNmpUWVZnbDUxRE1ES0JiQnpqaGZPb3lWVnZQUQ?oc=5",
+   "source_name": "Zonebourse Suisse",
+   "source_url": "https://ch.zonebourse.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T09:34:25Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "edbd1a99f9877ba6",
+   "title": "L’épidémie d’Ebola en République démocratique du Congo \"progresse de façon exponentielle\", alerte l’ONU",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeTNFR1RTLVByZkxwQ21qQ2l2ZnpONks5Wi1hTTYyeW9obWFoZUxkczFvelNmckhVN1N5Y2dZSlVRVHk5bEZaTUlWWVF0SWQxMnVxZWc2ZVh5SUdtWENSRGEyaXVoWHVMZmFBc1lfZHlSTklrQldHUnJIYk5lMDhKUGk4ZkNBTkUzM2FvVl9xMm1pNk9jTkFDLVh5ZlE5NTcwSmhHNlVneGQ2czhaU2FqTWlOM3UtM3dIVXY2WUZtRlE3Ums5c2o2UW9wV1lxR3lGWHRtdXlIYWl0QVpvSjQtZE9BU3FLaFN1VVJVSQ?oc=5",
+   "source_name": "La Provence",
+   "source_url": "https://www.laprovence.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T00:09:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
+   "id": "1005e8244fea9a26",
+   "title": "RDC : le bilan de l’épidémie d’Ebola s’alourdit à 2 516 morts",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEJGcWl2aXAycVhjZWJsRGhhQ1d1NHhWa0FHR1BFMU43TjRfdmM3M0gtaW9ucTZlcndweFRMYUR1VkR4eDkzNGJBZ0MzcGw2Tlc1UVUyc0g2OVJLbVBBbi01d2o0QUVKY0RhOFpkaDdsWFZkLTZYaDlOcWZLY1RuMzJxVVN1dWpZTUhqeGFuZmxWZG5jemhxZ2UyZUxrMXkwaG85LWprVFc0N0RnOGtubm5iZw?oc=5",
+   "source_name": "Anadolu Ajansı",
+   "source_url": "https://www.aa.com.tr",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-08-21T12:33:44Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-08-21T13:15:56Z"
+  },
+  {
    "id": "84d226931177ebbf",
    "title": "Desactivó CNPC alerta por robo de gas cloro – Administración Municipal Reynosa 2024-2027",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkUzcmhEN1VqWktlSXVCWVVZcUFzelRfQ0pabTRIQnVDR0MteFR5OVBPYUY1UldSb0FUQlo1TUNHS2ozc1B0STBaYUVVTnNLRFRtaEFpaUQzeDMzZDZTY0hXTi0xRUFMRVdvdU5kTnpablJTeVFZVWF6WDIxS0VKTVNoWGZodDdaNkE?oc=5",
@@ -19962,46 +20594,6 @@
     "gas cloro"
    ],
    "published_utc": "2026-08-18T19:06:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-21T07:12:27Z"
-  },
-  {
-   "id": "1fd4ad8eab419dd5",
-   "title": "Alerta Interapas por robo de tanque de gas cloro",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ySHhWbHZtUFRSV0g5ZGJ4eklDX1RFblczLU0zMWJxRzVmYVU2dS1HTThQWlVjWV90dW9iUFFaWnRGT2hya0M5ZW1uNW1RXzJheUZ2ajlMbkFYR3F3TW9ocGp4TQ?oc=5",
-   "source_name": "Código San Luis",
-   "source_url": "https://codigosanluis.com",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "gas cloro"
-   ],
-   "published_utc": "2026-08-17T19:42:06Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-21T07:12:27Z"
-  },
-  {
-   "id": "02f2f1c616960728",
-   "title": "República Democrática del Congo supera los 5.000 casos confirmados de ébola",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRXBiUVRKMWtjN0toeTZ5aXlUYzZGc1h6NkVhMGZxYkMwRUpJRWhtaXVzZTlqeWNGajIyalp2dEVsNUlsbWthaW51WlpqbTBOYjhGclZaM1IwNHQwNHhIQ0FOTDZ3ZTJHUHpfVUJ3OFc2OGVRdkxlTW1lak5mTmtrV3ZMREZFVkRpTnBVZ3ZuWjdOVDJlNk1pMl9kdlBVdXFSMEpRY1RtanQ4My1RUUJmbFJOZmJWaDRuci1ua3lQNnNwT1Y1TGpqenNKM09JbjFmUE5BMTctbkRIQkdv?oc=5",
-   "source_name": "Tercera Información",
-   "source_url": "https://www.tercerainformacion.es",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-08-21T05:38:49Z",
    "via": "gnews",
    "first_seen_utc": "2026-08-21T07:12:27Z"
   },
@@ -22996,48 +23588,6 @@
    "first_seen_utc": "2026-08-18T01:54:38Z"
   },
   {
-   "id": "cfd443a98ac424ca",
-   "title": "法国在阿尔及利亚战争中秘密使用化学武器，违反国际法且从未承认",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jTk01ZENpRHh5Nk5SY0I4Sm1UVWh0RUJMM2hEQTVJcmJ6aC1kaURmVkllWXdaUk9MTkc0d2hYMVJIV1Vnb1VzT29rQm5aZUs3R2pDeHVR?oc=5",
-   "source_name": "QQ News",
-   "source_url": "https://news.qq.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "化学武器"
-   ],
-   "published_utc": "2026-08-05T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-17T19:02:39Z"
-  },
-  {
-   "id": "8814306e03ae4bc7",
-   "title": "化学品泄漏+突降暴雨，如何应急处置保护流域水质？ | 2025年全国突发环境事件应急演练案例⑦",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kSnIxRnpTbmdsbmVueWR4VERjcXpUcE9DVzFzS0Z4Vl9hT2ZIMzVfc1BhbklOQjRhc1V2S24wUlBJWlZCRm45NWpmWl9feEpmVW9KTVZR?oc=5",
-   "source_name": "QQ News",
-   "source_url": "https://news.qq.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "化学品泄漏"
-   ],
-   "published_utc": "2026-07-22T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-17T19:02:39Z"
-  },
-  {
    "id": "6915956f12698cf1",
    "title": "Chemieunfall in Solinger Krankenhausapotheke",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQnk2ZU1VRDRQZTJ3VFJQckg4UnJFeWpiRDNfRXlzTXUzRU5xczRKSzBNSUdjbExaV2pWbEZtd3RqWmVxaHFSbzd1NEN0TDZOSERXRDlMbGY3djFXVVFqMUNoTUpKenJocHhDa2tFS3Rrd2VkVFc5NGZUd0RJZjBDUUZ3U09VYmVLbEhiXw?oc=5",
@@ -24458,550 +25008,6 @@
    "published_utc": "2025-10-30T07:00:00Z",
    "via": "gnews",
    "first_seen_utc": "2026-08-16T02:01:11Z"
-  },
-  {
-   "id": "567ba6371134e8a4",
-   "title": "Gekentertes Kanu und Chlorgas-Alarm: Feuerwehr in Leichlingen im Doppeleinsatz",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdE05SG9WSS1YSGhsWUktT0hkdDNpVXhFSTJoTEJHd1RLdDVUT04wOS0yOVljdGRoM2E0eTl2THhsd1ZsckFRQmVLbkVRczItLUsyZ0hXWE5NT05pQzM0ZGxqZkhWVVZ1MHVVMEkzNEYxOG1CQ052bU5OX2gyQ2NrQ0hsTGNjcDVWLVQ5QjlackNNaVdSNlNjclh1VUgwZlhWSTBFLXNFb21GNGtRQkF3Z2RRdERwQWhtZHdJVjhmTEtLcDVwU3RCZkNvYWU?oc=5",
-   "source_name": "Kölnische Rundschau",
-   "source_url": "https://www.rundschau-online.de",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Chlorgas"
-   ],
-   "published_utc": "2026-06-13T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T18:51:44Z"
-  },
-  {
-   "id": "9856418971b4cfab",
-   "title": "Meteen na vliegtuigcrash doorzoeken mannen in witte pakken het puin, maar niet om overlevenden te redden: deze vliegtuigramp blijft 33 jaar later één groot mysterie",
-   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxONHV3OHNud1BFUS10QWxQeHNUMXVCalBtdm9YeWs3TW91M05oeVB1WUFZS19GTVVvbnhhUl9fNlN3NVdaS0JwZWYxUVV1bU5xR2s3X09iVHFMelU2WEdTTlNETzRsWmVqd2hIZ1VFRExfdm1sbUhPcUxQZmZESVRrRkVSemdBeEdNdHprV3RDNk1DbkRsbVZNLVZFMnpYc2dsT01SOC1NaDZmUEtMT0N1ZjFWZmtkQ2FaWU5fYXNBbTNmMU40RlBiSkF4M1JfTDA1SnRLOERaeEFhNUI3ZGZabU81Qlg4U20tR1ZGNzBkUkZrWXlnY1NfWno2NmE3NnFVOTkxbFZ5alpsYnlsWjQ3YU5RY3VSUFJTdFBGblVENF9XcFN5MkNuYkxR?oc=5",
-   "source_name": "hln.be",
-   "source_url": "https://www.hln.be",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2025-10-04T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T18:51:44Z"
-  },
-  {
-   "id": "9b9c15bed231874a",
-   "title": "化学兵器に曝露した抵抗運動兵士の子供たちのための住宅建設と修繕を支援するために、約665億ベトナムドンが割り当てられた。",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTnd3aGU2R0lUbU92WlROTzdBRjFNWnQ4S2I3UWNIWG1mTzUxQWdTYzVyUmIzelJQUFhlSUNCNk1Hc2d0b0ZxY21mNWhtcU13Z3h1aXM1MjcycG52QkFkRmZmMmZIQUp5eWx2VWk2UVFlUGRIMUIyNnZ0OVc1YnU4VWVYejFQVFlIS3AyeUQtZmxPNk05aEZESGhxUVVyaEZrTnlubjViLU5Ycm5faTc0WEpFZVZLTXVpRlpNaGs1WTdmeGxKU0loN2tnZW5mVW1CM1pQcGp3?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "化学兵器"
-   ],
-   "published_utc": "2026-08-15T18:42:25Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T18:51:44Z"
-  },
-  {
-   "id": "048d91e8ed854be3",
-   "title": "Vibrionen rücken im Mittelmeer stärker in den Fokus",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWmYyWTRRYlEzRDhLbjZ5QkF4am5TUzZacW1OZC1Dd01LQ3oxMk5BU1ZxdXRYbHUyV0UwMGY5WE9ua0xkTmhqb0REQ1pOVHhGenZKWVh2NkJUQmNnZUMwX1FsbU8xVmdBeHlIMVFoUWk2Mnp0OWF0bGRaTW4tSnZQYWlQWGhkWDA4aGc1bjNXSEdWWER0cHc?oc=5",
-   "source_name": "nau.ch",
-   "source_url": "https://www.nau.ch",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-08-12T14:25:50Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "f0270b68139360cc",
-   "title": "Schweinepest-Virus aus Labor entwichen? Polizei in Spanien ermittelt",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yREJCQTI4WW9ucVdwNGlVcjRqX1JmQmdDOExZRmlOMHVWMG51NjA3TWJTSkZucE5pd05tSU5QTnRMX1NFZVJ4TlpiMVRjeU5UbVBrWjJrSF9MZkl6d2czUGZLMzBOSUk3a0Q3V0xwWGptMlNZdm4tS2RNTF8?oc=5",
-   "source_name": "Euronews.com",
-   "source_url": "https://de.euronews.com",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Virus"
-   ],
-   "published_utc": "2025-12-18T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "a1d7e03ac7cd305d",
-   "title": "Virchow: Multiresistenter Erreger auf Frühchen-Station",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVRGgzRUdVcUFKbTB1UTUxaVpGOWZOUHIxU3JiN1R3NUVwT2I0VjlfSHBxN3F5clBob19HZVNFTW15a01VU08wOGJ2cmZqaUh2Mk40TEkyR1EwblpVTEp5Y0NHOW9QWHJpeUJpTkhjem03UUVMQzZwT3p3?oc=5",
-   "source_name": "BZ Berlin",
-   "source_url": "https://www.bz-berlin.de",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Erreger"
-   ],
-   "published_utc": "2025-11-05T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "ce2394b8e4bbf51c",
-   "title": "דליפת גז רעיל במספנה לפירוק ספינות בבנגלדש הרגה מספר בני אדם.",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDQtZVJJZkp4MkpOYko4UWx1eUlQV0N1Yk55V2JQRWhkeGF2MlJ2dU9ibnU5aGd2TmlkVHI0NEdJaWo1MlcxeVJzMFc3bkIxZ05ldGRsb0NMMnF2U2JUQWRFYVZhUWJfY1ljZjdLdGFoS1BtWmlzUG1SVVphZUEtQm15WXgtSjVpZHVGYVZVR1lrQ21kcXV0SHU1cEI?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "he",
-   "lang_name": "Hebrew",
-   "lang_native": "עברית",
-   "dir": "rtl",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "גז רעיל"
-   ],
-   "published_utc": "2026-08-14T17:42:33Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "e829d7da6255dcbf",
-   "title": "האם זה הסרטון שמגלה שאסד הפעיל נשק כימי?",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzbExnR00wWGczckRUT2ZWUnR5NUVlajRMSGZmYlJDNWJGUjc5RlBxNGVKOXhWTzFRNUxBbWxOS3pwd2R4bVhwd3dxcXRzSXNqNjNMVFBHRGVSeWVzeTV4V0dVNVAtS2pIZFF6OE5TYVRqNzhNM1hCMA?oc=5",
-   "source_name": "mako.co.il",
-   "source_url": "https://www.mako.co.il",
-   "lang": "he",
-   "lang_name": "Hebrew",
-   "lang_native": "עברית",
-   "dir": "rtl",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "נשק כימי"
-   ],
-   "published_utc": "2013-04-24T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "8939cf863d27efd2",
-   "title": "\"נתפס האחראי על נשק כימי בדאע\"ש\"",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTlA2TUY4REJJMDZXSFhJUm9HSGNKYUMtVG95WlZXdWFVZlVHUDJ1OTFiVUNXQUZ0ejA4LXhTeTB5RXNZYXV4OHBUMXFCbmNqMXJHTWgzYmpRZUpZZUs0WngzWHRHSGRlUmpueUE1YV9LLTBaZnlGbDdWZGZNUlZDczFraw?oc=5",
-   "source_name": "mako.co.il",
-   "source_url": "https://www.mako.co.il",
-   "lang": "he",
-   "lang_name": "Hebrew",
-   "lang_native": "עברית",
-   "dir": "rtl",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "נשק כימי"
-   ],
-   "published_utc": "2016-03-09T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "4cf351fff74b82b5",
-   "title": "חשש: איראן העבירה לחמאס נשק כימי",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OTTFXdzVzQmZyOVdBeHMwUWpSRlUxYVBHVE1Ka21WMWtaNHFoSzVpVWd2WE9MU0lXLWZ3STNGTVlSaldIdmJsNXVLODc0aHhzQzJueVlSSWJ4MVpJVjEzR3RlQmRaQnVXeUI4MGR1UHpFNFFl?oc=5",
-   "source_name": "mako.co.il",
-   "source_url": "https://www.mako.co.il",
-   "lang": "he",
-   "lang_name": "Hebrew",
-   "lang_native": "עברית",
-   "dir": "rtl",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "נשק כימי"
-   ],
-   "published_utc": "2014-08-17T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "7fd12c14086b21a1",
-   "title": "Minister Lavrov: sporen westers zenuwgas gevonden in zaak-Skripal",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnlfZlhvc1Y5NXJvQXRUcnIzbGJBWTVFdmVGV2xBcG1EbWlKQ3owLTRCZ0VYVjhlMnNnalM1bERRY1RwTnUxeEJXUlhHQ2hzeHk5N0ZvQ3hGQ0tydnFsYkJ3MTlVWDdjVm81Nk1RZ1ZBVUxyOC1PZ0lhTmNVbFI2S3lFSGRPZDhJcjlyWGZsd1FWN04wQkN2d2ZwUQ?oc=5",
-   "source_name": "nos.nl",
-   "source_url": "https://nos.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "zenuwgas"
-   ],
-   "published_utc": "2018-04-14T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "e6570d80a067c2c3",
-   "title": "IS gebruikte mosterdgas, zegt diplomaat op basis van onderzoek",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWlRMd0lMa2s1NGdvblNVeDIyQ1V6Y1lNVGdJUEFkVkxYUmF2T0pQYWMwSHZ2VXJac1duWEkxbVpGS2JVVjdWVHpDUUktcEd1RlVNTzY5LTk0T2lyUHJ0RmJHb3NyRk1wMzAwVDV6RzNZZnJEYUtyMU1yaG1WRTYwMDA0MFlsZUYtdXh3WU9TUnNMQ0hWNFU0?oc=5",
-   "source_name": "nos.nl",
-   "source_url": "https://nos.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "mosterdgas"
-   ],
-   "published_utc": "2016-02-15T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "aebca8577d8748b2",
-   "title": "Belgische wetenschappers vinden link tussen klimaatverandering en nieuwe ziekteverwekkers",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOTRHUDJrdzFiMDhEb3VMaG93eXk4ckpBaHZsRmd0WlpmLTdVa2c4TDNFdDlLM2hKMmN6RlpFbkppdnB2MTg1MXp4RldScWNSWG5RLWpCZWpWY29kaFFRd2cxenFnZnJ1U01Rc3d4b29sbnJYX1RVV2taaUFSWl9WMG13OA?oc=5",
-   "source_name": "vrt.be",
-   "source_url": "https://www.vrt.be",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "ziekteverwekker"
-   ],
-   "published_utc": "2020-09-23T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "1879419021d7e16a",
-   "title": "『踊る大捜査線 THE MOVIE』に残る地下鉄サリン事件の影響",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGR1ZvQzFSdWdiWURxQ0NVb3dzcFVIRFllbXh1N3hFZXVKa0tRbTVjOGwtWHZPdVpILXlFd3JiVThsVWZNTVhhcVplVGNaMDRtS291NUx4dEd5ZFR0aDNTTmI2TWfSAWpBVV95cUxQaHZfMnFZZXhuOUliUzZabjQyb2NXbGQ3aTVvMUh6b1p2dUVBMHNQMTNpd3ZMSFZSWXlFRHhiTWtpc3FDV1dMLVFtd29PeWI4d21FU0MyM1RfLU9GNTFqdmJXSFlLWnpzTFRn?oc=5",
-   "source_name": "リアルサウンド",
-   "source_url": "https://realsound.jp",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "サリン"
-   ],
-   "published_utc": "2026-08-15T08:30:50Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "fbbd1657e7b68a65",
-   "title": "【国策シェルター整備】放射性物質、化学・生物兵器だけでは不十分 ヤブシタグループの森社長が警鐘 盲点は火災時の〝一酸化炭素〟",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ES05ENmRCYmphSTVkNWU1YUlPQ0ttNl9HT0lsb0ZkbUlvNm81a3NUN21hVV82SFJNcmtTRmRFdVRaYjU1alVzUXd2QQ?oc=5",
-   "source_name": "47NEWS",
-   "source_url": "https://www.47news.jp",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "生物兵器"
-   ],
-   "published_utc": "2026-04-03T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "da2014c1a20d1599",
-   "title": "インフルエンザ流行 栃木県内の感染症流行状況－NEWS",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zQmhoTTV0MzVua05yZWQ4OFFKX3F0TDA3aURXU0w5ZE5fTFJEYmJmOVd2VXlqX1RHRjNTN1poa3lpLW00T2VkbWFpTFVWYTFndzFqNDNiOEVNYmRfUk5z?oc=5",
-   "source_name": "tochigi-tv.jp",
-   "source_url": "https://www.tochigi-tv.jp",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "流行"
-   ],
-   "published_utc": "2025-10-19T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T13:03:16Z"
-  },
-  {
-   "id": "07a5a012e66df6c5",
-   "title": "Großeinsatz der Feuerwehr: Menschliches Versagen war Ursache für tödlichen Chemieunfall",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMXFEMXpqcktuOF82MWxEQjFuV0xXMFkxMEhubnBoZ3N2alNkakRvTzZvUlo5TVpRLVFiZlZzVkc0YU9hWjN1OFZTT29uX2FQWU9CSlVUcm0yZXlxeFdsTC1HS0lxVWdyM3JENkZMeTNwUDUyNEVCcGZQbzNIZllBTldaNmFJWlJqRUhONzctSE1kYlBzRUc1QS1sR0VpZ0E?oc=5",
-   "source_name": "zeit.de",
-   "source_url": "https://www.zeit.de",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Chemieunfall"
-   ],
-   "published_utc": "2026-06-24T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T07:02:06Z"
-  },
-  {
-   "id": "f739d3dc26787ca7",
-   "title": "Unwahrscheinlich tödlich: Tod durch Bornavirus",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzdQRkxIRFRnZnZMOGlVWnlfcXdLRzQyVHlMSktDdlhLVmpnR1N1cTV3cVNMREZyOHR1NE01cUFPMWJSV19OcWhQQ1J6cy1SQjZMVG1UN1pLckFvZUtueUxYR2x6S0lCdkl6MXVCa0JOaS1nVHY4MGV0bVJOOTd5T0h1S3VBaVFmQm1QdmczRzJhQ21SRTRLUmhMTHBrNzNadGFlUDJWc25maUtLa25qVg?oc=5",
-   "source_name": "spektrum.de",
-   "source_url": "https://www.spektrum.de",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Virus"
-   ],
-   "published_utc": "2025-09-23T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T07:02:06Z"
-  },
-  {
-   "id": "5c6e4686e2a70cd2",
-   "title": "Rusland loopt plek in belangrijke raad van de OPCW mis",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ2VFWTFRa1RKSy1CVTdndzdnb2RXWWNYTHBPc2xMM3A5MGxQVVNoOVdHS1hmblp0Z0syYXZzTjc4dVd2eDZQV2tlaXo5cWYtaEpNV1V6c2l0RWFSRnFDaUlXR0VXTlhOcGx0S242Nkl4eXBtYzlqSEwtTzlkUlliVHozWVZVR3lnNnVCYlJwRHZTbV8xQzBkWGJFazhETUYwYVhSX1VMTmNIWG54Zmc?oc=5",
-   "source_name": "leidschdagblad.nl",
-   "source_url": "https://www.leidschdagblad.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "OPCW"
-   ],
-   "published_utc": "2023-11-29T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T07:02:06Z"
-  },
-  {
-   "id": "eb1f8c6069cbac98",
-   "title": "Minister Lavrov: sporen westers zenuwgas gevonden in zaak-Skripal",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnlfZlhvc1Y5NXJvQXRUcnIzbGJBWTVFdmVGV2xBcG1EbWlKQ3owLTRCZ0VYVjhlMnNnalM1bERRY1RwTnUxeEJXUlhHQ2hzeHk5N0ZvQ3hGQ0tydnFsYkJ3MTlVWDdjVm81Nk1RZ1ZBVUxyOC1PZ0lhTmNVbFI2S3lFSGRPZDhJcjlyWGZsd1FWN04wQkN2d2ZwUQ?oc=5",
-   "source_name": "NOS",
-   "source_url": "https://nos.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "zenuwgas"
-   ],
-   "published_utc": "2018-04-14T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T07:02:06Z"
-  },
-  {
-   "id": "06ec626f9ad1768c",
-   "title": "ＡＩが新ウイルス設計 米研究、細菌内での増殖確認 バイオテロ悪用を懸念",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5RTU1enlMR2tFM19GU1NSWUdwNExnZU5yVVJLb0VpX1dyR2J6dkxFOGc4bWVwMzhTQjlrMnZ4OEZ2ZHEtZzVzb3c1cUhsWHNtSXJfZF9n?oc=5",
-   "source_name": "gifu-np.co.jp",
-   "source_url": "https://www.gifu-np.co.jp",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "バイオテロ",
-    "ウイルス",
-    "細菌"
-   ],
-   "published_utc": "2026-08-06T20:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T07:02:06Z"
-  },
-  {
-   "id": "947d652afe1cb5a8",
-   "title": "Schweinepest-Virus aus Labor entwichen? Polizei in Spanien ermittelt",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yREJCQTI4WW9ucVdwNGlVcjRqX1JmQmdDOExZRmlOMHVWMG51NjA3TWJTSkZucE5pd05tSU5QTnRMX1NFZVJ4TlpiMVRjeU5UbVBrWjJrSF9MZkl6d2czUGZLMzBOSUk3a0Q3V0xwWGptMlNZdm4tS2RNTF8?oc=5",
-   "source_name": "Euronews",
-   "source_url": "https://de.euronews.com",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Virus"
-   ],
-   "published_utc": "2025-12-18T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T01:53:37Z"
-  },
-  {
-   "id": "a0d55e636245c22d",
-   "title": "Unwahrscheinlich tödlich: Tod durch Bornavirus",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzdQRkxIRFRnZnZMOGlVWnlfcXdLRzQyVHlMSktDdlhLVmpnR1N1cTV3cVNMREZyOHR1NE01cUFPMWJSV19OcWhQQ1J6cy1SQjZMVG1UN1pLckFvZUtueUxYR2x6S0lCdkl6MXVCa0JOaS1nVHY4MGV0bVJOOTd5T0h1S3VBaVFmQm1QdmczRzJhQ21SRTRLUmhMTHBrNzNadGFlUDJWc25maUtLa25qVg?oc=5",
-   "source_name": "Spektrum der Wissenschaft",
-   "source_url": "https://www.spektrum.de",
-   "lang": "de",
-   "lang_name": "German",
-   "lang_native": "Deutsch",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "Virus"
-   ],
-   "published_utc": "2025-09-23T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T01:53:37Z"
-  },
-  {
-   "id": "89e85ffa72c9165f",
-   "title": "BBC: politie Georgië schoot met chemisch wapen uit Eerste Wereldoorlog op demonstranten",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbDJiRTdndGZ0djQ4aTVtYXFKSEgxbm1qUUJyeS04U2FtQTV0UExlM1dtX2VQXy14aldSOGg1X1VBdmdWWFVqUDVSUU9pc2M2Q1FERTE2MUVEQjFmQmtWRlhZVEZXMHZ2RW1ESVBXZE9IekhtYm5Jd3JLZ1Y5dWpDSE94MWh2eThBYlluZ01XWk1NRFJVNUVLX3JGOTZhZ0tjbEtxa1ZhY1EwbDFoTldjWDlhTWFsZUVvRzNVOWtnZGtTbWxnZ3kwVWVCZTJhWHpI?oc=5",
-   "source_name": "De Gelderlander",
-   "source_url": "https://www.gelderlander.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "chemisch wapen"
-   ],
-   "published_utc": "2025-12-01T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T01:53:37Z"
-  },
-  {
-   "id": "371d93c9203e9d39",
-   "title": "Studenten maken dé sensor die ons tegen nieuw biologisch wapen beschermt",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdTIycjRzdmY5V0tzTzRkbnlMcGgwWmV3NHFpcTBaZGV6V2NsbUxjWkhnbmRLV0R1U1V0T3gtb3k4WHlDQWlVdGVZek1xTGsyb09WTDBZUXU3VVJmVUEzd2NOQkpwVGpSOWFyU2NnQlVoZHNuY0hfTU10OVVOM2c0enhCY3RXWlI1MlNFQjJubEYzMlIyaDVDUTJ4MlNmR2VsZDIzVGNXazZjZ0lKWndFdktIQ1NxSmRuSDNFdw?oc=5",
-   "source_name": "eenvandaag.avrotros.nl",
-   "source_url": "https://eenvandaag.avrotros.nl",
-   "lang": "nl",
-   "lang_name": "Dutch",
-   "lang_native": "Nederlands",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biologisch wapen"
-   ],
-   "published_utc": "2018-02-07T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T01:53:37Z"
-  },
-  {
-   "id": "6f995c4b5f98a8d7",
-   "title": "病原体となりプーさんを異形の怪物に!? ホラーローグライト「Winnie’s Hole」1月27日より早期アクセス開始（GAME Watch）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VekREZ3pfNzZDV1pMck5FeFFQcTNfdDBEdTk3T0RSQjBQZkNxNDdtdjA0aFlRYXd3NTVsM0xMTFF4N2hMMG1QWndZTHMzVzJCM05lREw1R0h0TjlwR2ZvTGt1Nnl2NDB3TzhQTVJ5SDZJR05oU1I2VlJja0pVOEk?oc=5",
-   "source_name": "Yahoo!ニュース",
-   "source_url": "https://news.yahoo.co.jp",
-   "lang": "ja",
-   "lang_name": "Japanese",
-   "lang_native": "日本語",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "病原体"
-   ],
-   "published_utc": "2026-01-27T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-08-15T01:53:37Z"
   }
  ]
 }
