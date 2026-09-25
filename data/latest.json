@@ -1,26 +1,882 @@
 {
- "generated_utc": "2026-09-25T17:19:19Z",
+ "generated_utc": "2026-09-25T21:40:45Z",
  "window_days": 10,
  "total": 1200,
  "per_language_quota": 109,
  "by_language": {
-  "en": 231,
-  "fr": 158,
+  "en": 239,
+  "fr": 147,
   "es": 109,
-  "ar": 82,
+  "ar": 84,
   "ru": 109,
   "zh": 109,
-  "de": 104,
+  "de": 105,
   "nl": 39,
   "ja": 109,
   "ko": 107,
   "he": 43
  },
  "by_domain": {
-  "chemical": 358,
-  "biological": 842
+  "biological": 854,
+  "chemical": 346
  },
  "items": [
+  {
+   "id": "672b520dcc87c8f4",
+   "title": "Ebola epidemic update - Cases and deaths",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONUJxSWJ1X1U1ZnRRajhqTXZiaUlfNlVWNXpuUGhyZ1VrcHNjeExkMFJZVlptYkp5RVJqdHZSdG42emYwSUpmdkJtb19VVFhsU0s2MnRCZE9pb25lYmlBVVRXS05nRzcwYUlqYzB1OTlHZnRnZVZOd1V4UXhrQnVjc2JoWUYtZw?oc=5",
+   "source_name": "Outbreak News Today",
+   "source_url": "https://outbreaknewstoday.substack.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-25T20:41:53Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "a01d0143664081a6",
+   "title": "Genomic study tracks massive chikungunya epidemic on Réunion Island",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdUhOLUhaT3ZMa3dSWVBnOS1YdE1OQnhBN3JnU09qTHhsVDg0MlNMUU9ONUNOUUIzR0kzRzhNWWxPMGw5M3VHVzdRYmJxbVI2NzFoTHpLOF9ReHhNUlRPUTNiOGRoaE45dV80b2VtLWhvcW4zTF9ZVkNyT3hTRWh4U1JtMzRtRm14UXNxLVh4alpNQXlJaFV6LTlKWDJFakxVaHAtWks3Qm9UbnpzRUJlNDg0ODN1UQ?oc=5",
+   "source_name": "News-Medical",
+   "source_url": "https://www.news-medical.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-25T19:18:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "bc17a86b7cbabea1",
+   "title": "Tracking key biosecurity indicators",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMkgzLWJkSUZOYmhsZVZ0Y0g0Z1hSR3c1Y0Z3S0lTNXdzMGo3Nl9uWThCZFBMUE54bmZoWHBsNHV1NHVwekMtNExiYTJuV3puSTJZNXZBZXd6M01uTEozbDBEZm5vejJBS2F1RGY0MXNQR3BZMURlT3RRWWtRa29XZmUzbkxQWExUdnNycFJ1RENYeXot?oc=5",
+   "source_name": "National Hog Farmer",
+   "source_url": "https://www.nationalhogfarmer.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-09-25T18:53:50Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "db104dc60a2d65ec",
+   "title": "Anthrax’s Frank Bello Talks Cursum Perficio, Touring with Iron Maiden, “Big 4” Memories",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzl2a0RGd0Q3LVBSaXd3dGc5aFlrRkdZRUU4R05MZnNObXFpNnRoV3BpcHhEczV3R2ljd0I1NHJ6Z2ZTWmVhYk9CRHp5dmJNUWRtbDFGbHF4SWF6WVBKN3dUQWdZaWRBdGNZSUk5QnE2SHJaWHNEWWhoT1k5TFZoa3RB?oc=5",
+   "source_name": "consequence.net",
+   "source_url": "https://consequence.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-25T14:12:29Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "81cdebd18f47fa5c",
+   "title": "This Republican mocked as Senate’s ‘dumbest’ over claim of ‘furry’ epidemic in airline industry",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUnRDNEdnUlI1X3U2b0dnaU13SzNReTgzSGg2N2NwLW0yRlJuUEEtUlpIU1R2NE1NSjcwbDd0b0g0eFY2Mk9TVTRUUU9FWjljUk13LW5BcU15ZmZBY29FczdFeFVidjFUMEZ0SnRNNWtKQV9DUmRjdHlockVqbWo2ZGc5aEJwSWM4YmgxN2hUdHM3dWVJMEpNcjNpSnQ5ME9lSm1za21KaUpiR3VVQjZjMW9vcGhrZXpPVmN4aW5JM3FxWmJvXy1hQnpQNA?oc=5",
+   "source_name": "AL.com",
+   "source_url": "https://www.al.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-25T20:06:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "aa5905b583f8d232",
+   "title": "Coalition Urges State Lawmakers to Tackle Online Fraud Epidemic",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYy12UWVFZUtrZWtBXzkyMGJvYVlJUUIyZkFGN3JhejFNbDVOd0l4d2xndldwM0ltNktxT19ES255RE5Lb2FHVF92cFRhYTlWc0lEU3kyZ2pmUUd4N1FVNUZhQXNGQURkdWVoWE1sbGhvdHJHS1A4RkFlWXVtRzUwYnFraW5Ob3d4Q2pENVpDaGVfaUl5azlrbVFTN0IyTkNtRl9wYTRmMA?oc=5",
+   "source_name": "State Affairs Pro",
+   "source_url": "https://pro.stateaffairs.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-24T11:47:03Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "fff4a2a5f9e46e5d",
+   "title": "OpenAI’s reported backing of three biosecurity bills",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLU9DbFBnelp0SkVkM0YwUE9WeGRrcGVud1ZpUXdFUUF5UVFWUEk4anhGZUJsUlNWSVBSVUpGWGc5VVgzQVplUEwzT2dwdzR1YXp1SmxabGd4dkdqOGY0Y0VDbkc1QmpSVW1rUVlLclllT3FwZ3djWDB6dFBxWVdMQnBCdDlWdjg?oc=5",
+   "source_name": "NeoTeo",
+   "source_url": "https://www.neoteo.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-09-25T20:02:39Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "e875276ca099a86a",
+   "title": "Anthrax concerns rise in northern districts",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1pVWWFRUFluTXR5Y0wxOU02cG5JVWpQRnFkQUE0YkJNNUVodk5qSnp6N1R0M1RFd3hQSXpFLU9oQmJLME9DbzNBamxoV3ZuTkZQZWVwLTZvdGhpQ2hreWNHYk9QeFNCRXVfMXF0MW9VME5iVWFGWFM1RVlBaDY2ek1YcjRXQkJQbjYwcm9hOVh3OGQ4OUpQVG4zM3gyc0E?oc=5",
+   "source_name": "thedailystar.net",
+   "source_url": "https://www.thedailystar.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-25T21:11:15Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "d2278b2b2df1ce33",
+   "title": "London police clamp down on phone theft epidemic",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORUdGVHV5NjJZNG1Ed0RqSW5RcWdoaXBzVi1aNFFSX1RpTTZ6Z003bnhfSFUzSlFvRDhJMU9nQm9Ed0txQmRIcDlWX3dpeTMwTi1ySzBndUNRSTRNRTJQcWM2X2tXektUV2VHamVSTlg3ZE13eC0tTEJxODZWdHFvLXRSQWpINnNMMkdCLWV6eDJmYkRPRkd3UGFYdkM?oc=5",
+   "source_name": "thenationalnews.com",
+   "source_url": "https://www.thenationalnews.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-25T15:39:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "acd3bb98582c2d51",
+   "title": "Avian Influenza found in the Prairies time to be on alert and step up biosecurity measures",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb20yb0o1ZzJBa0ZjRzVtbC1fajFPLVlBS1R3RXZJc0Jxc1BOX1Y2UUdVVDk3bFZaemg1YWU0N3NUSHNXMEViMGk2R2p0YXJOMU5mSzEzVnUtZ25iSEJKWmdRNzg5UjkzaVk1UmFfV05TR3oyOHZqMDIwejVHaURBZXQxZ3ZQc2FNeFRkMFIxZlhBMk5oWElqaTBLeGZhMTh0YVJjTmFkWHlvUjFpaDh1Mm9MMkg1OV85WE9jZTMwWlc4MFU?oc=5",
+   "source_name": "StrathmoreNow",
+   "source_url": "https://strathmorenow.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-09-25T19:10:01Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "6788ea46c9eb2003",
+   "title": "Anthrax detected in 3 of 11 people tested in Rangpur",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQXJYSkNEWEFjaHppS0UwRFE5R3NKMTJWQ0k0dWJoMjQ5bWVkbFdyNlZzanBvbTRyZ3BEYzZsckpJOENYa1V1aVNHRVRaV0JMT1lEUHB6LUJENFZSNEhOdndZRmVwcUpWOFgxNU5XTXNjcVEwQWF3X29NczAyRUtROEVfUV9LZVRqVVpEZG9NWjA5OVJaNG9FSXZDOWxOOVlDa2c?oc=5",
+   "source_name": "newagebd.net",
+   "source_url": "https://www.newagebd.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-25T16:33:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "b592d5f010064982",
+   "title": "The silent epidemic: What numbers tell us about India's youth mental health crisis",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSUVtSnRXVkhBVktmd1BGNTRzV2hscktPSF9UcVhjQi0zemNWLU9YQS1mQm5yMVJjbjRoVS1Td2V5TlRHaUt6OWhjTFE3WWNhTV82Q2RfWGZRQ21yUFJ4d2IyYTVka01vOHBRQ2xtTXJyT2dydlc2MXctTm1zNTZLSGZSY0w?oc=5",
+   "source_name": "Counterview",
+   "source_url": "https://www.counterview.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-25T20:16:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "5e977017c37bcc65",
+   "title": "Gaibandha’s Sundarganj a hotspot for Anthrax in Rangpur region",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWFHTzVfZnZPRlBrU1VfZVM0QWxSX0E2MW5NbFFmNVA2anJRdWo3ekVLY0NoSTRsT2lieTVkYzNJSkpYMmt5WEktRjF6VVNFN1JHOGpvUTRjZFhPekZYTGgyOEFZd1YxSkZTMHhNbGkwX2xLVzBMa0lJVnZWY2JWQ1diVEItVjRwZUlsMDB0QzJMTWRaUFVRMDc3djZFbk9lUW5kMnNneGMweV9pbmlnZnp5UV9QYV9mNmc?oc=5",
+   "source_name": "thedailystar.net",
+   "source_url": "https://www.thedailystar.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-25T19:37:39Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "d6ac7c9b50eb020e",
+   "title": "Hunting industry urges unity and biosecurity compliance following FMD outbreak",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlFEQkNSX1dCSUk2dXpvMlZtNlFHbC1jTGdXM2drbEJBY3BHcXl2elZGbjk3UEdqMlRuRnZ2WXJEMF91OG9TSDA1QnV2WElHQ0hIVFhCcExPLTI2dTVXd2o2dzJoZVFzMnV5S1FSZ09OMWtqc3dLZ2dDaUd5NldpWnNISWRnbHp3dHY2UmVkX2dzQkN0bi1udTAxT3lWZHdEMFdFYWEwZw?oc=5",
+   "source_name": "Namibia Economist",
+   "source_url": "https://economist.com.na",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "outbreak",
+    "biosecurity"
+   ],
+   "published_utc": "2026-09-25T11:11:51Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "17db763770d0f276",
+   "title": "Geezer Butler, Anthrax's Scott Ian, Mike McCready among new names for Tom Morello's stacked 'Power To The People' line-up",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdW41ajZQT2VZYnJXZzF5SzdKZU01bUhwd0JHVjlZTnV0NXpmUUxvM2dkZFlmbzhESW9qOXg2S2QzdjdKeHFlTktSTlNZMGR6TUU5WXNIWEVPNE16VjVxR3VuWE1PTGlnWW1kSFExSFktQlgtdUF2LTJfM3RIaC1Vb3dEeDNlMFB0dnBBVEZibm15bGRSOXoxUHg3ejgwVkExd3JkaDRPVEpoM1c3LVh1TFdlYU5hXzk2djRpOG1UZ3NvbHRkVFhmd001T3hyZ243TzJtYXNFSExOYV9QczBnXzZZZzQ?oc=5",
+   "source_name": "nme.com",
+   "source_url": "https://www.nme.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-21T08:33:33Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "f580d86cce038cca",
+   "title": "Covid-19 : l’épidémie reprend à l’approche de l’automne mais une pénurie de seringues menace",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeUZoMGpmSkJuOU1wR2JOS0hWMVNWaFV1azM1aDVlMEZmcndPR3c3dnBUc01Ja0ZBcDNiYWpoWXBWSy1aLWxWVEt5Z2lXWG45OXhyOGZocUhIcjhld1Fpd01ZMnA0U01rS1ZmbmhsNmFJLWtYZHpvM1NFRVNVdXB3OW5UcDRxaFVjOEJKOWhabDNJNWNydlNJTTUzb0p4WUtMUnVSTV81WXZZdS1YcUdZMHdZald2cDBXTk9aODBpVjBXN0JqcjExRFVydDUybTM4cUE?oc=5",
+   "source_name": "Midi Libre",
+   "source_url": "https://www.midilibre.fr",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-09-25T18:49:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "b529f96f492c61e9",
+   "title": "Le traçage des contacts liés à Ebola est largement insuffisant alors que l’épidémie se propage, selon le directeur de l’Africa CDC",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQb0ZDSVplTTFPN1NYWkNlZlhKUDJ0N3ZVS0o1Z0dmc2pUOU5mNTltZDE0aFdhVzdXWWp6Z3JLVlUzbmx4cWx6cnZ2T2tfdzNTcmNkc1k5RU1YNW1mY1dQSWdUaFJILUNKd1Q0NC1vWDJfOHZaeFlzM0dMLTItN1JRbVliM3poc0hjVTJxVm1oaXpzZXF0NnVWNzB4eF91MEVWMnVMQVlEYl9QUzFLanVmVHBTajh6Qm0xWEtsa09yQ3JCeDN4VTNpN1dOUU55cTJqTVhVUllKTlJOaDh0OHNfNXplQ25sa25WM1ZqYmJ5MA?oc=5",
+   "source_name": "ch.zonebourse.com",
+   "source_url": "https://ch.zonebourse.com",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-09-25T20:02:45Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "ded855d947a390a1",
+   "title": "El sobrepeso ya afecta a uno de cada tres niños: una epidemia que cuesta 19.600 millones al año a España",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbTZhZzBPYUpWUXBUNjVwN0huLU4ydzBLakpjenJfNjJITmttLU5rWS1jLU9DSE1qLXZSYjEza2FvYWNweThtSzBya3NCOG53WmxHbWJDQ0RjZ1BLYVhZNGlldnJDOU9rVHhZSlczMHFUN3N3aDZuLVNncjE2cUNVV2ZNRGp4b1NfdHVHZVRpWHRnMGNxUjVySk1R0gGfAUFVX3lxTE11MG5DMzVFTDFtN0lwbEg3cEZzNjJ1T1ZJYWlrZGZsQTA1TklFcnYzRnBYYjcxZjRTWlVFTzZhYnBSMHZkeDdOaU1HS2VraVhCMEtSYVE0VjZFM3BRQ1JmRFVVNE5XQ1RmQV9sNW9PWHRHTE8yVmlEUUE0cS1CQXNzdXQ1TTJ3Wld2Z0dacDE5OF8yVWNFRXRfYzYwY0pnTQ?oc=5",
+   "source_name": "Diario de Sevilla",
+   "source_url": "https://www.diariodesevilla.es",
+   "lang": "es",
+   "lang_name": "Spanish",
+   "lang_native": "Español",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemia"
+   ],
+   "published_utc": "2026-09-25T15:57:47Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "f2b108fe014e7afa",
+   "title": "تأجيل محاكمة 28 شخصاً احتجوا على استخدام الأسلحة الكيميائية",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONVBRSm5SOWl0T0FTYnVlSl9rODlxYkJYOVBJRWlMSVd0REFxZWNDekRUdmxLTlB0S05QdjRjeU1aYXlXdDBNbWFWdDM2bUJfZnF0aVVmdG40b3NoUllaTTY0bXowV1NSdnhubl84N1I0M2hzZFZEOV90NGpYSUJBeWFaVXhxeFN6SVpyWHBYRWF3bXN3UkZlaUkxdlZTemEtRWx3WGE3ZHZEUENGNnBHUjRfWHotZmExUGFXWUVsY09zYl9qczJRSzZ1QlFfNEdBcTYyNnBB?oc=5",
+   "source_name": "ANF | Articles",
+   "source_url": "https://arabic.anf-news.com",
+   "lang": "ar",
+   "lang_name": "Arabic",
+   "lang_native": "العربية",
+   "dir": "rtl",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "الأسلحة الكيميائية"
+   ],
+   "published_utc": "2026-09-25T18:13:53Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "56b6d575225816d9",
+   "title": "ناقوس الخطر من تفشي وباء الدفتيريا",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1NFJFRlFPMHd1TEN1UEtkN1pGV3BKM2NlckZyOVJVZG9GRGl1TTBiQXNYbmEwZXBNR3hMOWd6STZEVmtsd1EzUDRfMU9ZaV9Sb0E?oc=5",
+   "source_name": "elbalad.news",
+   "source_url": "https://www.elbalad.news",
+   "lang": "ar",
+   "lang_name": "Arabic",
+   "lang_native": "العربية",
+   "dir": "rtl",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "تفشي",
+    "وباء"
+   ],
+   "published_utc": "2026-09-16T06:36:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "ea555e5229be2c68",
+   "title": "ВОЗ: новый респираторный патоген может вызвать пандемию уровня COVID-19",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdTdJZHA3UTVRLU9Zek9ObGlCamdTMVZHblA4Sk9kd2JETFhKV01XLTVBakttUlBlZmc0OTJXUDZhQ05DTHFsVVl4T0ZoQmRBcDRDeDdwZW9hUE9lNzBBUEtBRENhZWcxQnd4czhOOGowWC1hcV8zQTJ2T1VOcmtyUnZYeWNzb3BDblhRYTBUbnpTNWFacFVFVWxoZWNfSGw0VkViamFKTzUzUTVV?oc=5",
+   "source_name": "Общественная служба новостей",
+   "source_url": "https://www.osnmedia.ru",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "патоген"
+   ],
+   "published_utc": "2026-09-25T19:46:38Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "f6cc91720a535258",
+   "title": "ИИ убьет миллиард человек. Билл Гейтс предупредил о неминуемой катастрофе",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uYl9BZGdCNWI3MUJWSUJmbWhzUmloZFU4aVVwN0FIbllZeWtFbjFrODBGSVQ0R0t3dXZJdVZKcGtybW9xUENvZmd5YjF3TEJpWl9BSw?oc=5",
+   "source_name": "SecurityLab.ru",
+   "source_url": "https://www.securitylab.ru",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-25T20:41:45Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "89ee1300063027e9",
+   "title": "Глава ВОЗ опасается возникновения новой пандемии из-за респираторного патогена",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUFY1QzlMWS16V0hlbU9xNTRTUWFzaEtJRHlFQUVUZlVzNWF2ODRHR0pNMUdQUWRxY2dlX3ByTEVzRFl5TTNvMU5ZREk3Z0U4b3Z6SXFWQnFsNzcxSXRKeC10Z1dERVl5ZGpoS2ZoUG5XMDRUT3VkWXZ1S3ljX3cxaDlVY3JaVU4wemVleGszYk5MZHNZTUM2eXhYOXJtVGsxRjBicnlQTXFkYUpBTThUZlAyQjZDWkhtQ0lEMdIBwgFBVV95cUxNZU9LN1J2MTlfbVAzRHVyU20wdW1SY1lUZC04cGljQ2YteUNQMzNDNUtGbEpJRGMteDdKZmQzai1wcDdtSW9MUGhOblBqRlhKazBEYkFiUmtyckl5Rlk5QXNsOV9JR0tBSXhvczR5ZDFTaV9RMTRTRGpHdEdWcW5FTmo3RkVRdnJLZHZVYmstaWVMbWdKbVZmQzgzNEpjWmRTRTFvek9HWGtGVlNNUFZWdDZ6eXZjSWpXNkdpTTJVR003dw?oc=5",
+   "source_name": "Рамблер",
+   "source_url": "https://news.rambler.ua",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "патоген"
+   ],
+   "published_utc": "2026-09-25T17:31:40Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "22d1172148f037a9",
+   "title": "Плазменную технологию защиты пшеницы от патогенов разработали в ЮУрГУ",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdzdMZ0R6RkQzTU10ZFdRc01wN1FEaVoxMjZzM0VXVkx0NVM4cEhmNkJDWGc3Y28yQmJUNFY4bU1KTnR3QVFDTXQ2dnl2TjdUMnhQdUxnRzVtVUJOSDNZdHVIVnF6bDRRVnZvUHBVYVI3ZmNKa3dZak5NQ2tLeERVYno2eVZacFFFeUhtTTBYWU5CcGRpYTBXeDdxbkU0c0Y1R0tSYVI0OTJZWk83X1BQUjR5N0ZhR2swbnc?oc=5",
+   "source_name": "Crispy news",
+   "source_url": "https://crispy.news",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "патоген"
+   ],
+   "published_utc": "2026-09-25T20:22:26Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "daa0b6675b8d8d0e",
+   "title": "В ЯНАО 550 тысяч оленей досрочно привили от сибирской язвы",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qUnkyUU9oampEU3ZIbmxmU1Fsei1rM0pHRFN4QTNHVlo1cDBsZWNubFQxbGU0WmxRMHVDaWp6NHNaUzJxWDZ3ejJPeHVzUU03MWc?oc=5",
+   "source_name": "Бриф24",
+   "source_url": "https://brief24.ru",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-25T07:52:29Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "961cabfe5ee22891",
+   "title": "Свыше 500 тысяч оленей привили от сибирской язвы на Ямале",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWG9LTHF6MlRfT3pZOGZnLU5SX0tkdFlWVXNLSVNJVEE5ZTQwZTEwdHY5cjNlX0xxbHRQR0NicndqOWNYaDZRWVhhaU9xSjNwMWRkdzB2TnY0WGJfTllpMjhkbUNyZFA1LWU5S1k0X0otdVFEMFY2aXVnOFVfMk1IVHZleTFvWlN1d2c0YmozblM2cFpXNHpEem40NEVIamg2cEhmUg?oc=5",
+   "source_name": "worldinform.ru",
+   "source_url": "https://worldinform.ru",
+   "lang": "ru",
+   "lang_name": "Russian",
+   "lang_native": "Русский",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-25T13:06:12Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "3968cabb4d8e0939",
+   "title": "西維州工廠爆化學品泄漏2死 19人送醫",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMDhXUHg3NGE3TG1TNHZJdVNqTjNPVmR3UDNjR1VTTEQ5djFfeFZSbTNvNUZTSER0aUJVTXpEMmZnbkZKZkFubWFlTF83SjVTUWoyVjlVLXVQQXUzX1REQ0YzT2Z4UWZ3YmlNYk5xOTUyT1lLdWduVUJROURCU2VldHBMTF9Fd9IBZ0FVX3lxTE56TUNVSDZjQ09oTFNHNXphTlg1N25PcU13MmFUN2hpemRUMnEwclcxZDFPUXNvTFRtNXowaHpFN1htMUR6UXlaS1ZsVkEwc2tuY1dHNVoxVG5YSXJ4bWRwSTVpNWZpRTg?oc=5",
+   "source_name": "worldjournal.com",
+   "source_url": "https://www.worldjournal.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-04-22T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "9ca71208b35fa807",
+   "title": "尼日利亚北部鱼场传染病管理的生物安全措施与实践",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KT0pGNVZ0ZVAxbGxxeVZMUkM2YUh0RXJhT2dRYUlPYl82QTlFbDlRX0g2RlFWLS1sM2RxY1RrZkxHdFpYaHBVMklwcU5ZRTZ6ZXFrUjN0RVNiUW5jdk5sdnBfTEtwQ3hSMkRoag?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物安全"
+   ],
+   "published_utc": "2026-09-25T06:14:55Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "79a4c8b9ee61f155",
+   "title": "下一场生物安全危机，会和AI有关吗？",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yTkp4czZqRXg3Yy1JRlUxTUtpYnV1M0stcldZVHBHNkF2Y05KbmQyY01vMGtmTzF0bUlpWFJvcjZxM19KenNfTUV6VkxORXhQdlZHMEhrdw?oc=5",
+   "source_name": "mittrchina.com",
+   "source_url": "https://www.mittrchina.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物安全"
+   ],
+   "published_utc": "2026-09-19T10:54:35Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "3e0800f6691144cb",
+   "title": "中方如何评估AI可能被用于制造生物武器等风险，外交部：防范失控的措施要及时完善",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Vd0hGYmZkLXFGakhCUFh0d2ppSktCYjV5S1pINUhNZTlSTHFHUzVUd2hjclJLb2JkZDE3UDAxTldwcW1GQ1VKdmU3THkwbnFrVWowbmJPemhsX2FadWc?oc=5",
+   "source_name": "thepaper.cn",
+   "source_url": "https://m.thepaper.cn",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物武器"
+   ],
+   "published_utc": "2026-09-15T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "ec337ac008c63448",
+   "title": "撒哈拉以南非洲儿童肠道病原体特异性通路连接中度至重度腹泻与线性生长迟缓：GEMS研究的分解分析",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaUndQYTFrZjl3T1g2Ny1lR25lZkFJaWlnWTAzS2VISDBoMjgyd0xCZHlYcGVvMTB2bnJKOHduRmx0eFR0cW1PdkQweV9HdTJlUUZOS2Q3YS1XZW9rU3lMVmtaMUJIWWZZYU1ybA?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体"
+   ],
+   "published_utc": "2026-09-25T06:14:55Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "31add3c35d7683d2",
+   "title": "CsAtf1-CsErg5B轴连接HOG MAPK信号与麦角甾醇稳态：暹罗炭疽菌分生孢子萌发及咯菌腈敏感性的调控机制",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYVkZjNEtnZnR4TVo0MkF4V3laOV8wU0ZpbEY3dHhjUVpIVml6UW51WU9IakFtVGM2dzZBWWRXOFM0NlhXdS02MDdLTFJYeEV3R1BMbmJCaHFIdi16MWZaVmNoRzR0NDZjWXNpeg?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "炭疽"
+   ],
+   "published_utc": "2026-09-25T06:14:55Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "1c92c9636c16cacc",
+   "title": "病原体诱导的ARHGEF2亚型转换通过连接支架破坏将上皮屏障损伤与自噬介导的抗菌免疫偶联",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VNU1VcWpPckhsaXBtNG5SaGU4UVNTZm1sdnBucXczSUloYTVEX1VVWEpTU1dabWVoT3llc2ExTnpZc2dNR1JEMHQ0aGF6aVFVek11b3lXd2ZCeGxfMkZ6LXlxVE9IUHZMV0k3aQ?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体"
+   ],
+   "published_utc": "2026-09-24T23:59:01Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "c82e86555d35ab2e",
+   "title": "奥罗普切病毒作为先天性病原体展现强神经致病性并威胁胎儿发育",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HdXFVZlhyNGJ1VkJRRTA5d2s1SEE3ZWc4QTVrejlqaG9jTEptN19XVENZdFExRzRUMFh3NEJqcUtqSGdIN2I3bi1TTUpoOUZnVGVvOGwwNGlvVnc1SGI3eVAwekdPSEdlbjVqXw?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体",
+    "病毒"
+   ],
+   "published_utc": "2026-09-23T02:33:15Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "b8e3419bb5fef4a1",
+   "title": "蛙壶菌（Batrachochytrium dendrobatidis）感染在两栖动物陆生休眠期间增殖",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQWlR2bEF1N3hrOWpKOU1yU2lOMnl1NGZ6eTZxbmpmUVpOUDNlTHRNZnFIckZ5cDdlemtfX3Q0SzZvam5RUlk0T2FhM2UtdXhsQ3hkdU1PTUhDcGM0VFU5RC0ycC1YY1VjcFRTWg?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-25T06:14:55Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "fb3a7e895b498577",
+   "title": "低饲料剂量-幼虫密度比削弱黑水虻幼虫生物转化中的病原体灭活效果",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54YnpqSmJnSk80TklQNVJfRnhlekxldUl2Qmk2RW9fXy1uU2FuRFNnZ0dpaHRQRnV4bXIzZzktaUN3ZlpKc0hSZFVtOEREcWhKVnlKemdtYXk2RHJteVUxSVlUYzM5dTRtSTh6VQ?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体"
+   ],
+   "published_utc": "2026-09-24T05:22:50Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "936d59296187799a",
+   "title": "多病原体血清监测揭示赞比亚儿童疫苗接种成效关联、破伤风免疫力消退及白喉免疫增强现象",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YNjNhTlBEVkdfWTE3V0U3Q1BjT0xGdWs5R3pzZnFleVB4UzRQZU1OckdHNjdSS3hDRklvZXR5N3hBZEdiNW1HVDdTNHZaN3lQd1BENnVYT21PSlQ2cW9Wenhtck02eHBuVnFJcA?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体"
+   ],
+   "published_utc": "2026-09-24T23:59:01Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "c79105c0406929b2",
+   "title": "仙人掌粘液可食涂膜负载混合乳酸菌培养物抑制牛油果炭疽病（Colletotrichum-induced anthracnose）的研究",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fcEE4TWpuZHlRbExyZTg3V21NbWRoMDZvXzF2LV9ILVQzSzhzRnZvMjQ2UXcwY3ZGY05IeTljR2tsRlJRaEhIcjRES0l4RFdzWFZjX0g3NmpSc1lwbDBhZm9Qd19sWXRNRGxTLQ?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "炭疽"
+   ],
+   "published_utc": "2026-09-24T23:59:01Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "87aba9edc84f460d",
+   "title": "## 中文标题 纳米孔靶向测序技术在白血病血流感染细菌与真菌病原体检测中的应用及评估",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbnVLM3lvcWdDdThzZ3V4ajJ4eC1fcFM4cVQyd0dtSnhveEhPSzE4eWtRUi01NzZVRFBqcDdVR2xEWUttWTlXaXNmZUhwTnJyRG5ZN1d0T0xtbXhSdDU1Z0lKUmp6Tzhhb3VGbA?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体",
+    "细菌"
+   ],
+   "published_utc": "2026-09-24T18:21:27Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "a2134e6ae977db63",
+   "title": "阿尔及利亚开普野兔（Lepus capensis）蜱虫及蜱传病原体流行病学研究",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0WlBQR0ZPSE1BeXk1dS1VamxSUTA1TGdQZmhMNy1vcWxsNkhHOHNsTjd1RXlWMzlqUEowM0hlemhiVi1DaExQXzZoWlBncklWbTl0N0JwRFFTN1FMTUZBbzR4YTFaelRYVTY0cw?oc=5",
+   "source_name": "ebiotrade.com",
+   "source_url": "https://www.ebiotrade.com",
+   "lang": "zh",
+   "lang_name": "Chinese",
+   "lang_native": "中文",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "病原体",
+    "流行病"
+   ],
+   "published_utc": "2026-09-12T00:41:01Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
+  {
+   "id": "d312f702c1477f09",
+   "title": "„Red Storm Charlie“ in Hamburg: Chemieunfall und Bahntransport-Sabotage simuliert",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFVVRmJvcGJJQTBvTURzd3A1SFRZWEY4V2htOUdvLTM3RnBRbjREV0RtbUxheTdQcS01Ym5OdmtnSWk4cXpJVV9GaW45MzFLR1U3aFBEOGYtMUhZN1E4OXZVOFFXVF9ydGRKaFhvbVBlOGdFejJVbUlrNGs2Um05eU50WEVIZm81aUZ3ZUE2X1dlRkk0U0J0NnRoUlhqemR2bXp6dFpLRGhyVEV6?oc=5",
+   "source_name": "SAT.1 Regional",
+   "source_url": "https://www.sat1regional.de",
+   "lang": "de",
+   "lang_name": "German",
+   "lang_native": "Deutsch",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "Chemieunfall"
+   ],
+   "published_utc": "2026-09-25T15:27:33Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-25T21:40:45Z"
+  },
   {
    "id": "056c347b554ec9d1",
    "title": "Quebec City man accused of planning a chemical attack to benefit ISIS group",
@@ -6672,27 +7528,6 @@
    "first_seen_utc": "2026-09-23T21:35:49Z"
   },
   {
-   "id": "43c40c57fe08686e",
-   "title": "Gilead’s Work to Help End the HIV Epidemic, One Year after Launch of its Twice-Yearly Prevention Medication",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnlmVGZzVXY2U0ZlLXNsR0ExblhsY2FPNU51cEZKOWVhdzFKcXFvaW5wWkF6d054WU1jM0RsenR4SkJLV0ZGbWJISG0yRG9NYlBZMlNsb0FZYXpTbHZUMDVkMU1RVks2SEdqMUFaREhaTE1SbEJmVjkxS3kxVGlmRnZjSVNDQTN0SjNjM0VqRnpzbk9YRmJmRExRVDQ3eFJpeGRzZHNVWW9FR1pUNXBRd1NxdExsQ3FXc3daamJxUS0xNnVVeW1IbzVvNnhQaXM1?oc=5",
-   "source_name": "gilead.com",
-   "source_url": "https://www.gilead.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-06-18T15:15:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T21:35:49Z"
-  },
-  {
    "id": "43aee07454ccb225",
    "title": "VIDEO \"On est sur une attaque chimique aux halles de La Devèze\" : en immersion lors d’un exercice grandeur nature avec les soignants de l’hôpital de Béziers",
    "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNFpfXzNQOUdvcXJWTV9vSEREUzlXNmJkbldxMTh2bXZfMjUwVmljcHA5eHEzUzNwWGtpcjd1UFd5OEdIbHc4XzN6VWVxUUItOVlsdDZ3R1RwVzFtbk52SVo0RkJUTEJxTEZLZS1mSW9COGRDQXFXVXJSMlZVMUdOT1dUeDk5SzNzcnB0MjU3UDBsWWdybnN3ZDlieXlkQVRFazU2UGN1OVU0SHAxUEJ2Z3ZhVmdHMVdEWERtRUVpRXFXakVNcGFWUDBmMk5PdGlVb2JmcGxWVEVSVlNESDBPbmdqQ3d6YUU3Q0g1dFJWTl9UNkxsM0R5UEZGdS05UXBQemhDSVJ2emNZZUo2VGJVeDdRX1hNYThXS2p5LTVR?oc=5",
@@ -7257,176 +8092,10 @@
    "first_seen_utc": "2026-09-23T21:35:49Z"
   },
   {
-   "id": "92b2fd5899ff35c6",
-   "title": "Olympiad Day 6: Uzbekistan make their move in Samarkand – International Chess Federation",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVmlITllocHdkT0FwQjZQUWpEV1VXbEd4bDJvRWRWLTJ3SFhJQnVMcElqVE5MWDZpTzN2a2NnWGFNMzNTN2txUDRLejBCOThYWHFsak03UEgySzd3UFRiUnVzN2hCa0pyQWxVMEJMZlo1OThfTkdXR1RtUExaUzVzenhB?oc=5",
-   "source_name": "fide.com",
-   "source_url": "https://www.fide.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-21T18:05:54Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "6ce8b4554335e6b1",
-   "title": "Sweden provides voluntary funding to support OPCW’s work",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVQzbW9rM3RCWXpJNm50bVR2a0IyVzNiQjhwTW9rbDdwR3ZWYWhqQmtlS3BNS0UwbEd1SjU5ZTBrQ3BWYlFfbTN0VUlXcDRpelhMMERKNTJWR19JVWF3bVJTRlNKLVlSV3J3eERVakYtYXczeWNCdWpIcTQ0S0diUHFxbl9kWXNTLWVJMUhadWxqT19aQU9zU1ZLa19YYjFK?oc=5",
-   "source_name": "Organisation for the Prohibition of Chemical Weapons",
-   "source_url": "https://www.opcw.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "OPCW"
-   ],
-   "published_utc": "2026-09-09T09:17:05Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "589d558378afb76a",
-   "title": "Vaccinated or not, we’re on the brink of a measles epidemic : Short Wave",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZk1WUFVmazJVRll6M01mOGdWd2FqRXpzTk92TE1acXgyZzkwb0JWb3UxdkZsdm4xMjQ2eU5SZjJ3T1RhSHZjMjkzQ0lRNzYteFhDQ2RlOXdfXzY3enUwaWc4blFNTllDbVgtUllmcnRvRXcxVnBsRnQ0ekRKd1J4Zmk2VzduSHhtZDQ2VWtpZw?oc=5",
-   "source_name": "NPR",
-   "source_url": "https://www.npr.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-23T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "d269cd249339193d",
-   "title": "Why an underinsurance epidemic could spell trouble for luxury collectors - Simon Chadwick for Luxury London",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWXAwSDd2YmZqSmxYVTJfVXpQcTlJSDJRMTl2VjdnNjU0c2ZGZ0c0dkVlMmZwaU92bmtfaldKVlRvNVk5amE3dGFkNmdzVnB5ZDc3VG5SZkJaOVBlN09VRjVXRTdHMUd0Z2VZeDBDN1RTRVUycFlpalpDcTFuOFZqV1JGYTZKem9HdmRhQ1dNNzFoTXhxR2RiM2Nva3k4OU1XTTJpQzR2UUZZZGswVkhrSUkyWFhRRkxfdGp2cV9vTGNVY3F4OG1MbWFCOV9sYXM?oc=5",
-   "source_name": "Mishcon de Reya LLP",
-   "source_url": "https://www.mishcon.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-23T15:08:32Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "78bfdd60592283e6",
-   "title": "Epidemic Group names Erik Wahlberg as CEO",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcjM1TU9jeHFocHVkTUVCcnRsT015amN2SVNlNUl0c2trTDBOTl91R202UElSQlY0c1BTbUltUk9sYVUzaThaTWVGdU1RajlZcHBaREZpWVlZRFUzclpTSHIzeVhSQWdzXzRPZ0F6UmRtOWVBdEVhN0wyMGJfV1kzeS1zMktQVkE4a2hsVkI2TVZzZlBPZmF0QWN3?oc=5",
-   "source_name": "Cision News",
-   "source_url": "https://news.cision.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-23T14:19:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "4fa511e2c061ac75",
-   "title": "Is Rangpur emerging as a new anthrax cluster?",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR3l6QmN2OXcyQkM4aWlGZ2I2bjZWWXRhNUVDeFJNNk5OSVptMVJiTkI5OGdJeVNsUnRzY1RraDZLSHdBM0VzY25kajV4ZjQtVlY3aWx4UDRDWFk3WDVnTWU0eTVvS1MzbUpIMkFmOXlwaXNicm9NZks5SjBRS096UUhZMHNwQkcxS0x0RmtSaw?oc=5",
-   "source_name": "The Business Standard",
-   "source_url": "https://www.tbsnews.net",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "anthrax"
-   ],
-   "published_utc": "2026-09-23T14:40:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "297820cf0cf0739f",
-   "title": "Anthrax ends its studio silence with Cursum Perficio’s 11-track return to thrash",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10UTdDUlQyRVF0bVVjUkhkUGp0eHJkTE1vNkFseHhnYUp5cnVzZDBuOEM1NzR1ZDUwTjNhT18yNlNmVTVVcmZEWmt1ZTQ0MEZpZEM4T1hMb3FSQWFKeXhKamEyYTNZXzRfTXRR?oc=5",
-   "source_name": "martincid.com",
-   "source_url": "https://www.martincid.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "anthrax"
-   ],
-   "published_utc": "2026-09-22T20:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "c6d66b76388e0790",
-   "title": "Crisis in the classroom: Confronting the bullying epidemic in our schools",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVE3QmtKb0Z3OGszQ2pjWGF0YTlRYXZVam1hN2tOUjJlSHJzcXhCamdsVnk5aDF5bzlQQWpXSS1kd0NlcEZMekNkbklHcjYybEI2VEFyZWs2NUJiUVdGdXpWRElGNXBUS2pZaVFJUEhGbjNCd1gxY0ZwZzlOZzlvaTlWMGsyZl9CT1NUdTB5TXhuTmZZUkVGaTNqSkphbHlpZkVyMFBRVFdfN05GLWk3Vll5ZzE?oc=5",
-   "source_name": "BusinessMirror",
-   "source_url": "https://businessmirror.com.ph",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-23T16:01:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "53f45c7205a26740",
+   "id": "43c40c57fe08686e",
    "title": "Gilead’s Work to Help End the HIV Epidemic, One Year after Launch of its Twice-Yearly Prevention Medication",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnlmVGZzVXY2U0ZlLXNsR0ExblhsY2FPNU51cEZKOWVhdzFKcXFvaW5wWkF6d054WU1jM0RsenR4SkJLV0ZGbWJISG0yRG9NYlBZMlNsb0FZYXpTbHZUMDVkMU1RVks2SEdqMUFaREhaTE1SbEJmVjkxS3kxVGlmRnZjSVNDQTN0SjNjM0VqRnpzbk9YRmJmRExRVDQ3eFJpeGRzZHNVWW9FR1pUNXBRd1NxdExsQ3FXc3daamJxUS0xNnVVeW1IbzVvNnhQaXM1?oc=5",
-   "source_name": "Gilead Sciences",
+   "source_name": "gilead.com",
    "source_url": "https://www.gilead.com",
    "lang": "en",
    "lang_name": "English",
@@ -7441,47 +8110,7 @@
    ],
    "published_utc": "2026-06-18T15:15:00Z",
    "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "8e21657bd50aae28",
-   "title": "UN taps MSU again as a world center for antimicrobial resistance, fish health",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeU44VUNLYmZlYTlQWnpsMUVsbEZRLUV3NUNDaFJiNmdCMl9Ld2twWUo2Y1pxbENtSHVWd3BVZjRyV24wYV9TNDl3TjJJMnFaMWd0ZTJ2OTBLY1pMYVBQYkFDeXdvdkt0RUVvVHVLSjQwbWVzWGQ4enVweUZER2lJeDlPSzZ0ODlHeUJsbWpJT3FZaXhoeHRQaFlVTGQwSUdCOGQ5QUZkb0Q5ZFliRVdUVHZKQmFHMFFWeXFRcHFwRmI?oc=5",
-   "source_name": "Darkhorse Press",
-   "source_url": "https://darkhorsepressnow.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-23T13:46:57Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
-  },
-  {
-   "id": "1afd4860e52d155d",
-   "title": "Bournemouth store owner shares dozens of shoplifting clips to expose theft epidemic",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPemRnVUxpQUNLUWFDVlBxUDZHQ0Z5UEwxbmx3a0VXZlpRUUFHQ0dDMzhCbk83ZjVseXVCMG9UTG9RZHJBbElEeG9fbzY2SE1pRzlPZUhMWFBocXNUMUxIX3N1dHFPWVRWZmxzT2tRNnhNUm5waHNLcFpXdmRXTHo5VnlkSXI?oc=5",
-   "source_name": "Yahoo News UK",
-   "source_url": "https://uk.news.yahoo.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-23T13:28:05Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T17:12:40Z"
+   "first_seen_utc": "2026-09-23T21:35:49Z"
   },
   {
    "id": "39ab09448eaa879f",
@@ -8213,31 +8842,10 @@
    "first_seen_utc": "2026-09-23T17:12:40Z"
   },
   {
-   "id": "988ba1bd4937e4e5",
-   "title": "Whistler Film Festival announces B.C. highlights, including Chris Carter’s Queens for a Day and Vic Sarin’s The Lightkeeper",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObTVhWE9uRm1DdWhoZlNLYXZpQWM4LTFJZmlmaE1pSlJWOEd6QmlJTzl3WkVYUnFySEdiMXRXOUtNbmtJVm9MdFJQTjgzOFZqN3g2UVhkbzZCRmVGaFk5TjJ6UzZkYkI0QWx1MVZUQXNHdlhKVWxfR2JaZTlQYm9kQldlY09tVFAxc2VEeFZrZXpNMmZZMjV6MQ?oc=5",
-   "source_name": "createastir.ca",
-   "source_url": "https://www.createastir.ca",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "sarin"
-   ],
-   "published_utc": "2026-09-23T02:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-23T11:48:59Z"
-  },
-  {
-   "id": "72e56db7ce94628c",
+   "id": "92b2fd5899ff35c6",
    "title": "Olympiad Day 6: Uzbekistan make their move in Samarkand – International Chess Federation",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVmlITllocHdkT0FwQjZQUWpEV1VXbEd4bDJvRWRWLTJ3SFhJQnVMcElqVE5MWDZpTzN2a2NnWGFNMzNTN2txUDRLejBCOThYWHFsak03UEgySzd3UFRiUnVzN2hCa0pyQWxVMEJMZlo1OThfTkdXR1RtUExaUzVzenhB?oc=5",
-   "source_name": "FIDE",
+   "source_name": "fide.com",
    "source_url": "https://www.fide.com",
    "lang": "en",
    "lang_name": "English",
@@ -8250,13 +8858,13 @@
    "matched": [],
    "published_utc": "2026-09-21T18:05:54Z",
    "via": "gnews",
-   "first_seen_utc": "2026-09-23T11:48:59Z"
+   "first_seen_utc": "2026-09-23T17:12:40Z"
   },
   {
-   "id": "f775c8fd4ab7a9f0",
+   "id": "6ce8b4554335e6b1",
    "title": "Sweden provides voluntary funding to support OPCW’s work",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVQzbW9rM3RCWXpJNm50bVR2a0IyVzNiQjhwTW9rbDdwR3ZWYWhqQmtlS3BNS0UwbEd1SjU5ZTBrQ3BWYlFfbTN0VUlXcDRpelhMMERKNTJWR19JVWF3bVJTRlNKLVlSV3J3eERVakYtYXczeWNCdWpIcTQ0S0diUHFxbl9kWXNTLWVJMUhadWxqT19aQU9zU1ZLa19YYjFK?oc=5",
-   "source_name": "opcw.org",
+   "source_name": "Organisation for the Prohibition of Chemical Weapons",
    "source_url": "https://www.opcw.org",
    "lang": "en",
    "lang_name": "English",
@@ -8271,7 +8879,194 @@
    ],
    "published_utc": "2026-09-09T09:17:05Z",
    "via": "gnews",
-   "first_seen_utc": "2026-09-23T11:48:59Z"
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "589d558378afb76a",
+   "title": "Vaccinated or not, we’re on the brink of a measles epidemic : Short Wave",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZk1WUFVmazJVRll6M01mOGdWd2FqRXpzTk92TE1acXgyZzkwb0JWb3UxdkZsdm4xMjQ2eU5SZjJ3T1RhSHZjMjkzQ0lRNzYteFhDQ2RlOXdfXzY3enUwaWc4blFNTllDbVgtUllmcnRvRXcxVnBsRnQ0ekRKd1J4Zmk2VzduSHhtZDQ2VWtpZw?oc=5",
+   "source_name": "NPR",
+   "source_url": "https://www.npr.org",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-23T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "d269cd249339193d",
+   "title": "Why an underinsurance epidemic could spell trouble for luxury collectors - Simon Chadwick for Luxury London",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWXAwSDd2YmZqSmxYVTJfVXpQcTlJSDJRMTl2VjdnNjU0c2ZGZ0c0dkVlMmZwaU92bmtfaldKVlRvNVk5amE3dGFkNmdzVnB5ZDc3VG5SZkJaOVBlN09VRjVXRTdHMUd0Z2VZeDBDN1RTRVUycFlpalpDcTFuOFZqV1JGYTZKem9HdmRhQ1dNNzFoTXhxR2RiM2Nva3k4OU1XTTJpQzR2UUZZZGswVkhrSUkyWFhRRkxfdGp2cV9vTGNVY3F4OG1MbWFCOV9sYXM?oc=5",
+   "source_name": "Mishcon de Reya LLP",
+   "source_url": "https://www.mishcon.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-23T15:08:32Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "78bfdd60592283e6",
+   "title": "Epidemic Group names Erik Wahlberg as CEO",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcjM1TU9jeHFocHVkTUVCcnRsT015amN2SVNlNUl0c2trTDBOTl91R202UElSQlY0c1BTbUltUk9sYVUzaThaTWVGdU1RajlZcHBaREZpWVlZRFUzclpTSHIzeVhSQWdzXzRPZ0F6UmRtOWVBdEVhN0wyMGJfV1kzeS1zMktQVkE4a2hsVkI2TVZzZlBPZmF0QWN3?oc=5",
+   "source_name": "Cision News",
+   "source_url": "https://news.cision.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-23T14:19:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "4fa511e2c061ac75",
+   "title": "Is Rangpur emerging as a new anthrax cluster?",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR3l6QmN2OXcyQkM4aWlGZ2I2bjZWWXRhNUVDeFJNNk5OSVptMVJiTkI5OGdJeVNsUnRzY1RraDZLSHdBM0VzY25kajV4ZjQtVlY3aWx4UDRDWFk3WDVnTWU0eTVvS1MzbUpIMkFmOXlwaXNicm9NZks5SjBRS096UUhZMHNwQkcxS0x0RmtSaw?oc=5",
+   "source_name": "The Business Standard",
+   "source_url": "https://www.tbsnews.net",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-23T14:40:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "297820cf0cf0739f",
+   "title": "Anthrax ends its studio silence with Cursum Perficio’s 11-track return to thrash",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10UTdDUlQyRVF0bVVjUkhkUGp0eHJkTE1vNkFseHhnYUp5cnVzZDBuOEM1NzR1ZDUwTjNhT18yNlNmVTVVcmZEWmt1ZTQ0MEZpZEM4T1hMb3FSQWFKeXhKamEyYTNZXzRfTXRR?oc=5",
+   "source_name": "martincid.com",
+   "source_url": "https://www.martincid.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-09-22T20:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "c6d66b76388e0790",
+   "title": "Crisis in the classroom: Confronting the bullying epidemic in our schools",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVE3QmtKb0Z3OGszQ2pjWGF0YTlRYXZVam1hN2tOUjJlSHJzcXhCamdsVnk5aDF5bzlQQWpXSS1kd0NlcEZMekNkbklHcjYybEI2VEFyZWs2NUJiUVdGdXpWRElGNXBUS2pZaVFJUEhGbjNCd1gxY0ZwZzlOZzlvaTlWMGsyZl9CT1NUdTB5TXhuTmZZUkVGaTNqSkphbHlpZkVyMFBRVFdfN05GLWk3Vll5ZzE?oc=5",
+   "source_name": "BusinessMirror",
+   "source_url": "https://businessmirror.com.ph",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-23T16:01:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "53f45c7205a26740",
+   "title": "Gilead’s Work to Help End the HIV Epidemic, One Year after Launch of its Twice-Yearly Prevention Medication",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnlmVGZzVXY2U0ZlLXNsR0ExblhsY2FPNU51cEZKOWVhdzFKcXFvaW5wWkF6d054WU1jM0RsenR4SkJLV0ZGbWJISG0yRG9NYlBZMlNsb0FZYXpTbHZUMDVkMU1RVks2SEdqMUFaREhaTE1SbEJmVjkxS3kxVGlmRnZjSVNDQTN0SjNjM0VqRnpzbk9YRmJmRExRVDQ3eFJpeGRzZHNVWW9FR1pUNXBRd1NxdExsQ3FXc3daamJxUS0xNnVVeW1IbzVvNnhQaXM1?oc=5",
+   "source_name": "Gilead Sciences",
+   "source_url": "https://www.gilead.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-06-18T15:15:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "8e21657bd50aae28",
+   "title": "UN taps MSU again as a world center for antimicrobial resistance, fish health",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeU44VUNLYmZlYTlQWnpsMUVsbEZRLUV3NUNDaFJiNmdCMl9Ld2twWUo2Y1pxbENtSHVWd3BVZjRyV24wYV9TNDl3TjJJMnFaMWd0ZTJ2OTBLY1pMYVBQYkFDeXdvdkt0RUVvVHVLSjQwbWVzWGQ4enVweUZER2lJeDlPSzZ0ODlHeUJsbWpJT3FZaXhoeHRQaFlVTGQwSUdCOGQ5QUZkb0Q5ZFliRVdUVHZKQmFHMFFWeXFRcHFwRmI?oc=5",
+   "source_name": "Darkhorse Press",
+   "source_url": "https://darkhorsepressnow.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-23T13:46:57Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
+  },
+  {
+   "id": "1afd4860e52d155d",
+   "title": "Bournemouth store owner shares dozens of shoplifting clips to expose theft epidemic",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPemRnVUxpQUNLUWFDVlBxUDZHQ0Z5UEwxbmx3a0VXZlpRUUFHQ0dDMzhCbk83ZjVseXVCMG9UTG9RZHJBbElEeG9fbzY2SE1pRzlPZUhMWFBocXNUMUxIX3N1dHFPWVRWZmxzT2tRNnhNUm5waHNLcFpXdmRXTHo5VnlkSXI?oc=5",
+   "source_name": "Yahoo News UK",
+   "source_url": "https://uk.news.yahoo.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-09-23T13:28:05Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T17:12:40Z"
   },
   {
    "id": "deee618a68c0148b",
@@ -9077,6 +9872,67 @@
     "발생"
    ],
    "published_utc": "2026-09-16T00:36:25Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T11:48:59Z"
+  },
+  {
+   "id": "988ba1bd4937e4e5",
+   "title": "Whistler Film Festival announces B.C. highlights, including Chris Carter’s Queens for a Day and Vic Sarin’s The Lightkeeper",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObTVhWE9uRm1DdWhoZlNLYXZpQWM4LTFJZmlmaE1pSlJWOEd6QmlJTzl3WkVYUnFySEdiMXRXOUtNbmtJVm9MdFJQTjgzOFZqN3g2UVhkbzZCRmVGaFk5TjJ6UzZkYkI0QWx1MVZUQXNHdlhKVWxfR2JaZTlQYm9kQldlY09tVFAxc2VEeFZrZXpNMmZZMjV6MQ?oc=5",
+   "source_name": "createastir.ca",
+   "source_url": "https://www.createastir.ca",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "sarin"
+   ],
+   "published_utc": "2026-09-23T02:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T11:48:59Z"
+  },
+  {
+   "id": "72e56db7ce94628c",
+   "title": "Olympiad Day 6: Uzbekistan make their move in Samarkand – International Chess Federation",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVmlITllocHdkT0FwQjZQUWpEV1VXbEd4bDJvRWRWLTJ3SFhJQnVMcElqVE5MWDZpTzN2a2NnWGFNMzNTN2txUDRLejBCOThYWHFsak03UEgySzd3UFRiUnVzN2hCa0pyQWxVMEJMZlo1OThfTkdXR1RtUExaUzVzenhB?oc=5",
+   "source_name": "FIDE",
+   "source_url": "https://www.fide.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-09-21T18:05:54Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-23T11:48:59Z"
+  },
+  {
+   "id": "f775c8fd4ab7a9f0",
+   "title": "Sweden provides voluntary funding to support OPCW’s work",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVQzbW9rM3RCWXpJNm50bVR2a0IyVzNiQjhwTW9rbDdwR3ZWYWhqQmtlS3BNS0UwbEd1SjU5ZTBrQ3BWYlFfbTN0VUlXcDRpelhMMERKNTJWR19JVWF3bVJTRlNKLVlSV3J3eERVakYtYXczeWNCdWpIcTQ0S0diUHFxbl9kWXNTLWVJMUhadWxqT19aQU9zU1ZLa19YYjFK?oc=5",
+   "source_name": "opcw.org",
+   "source_url": "https://www.opcw.org",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "OPCW"
+   ],
+   "published_utc": "2026-09-09T09:17:05Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-23T11:48:59Z"
   },
@@ -11587,48 +12443,6 @@
    "first_seen_utc": "2026-09-22T17:03:27Z"
   },
   {
-   "id": "cf520f69ca79c2f5",
-   "title": "Modélisation des épidémies : l'IA ouvre de nouvelles perspectives",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbGR4dkhKR3BCc0NrNVVZaFBtS21xMGpSTjFWZG5tRVpIU1AteTNPb1JseUZRZ1g0VXZsU182ZjFCY3VLTmVZcmw3alJRRm5PdW9od2oxc3lreDEtaU1tTEdyRlpORVNpSURyRXpxaFJyMEdBM2sxbFZuWDlDeXhvdVFBX0ZxVVlGWmdOWTBsMFdDbUl5NzJ2b0N6X1Q5c2I4MG5MQm1yd3JfSHVWeWV3bF9LVFQtRDV4dmludUt5TXdYTGdYd0Fv?oc=5",
-   "source_name": "lesechos.fr",
-   "source_url": "https://www.lesechos.fr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-22T09:35:09Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-22T11:49:19Z"
-  },
-  {
-   "id": "7f3e9a24beb27646",
-   "title": "Vignes en péril : la promesse d'une nouvelle arme biologique",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRnFTdnotSU9FOGxOcTN1bkhCdTBvdVUxaEZPQlh4bnZmdEpVZTlkX3A0WHFHZFUzT1pOVENZZEsydGlrb3ZmZGRsTm9HbGtPZFhkUXJuSTJjWkxkMmh6VlBQQmUwT2tLYXNma1lfZG9VdmkyYnJ5N0JuVUZGMG1qclBMaGhqVkdfc1kwSTRQUGhkZ3Z4YlBISnJtbw?oc=5",
-   "source_name": "rtbf.be",
-   "source_url": "https://www.rtbf.be",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "arme biologique"
-   ],
-   "published_utc": "2026-09-22T11:30:46Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-22T11:49:19Z"
-  },
-  {
    "id": "1e4666e16c9ef772",
    "title": "La poscosecha citrícola acelera en digitalización, bioseguridad y control de calidad",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTXBZcUt2b1FUdlJISS1sUGdaTnNlSS1DS3NXTTloeUpTVlc1WWwxMzRPN21ON1lfaFFWVm51VFUyOVFweXpjMlo5TWVYeDY3WlhKOUhRbHBwX2xuQjZsMnRjSG10SkZ4MFBfVDBtREFBWGxxZVU1MUVkeE9Dd216RElnLXBTTkN0X0hwX0pfanM5bkFVdFlqa0g4cmpXU3NOMjdOd2ctTnBkZWs?oc=5",
@@ -12366,6 +13180,48 @@
     "epidemic"
    ],
    "published_utc": "2026-08-10T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-22T11:49:19Z"
+  },
+  {
+   "id": "cf520f69ca79c2f5",
+   "title": "Modélisation des épidémies : l'IA ouvre de nouvelles perspectives",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbGR4dkhKR3BCc0NrNVVZaFBtS21xMGpSTjFWZG5tRVpIU1AteTNPb1JseUZRZ1g0VXZsU182ZjFCY3VLTmVZcmw3alJRRm5PdW9od2oxc3lreDEtaU1tTEdyRlpORVNpSURyRXpxaFJyMEdBM2sxbFZuWDlDeXhvdVFBX0ZxVVlGWmdOWTBsMFdDbUl5NzJ2b0N6X1Q5c2I4MG5MQm1yd3JfSHVWeWV3bF9LVFQtRDV4dmludUt5TXdYTGdYd0Fv?oc=5",
+   "source_name": "lesechos.fr",
+   "source_url": "https://www.lesechos.fr",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-09-22T09:35:09Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-09-22T11:49:19Z"
+  },
+  {
+   "id": "7f3e9a24beb27646",
+   "title": "Vignes en péril : la promesse d'une nouvelle arme biologique",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRnFTdnotSU9FOGxOcTN1bkhCdTBvdVUxaEZPQlh4bnZmdEpVZTlkX3A0WHFHZFUzT1pOVENZZEsydGlrb3ZmZGRsTm9HbGtPZFhkUXJuSTJjWkxkMmh6VlBQQmUwT2tLYXNma1lfZG9VdmkyYnJ5N0JuVUZGMG1qclBMaGhqVkdfc1kwSTRQUGhkZ3Z4YlBISnJtbw?oc=5",
+   "source_name": "rtbf.be",
+   "source_url": "https://www.rtbf.be",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "arme biologique"
+   ],
+   "published_utc": "2026-09-22T11:30:46Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-22T11:49:19Z"
   },
@@ -17365,48 +18221,6 @@
    "first_seen_utc": "2026-09-20T16:15:14Z"
   },
   {
-   "id": "fd083d4decd234f2",
-   "title": "Ebola : 30 des 41 nouveaux guéris en Ituri, épicentre de l’épidémie",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOckVHM1F1eEZ3YVA2OC1zd2JaMmhCVV9Xa0hjRl9jMVM0cFJ0Qm13YTBiY21CYjZfb0tLZlp0SjBtSmwxX1p1X2gyYTlFRHo1cThPcV9nMWxTZml3ZnJzVXlwNXZtVS1OVVJyUVNMUTRZR3A4Zy1XQ1ZyY1Roc3JtRThUTGZ6STdPenZVNDRRdW8tRUc5NnY5Rk53?oc=5",
-   "source_name": "Ouragan.cd",
-   "source_url": "https://www.ouragan.cd",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T13:07:55Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T16:15:14Z"
-  },
-  {
-   "id": "400bff26caf93185",
-   "title": "Épidémies : réunis au Togo, les biologistes africains sonnent l’alarme",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORENUckM5cnJjTDNnTVZYN0ZlWFo2RTNWQmFiTlhNZW1YNS1tajFKQVc4cDJsR1p1QllLSTNwa0VKN1BVRWt4ejE1bGYzYWI5aU1sd1BPYVNNanFMRWVIZnVXT05nUnFHM0ZlWDlWYWpYUXZKTy1HMTIwaVgxOWVMdzNDZ18zRlh2Mi1ldk1zb01JOERWOEZaRVlTcmRMY1dhQjhiV0FFQdIBrAFBVV95cUxPdm8tVnU0RUQ3NkRBRF9RWjFRT1BaS0s4QWdiWDZVVWkwWGNRZGU1LXJOMEc3Zm1hM1RwM01UY0s4aEhRcFFnek90OFR4bXFhaE5iNW56enlQR1R1UWZpX0RWT1FXZUhncUVSb280ZFhlWjNoZG5WaE1jeF91NDFRQTRpNFNsOUFsd0NEbnROOGh0bHRZZ1haYUVOSDRhUmJPVElvQ1FzOHBqZkx4?oc=5",
-   "source_name": "fr.africanews.com",
-   "source_url": "https://fr.africanews.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-17T05:10:10Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T16:15:14Z"
-  },
-  {
    "id": "cdec6bbd9c5b2b1f",
    "title": "Representante permanente de Cuba ante la OPAQ participa encuentro la Directora General del organismo.",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZEFmUGFWQnhUdnVPNld3Nm5EM18taHkwMmhGeE9JNW5uUy13dWNFVUtEYU5LQWZKUVpBT2VIVVBrQmlDODQtZnNkRlNKc1lDZ0xOaTA0a2JzcG5BOU1YQjRveHdwUlpTcEttZ2xIMFJnWDYxcUk1VUFiUTZPenh1ajFyTWtBSVI4N3FwUHBzeS00NUFNS0g3RWVSLUxJODc0cmQ1NjRwYWlkcUQ1c3ppN1QwblpMT1dSbGFtR0Q0ZS03QU92TnFEX2RIdG92QQ?oc=5",
@@ -17634,164 +18448,6 @@
    "first_seen_utc": "2026-09-20T11:35:05Z"
   },
   {
-   "id": "82ecbc6b55d5fdd3",
-   "title": "外交部：督促日方履约尽责，彻底销毁遗弃在中国的化学武器",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11WHE0dGdsMXlvYVI4dGJUZ1M3d2lGNThWZHV6WlRxcF9YMGswSGFWT2NIUDZxaXFCb1RxeEpDQ1FnMnJ3Zm9jZjFfbTJMNk1NNHZ4Sk5LcDZfclQwdzl2Vm9NMk5qNS1YdWc?oc=5",
-   "source_name": "guancha.cn",
-   "source_url": "https://www.guancha.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "化学武器"
-   ],
-   "published_utc": "2026-09-07T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "74b6ab3abf70106e",
-   "title": "蓝厅观察丨日遗化武销毁进程滞后 症结何在？",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3czRWMVZiWnF2Y1ZnZjF6N3pLTTNOV3E5RHJxYUtJNWNFT2VrVnU0N2hNSjRGdmZBa1ZzSFk4MUsyOFFhWDRwM3FDdGw3UQ?oc=5",
-   "source_name": "cbgc.scol.com.cn",
-   "source_url": "https://cbgc.scol.com.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-12T02:09:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "e004fb80861d1d1a",
-   "title": "蓝厅观察丨日遗化武销毁进程滞后 症结何在？",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uYkhkcUpmZi12Vjg4S0pPeDl4bXVHNW1aT1NMaGZPUEh3ZjByajdwYVVlUUxMRHdsMEJhbl9QSUk0ZmdDUnd5UjFJUVVKSEJoeVdONjVOLTFkNld6U20w?oc=5",
-   "source_name": "workercn.cn",
-   "source_url": "https://www.workercn.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-12T02:15:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "51932056c47f68d5",
-   "title": "蓝厅观察丨日遗化武销毁进程滞后 症结何在？",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02U1UxeHhBUHJpeEg3OTQ2T1pCeWxGZlRmUVdEX0JUdmN0Q2tNMnRUaWd6dkhyV0lPLW4zSmVBYnF3MTNadTVkZW1RRHA?oc=5",
-   "source_name": "凤凰网",
-   "source_url": "https://news.ifeng.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-12T02:14:14Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "8fa1a9ecd7e9d23b",
-   "title": "蓝厅观察丨日遗化武销毁进程滞后症结何在？-国内新闻",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92QnpFclFpZkZ4QTRVdXNDc2hkNXE3aURmSlo4ZVVMV2lrQzdmT2V0ZVJPZ1V5dGtkMUJIMHJfdFZ0YXFLYXNrRFhvaTlkemJxUUZjSGFORF9yRHlXcE5UdmpqNlI?oc=5",
-   "source_name": "水母网",
-   "source_url": "https://news.shm.com.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-12T01:29:29Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "5d3f2bd74e646829",
-   "title": "4人共车外出遇横祸 1人夹毙 3人伤",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcWFZLVB3NmZhaUlfUEppdXR0Q3p4dTZFY1RjUGpaM0cyVlYyMkoyb1dfLVRtbTNfTWFLM01iVWpkWHdGY1EyYWJyRy1CN1lMU0paZjQ2cjJBcVJGSTdydDNhb0lHcDNnY0NCaEE5Ni1wYjIwbE5uUzJVSDIwWGNOMkoza05xelZxMDlROGM5M29QVEV3Y1lkSV9wcE5IUnFzdmh4TVRhbmV3M2lxcXNyUHV3Y2hTc3IwZHZIcHdSNnEzckIzZWRBbC03eFVYdjVwNDhPd3cxd1JGcG16LUxMczRtU2QwYU5XSmlGY29jLWZnbmJv?oc=5",
-   "source_name": "chinapress.com.my",
-   "source_url": "https://www.chinapress.com.my",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-20T09:34:44Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "c4f66ddda36983a5",
-   "title": "化学品泄漏，船只起火！两名船员身亡...",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VYWtHMW5SQWlHODVvNnNzN1JEOGVVaUwxOUdrN0RBME1mQVROWVp5UUpfdzFOTjF0d3V6SzFXcmVWU2gxaklrRnZCVFQ1NlVEeXgweDFLZHBySG5zWDUtV3kxX3ZEelFYM0VCMVFCdlVKSWk5WlFYag?oc=5",
-   "source_name": "新浪财经",
-   "source_url": "https://finance.sina.com.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "化学品泄漏"
-   ],
-   "published_utc": "2026-09-05T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "6f320b2467a347a9",
-   "title": "天津工业大学AFM：病原体引导的原位二次H-聚集体组装用于具核梭杆菌感染结直肠癌的自放大诊疗",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CMWI1a1dja09ESzlPUkhMVnA0WTdoRms4UW5MU2FOSTU5UWdXSTJPNEM1OHlLU2RYVUo2TlpqM05IYURpbTBFR1lYdGNwMW4zdkxMQ1F4ekY0VjNFQ3I5Q3E2NkV5MnFzR0VoZWpn?oc=5",
-   "source_name": "梅斯医学 MedSci",
-   "source_url": "https://www.medsci.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "病原体"
-   ],
-   "published_utc": "2026-09-19T15:40:51Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
    "id": "7f7e4d96bf64ed4a",
    "title": "米アンソロ、生物兵器にＡＩ悪用の恐れ検知",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FWFpxYzBZMF9ybmYxYnpVR3FBX0tBbTRwaDM1RUJsNHZFSjBtd01OTnhkOXkyeTVfbDIyTzVCT191YmU3Vm1QcHRMTV9IRGdQRzhSX2lDSmhRZmFsTmpZaVd1RTg2OFJU?oc=5",
@@ -17809,338 +18465,6 @@
     "生物兵器"
    ],
    "published_utc": "2026-09-18T01:23:20Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "af03ffd4a573c17f",
-   "title": "Chlorine gas leakage causes chaos in Meerut Uttar Pradesh 15 people fall ill",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNGRMMUpEUXhxM2pIdl9Ielg0TktuR0RDOTc0ZTNQVmNwOWlWY0NBN3M0U2l4VERrNE44OTUzQk9IY2xnMWpFVG5WTkZTMEJPVUVBaS1zaHcxdkdrYkx0aFNOdk5tUHJrX09DRXZnUi1WbkFhcm4yMnpsUFdycThjcVBmYWlUczNUNkJjWVF4SG5aUnNDSGNicVlzcEpqWGJtcmlIV3FiaGhjRlk?oc=5",
-   "source_name": "Sandesh",
-   "source_url": "https://sandesh.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "chlorine gas"
-   ],
-   "published_utc": "2026-09-15T18:15:11Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "8144edfb95a591df",
-   "title": "Victims of Mexican cancer epidemic point to dam pollution as cause",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdVYxTTc0TXRvS3EteVBYTHJEc3BWVGZQVDF2YzU4NlAtYXJtN3ZMczZURXZrMHpYODc4bm8xLWVYU1RqdkIzOWtzZTFaTGxGQzNNaVlSek5pX0o3SU5yc3p5eDJ1cEd5UU1ZcUF1NEFzRFo1ZTVmNml2ZHpPXzVHNUxoTTh4bDY3U2ZGZlZSQTBhUzhLOGc?oc=5",
-   "source_name": "Northwest Arkansas Democrat-Gazette",
-   "source_url": "https://www.nwaonline.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-20T08:34:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "0d207b43091f4e1b",
-   "title": "From Isolation to Community: God’s Answer to America’s Loneliness Epidemic",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObTFBSlpPS2JnSTg5V2QwRWxmY2s3RXEzWjVqVDh4ZU8taFZxSmlNdTlnMVIzTGNRdzRzWkFSb1kzdWhoTXp5TlJFR0N5bEhwMW5haWVGaWl4SkJWMzQ1MmttZDNmYUlLVlI1TjA3R2xKR2VlQ1YydXlGR3pDUVZPOHBMQ1k5T2hsLWhGcU1zd3ZWR3huc1hTalNUWDFDcUJxRGxsVGJB?oc=5",
-   "source_name": "Charisma Magazine Online",
-   "source_url": "https://mycharisma.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-20T10:01:41Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "02c168d515de43cf",
-   "title": "Sean Major-Campbell | The bullying epidemic",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZG1UYl9EUjNTTGpwTzYxb3k2aVRoTWVxeWYyQUNIT1M4WGlrMXV0aThYY1EtM1hJcWpqeEltbm1sRmFneDFFZTY5S2lMTERNLVdBVmtQbUZwVzJsOHctc0FIY2oyb2NuM2lHTl9hMk9lZGdicGdKREllOEpBMGdMVEJHdWlkTUJzbEZaR2FzUQ?oc=5",
-   "source_name": "jamaica-gleaner.com",
-   "source_url": "http://jamaica-gleaner.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-09-20T05:06:15Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "efa5fc3a120f3f1e",
-   "title": "ANTHRAX Debut “Cursum Perficio” Music Video; New Album Out Now",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS3I5TndaSndyV3ByOW5DN2J6WGtfNE9zTFdHQnpfZDBJOXJldnJNU1E3QTNPaF9VUDVWZVpMSVNyWktjMlFxNHB1cXYxN3J5Z3JOaTVHMm9jYzRaRlppcjhPSVdYakxSUGxiTlFvT0d1TWNvcnFUUGlVSUpJQ001ZDRtalN4dktFUk1MLUM5MDhKZ9IBmgFBVV95cUxNaWtOZnpoQWRid29UeC1RVzVrVERfVldVTVdVMEFPZ1FWbVhrdnhsaVFEd3VFX2VVbmI1cTYyWk9FYmlXUkQ1RzNiUEEyaG5fUUhXWktOYm51cjZrakpPVk5xTzVrRUJoVEdaTDhPdlFOVDJnRXFJT0lueTY2Zjk3dzg5NUxrTDJHYUFYc3BXQ3dpcVUza1RWQjh3?oc=5",
-   "source_name": "Brave Words",
-   "source_url": "https://bravewords.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "anthrax"
-   ],
-   "published_utc": "2026-09-18T14:15:47Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "d1b9ae83d5a9bbae",
-   "title": "Epidémie d'Ebola en RDC : des tests du vaccin Ervebo enfin lancés en Ituri",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeDNNWGdydTZ4Q3hfdVFTQ3U1bFllN1ZTQ2dqR3U4R1ZfUTdqZGlUQlBqTzBxTm5TbjdMS3docXRfdVJjdnpEVVh4SzNDXzJ2WXFRRGRQN2hoaWZNWjZxcy1XRE00WmxCOVpSUVI3cnNfenBJNjB2dzZoUkFyY0VvdUktRi1tcEdOU2lweHBZQzZybldmWXRra01CTV84WVlSMUlrYUhPTVZObk51YjZHdkNOWUhjZllJ0gG-AUFVX3lxTE1RTi1vNDdWYnlfdVdwUzEtTkk5SmFOUEp2alhqU2tJbnR0WWdBQjJCOWUyR0h4bkdrNFlOQ08zTWM5RlJobldtZFVDRk1tWFp2ZGRtM2xwNW5iOUlyZnIwQUVfWDg0cGhYTThsQ1JiUUpUQVktUTBfRm5PQ1BnNmRncVlvYXJnNDVZQ096anpJenJHYnJsRjBITEpqOS03Sy1kSUNfdHdySURtQ0EtTFA1XzZFaHFRUHd0ampzMUE?oc=5",
-   "source_name": "cnews.fr",
-   "source_url": "https://www.cnews.fr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-19T16:18:04Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "1b90c76f5e024e91",
-   "title": "Ebola : le CUBE, un dispositif innovant pour lutter contre l’épidémie",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOEQ0VUxJQ3U3RTdCcEd2VEhpSGJZVXVxSEFGVDExcHFvSVdRQU5kaTdpZHpQdGpxczl3Tjdfa1JhbEt3ejB4OGlZRHVfVXFqdWVGQmphcFBMb3dWNG9UNTNUa3JzTXRVbmJRajB6T0tjbjdDRVhTMkR2NVlZWlFWX21lQVVIWU8wTFhHeFZXLUNaaVZqeUtaY2ljT0g0azdScGViNVVFRkYtak9OODRybExaWFNEZw?oc=5",
-   "source_name": "aa.com.tr",
-   "source_url": "https://www.aa.com.tr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-19T14:44:40Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "f027e96cab5642d3",
-   "title": "Morbihan : cette église reconstruite deux fois a servi de morgue pendant une épidémie de peste",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdl91OWM4UklwTVhRa1FjSXBFcm9pLU1PbDBiTlZrUXRSNWY3UXltRnloWl9FV3FFSXBWd0laZEJIQ2ctNjBzc1llVjEzZ1RlN2IyWjlqa0JPejdxX0ttOTNGVlU2a1oxeE9HVnByQnlqdnFVMVRwbllzVzdDTUg2ZzlqOEg3ZldRcjE3eTdNaVhDanlXWjAwU1U2aVRwMld6eVdyZ0QtbFljUmdfdFc3M0NDTjVlZlJudnlDbWlkRGlfWUJvZ3BNOFIzSzBwcGpPX2pZaUxyM19FTjUzWXhKXzdn?oc=5",
-   "source_name": "Actu.fr",
-   "source_url": "https://actu.fr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T09:30:01Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "ff9534d0bd3d7db7",
-   "title": "Une épidémie de peste porcine africaine réapparaît dans la province de Nghệ An.",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16T0pnTzlsMjU5SU0xM0lLU04wWjlURVFOZGJaX0U3eE90QXR6ZWhrd3dqTGk3NnFYRUJXN1NPemg2T0hhYWlTdUVVblBBMmhRWXR2aVBKUW5PcTl0TktGN01vMjVhSW5GbDRBdG1ialZndE0?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T08:04:42Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "65901486f22c8106",
-   "title": "Ebola en Ituri : 15 guérisons à Logo, un répit qui appelle à la vigilance",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTi16Q0wyVHFLQW0wdV9XWWZzTXdyRG5TUTNRZDhGZzAxeTZkSUc1RFZOcGNjR3RWVW9XOUhqVW9VVEEzMmo3VXp4YWdjOFF5VHdNbmVMWEY0TFNibDB1MWhTdmc3WjlmOTBueV91d2t5bmZpMHNKNkhORktyWE1WdW9NS181VGlraTFvTk12enlkaFZwSEpr?oc=5",
-   "source_name": "Afrik",
-   "source_url": "https://www.afrik.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-20T08:37:54Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "53f4ad1620b7134c",
-   "title": "Centrafrique: fin de l'épidémie de choléra déclarée le 26 juin dernier",
-   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPLWROM0hVZUlPemtIN3hzOTZsVl9ZdlNodmpqRUthdnVWNGVGYnVoLW1udzNDSmtVeW1DcVA5QlY2UjIxNzZDd0RQc3VaMktnbDd6UnBsa1dQTy1QQkJjSGxHV0RQbVZ1N0JlVWhSS29wWDN1SWVrNENwRkFVNVoyUHRXTG1wczlSZGVjR28tQlBmZ1NiRVdBMVh6dXJKdWpLUWhuM3JEV1lHYWJfU3FOalBERU16eHdPellkMnJNRHhDSEM0QXN1dW1CYVZUZTdmaW50b0c3N3VqRVFzWWgzX2dQQVl5c1MwNHVNdVN2T2RkcW9UeV9WNGZ2TC1FV1djRDV2c25OelYtc1VTN1BQemM4ZXoyVzJGbnZNNUM3U00tRXhNYU5yeEV0X1NqYmx6VVJINDRNVlY?oc=5",
-   "source_name": "Afriquinfos",
-   "source_url": "https://afriquinfos.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T09:27:37Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "3b9ca9854e694013",
-   "title": "Ebola en RDC : pour MSF, croire que l’épidémie est sous contrôle serait une erreur",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPazB2SGtxaVVrWnM2RzVlMUV6VmhEZGxpX3VHdE9mWDZvZ0pIN0ZXTXdqSzhSd0tkSG1DRk01X3RzS1NPTE9pc0xIcUg2eXc5N2hnSlNzVkNESGJhRkQ3NTl2N1J1WWVqSjBkYVN4UmxfQUFkZHJ2MEZGR0ZWalZBeHBCM2s4TUh0YTFRMnBpaTN1MGJ2Y1drQUZMUThJcFBlbGhNSzZfdkJjMTdjeExr?oc=5",
-   "source_name": "Actualite.cd",
-   "source_url": "https://actualite.cd",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T07:14:05Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "c173db5151c3e4fc",
-   "title": "RDC : l’épidémie d’Ebola fait plus de 3 500 morts dans sept provinces",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM0RRSUdBcS14V3hORFNCNlA5RFJtb3dIM1h6U0xVMUdGQUNOUEtqMzMxeURralZTQU5RQXVQR2RQNWt3dDlubU40cnBzUTByRW15eGRILTVhNHdYWDk0RDRXQmRlbGgxRHpkQUZLWVNOQjA5X2VJZHBFdFUxeGNNSVBhLUZ6WjRETDNyc2NKbFl0bDR2c3B6UjRGRXdPcmFOamliRkxtM0ZBMzBrLWVsNTVoY1IwVEE?oc=5",
-   "source_name": "aa.com.tr",
-   "source_url": "https://www.aa.com.tr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-17T15:45:05Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "26a11ef5bce85f06",
-   "title": "Lutte contre Ebola en RD Congo : des signes \"encourageants\", même si l'épidémie devrait durer",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1tN0ctM1ZYWjZPR0Zpbjc1NkpYZ0xRc2pYU1NMUFFXLUtjQ19jTDVMVlZNUW5LYllRQ3duM0lMcXRWOE1LYU14N3l5aGE3RnEwWGRLeFEwR2g0RVRrMG9lWUYxcUZJV1k5NjZoMkMxX3QxMWlzS2Fz?oc=5",
-   "source_name": "Yahoo Actualités",
-   "source_url": "https://fr.news.yahoo.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-16T15:58:36Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "58d92061d7e8e95b",
-   "title": "Épidémie d’Ebola en RDC: plus de 3 600 décès enregistrés",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFpydDlWTDBVb2ozVERHWThmSEVXOHRSUkg3V3ZqcUttb21FMUhabWhQY1E5OGFFYkVHellpWWhwVUJSRVNlYnV4SlVVTG0tNWFEVG1wNlFrQTBZaEQ4Q3dUZWNoMnNDRG02WEZXbHNhLWtEcUdhUEpMRW1YeXJCb3RyUi1OWUpSdElJVUpmUHl4dkFCOEFRN0dJdUozSEh50gGmAUFVX3lxTFAyV1NWQnE1czJTLWtDUU90Y0FqM1RTOXFYVDJoalRRRDREaXBnMlF4MnFaTEFyV2FiWlBwUEp1TjQ5RE5HQlkxVjVwdGpmc2lIV2wzdllmaFpGRnVGTFFkUnZlVU04VEZ5eWxvb0N4RTZLWV9IcXUxel9acmdYUy1GWHZ0OHdCVjBVNFJnZjNTUFAtT204WkFWQXk4YjVvOVFUNlUyWGc?oc=5",
-   "source_name": "LeSiteinfo.com",
-   "source_url": "https://www.lesiteinfo.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-20T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T11:35:05Z"
-  },
-  {
-   "id": "70adf5bfb5fca121",
-   "title": "RDC : les équipes médicales face à une épidémie d’Ebola meurtrière",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkZ2LVVQN3lISncwNG9FSjRJLW1HSGFlUEpoNHpsUWNuWW8zSk1fN1IwcTdhVE5WZW5jeC0xRk9USVpvd1NQcFFTMklaU0NyOEJrY2EtM0E3WGlZVk13b1NrUzc2b3NTZnloOFJZUkQ0WEx5Ymx6MHdaREl2cW9CZmdMQndidzFsVS1GX09mYnJkX1NNMzQ2cUM3RFFXZHZSS3FN0gGoAUFVX3lxTE1iNWxvcmpRclZHaUYzMlhGS2hJZGJDWnplWnhyY0F0SDU5VFppQ3FzcFpyc1BROTY0Zy1lNkMxWEsxb1JkR0x1V2VkaWFfcElxdWIwcFVyU1M5Y0RqSVI4ZFBUUVhBMFU1cjdpZlI0MXJIdkNid2VpbTVBaGNEX3pDQWQ1MVpacTBXdlhuQ3RfLU9CWkZCUWQ1Ylk5ZVZ3Y1pCZDBpQ0FWQQ?oc=5",
-   "source_name": "Africanews",
-   "source_url": "https://fr.africanews.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-09-17T15:10:23Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-20T11:35:05Z"
   },
@@ -18303,124 +18627,6 @@
    "label_confirmed": false,
    "matched": [],
    "published_utc": "2026-08-19T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "b267f7cad6e02ca0",
-   "title": "日本民间办展揭露二战日军毒气战罪行",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TRmZYMFpPQmtEYWxmZ2VlLWJBcVRTRXN4N2VrQW1XUEU2cy1ZWXVMN3Rsd2dkMUkwR2xvUjNXbHNSeGZZVE1ES1luaHhxa0R6?oc=5",
-   "source_name": "hb.dzwww.com",
-   "source_url": "https://hb.dzwww.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-16T12:39:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "c026fa00607ac31b",
-   "title": "蓝厅观察丨日遗化武销毁进程滞后 症结何在？",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DSUFRNUh4X3dCdGxCc2JIWDAxLWlFaUdNcEEtek5NSWxBMzR2OF9HeHQ1YmFzcUhmWGhQNEVCbDI0YzZKU3RneXREbDhkT1NXQms3UTd2UWtqYUZtZFRyR3pfajBoOG80UjE4?oc=5",
-   "source_name": "群众新闻网",
-   "source_url": "https://www.sxdaily.com.cn",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-12T01:36:17Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "8fb5732c9f6eeb38",
-   "title": "消息人士：禁化武组织访华考察日遗化武处理情况，对日方妄谈所谓“巨大付出”和“贡献”有了客观认识",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sZl9sR25PS1UxR281bmRtSU95dmNrb2pXcTZfenk5WHBLXy1OeHM5Q21mYUloVWw0dVcyeHlYSVUtTzZic0tNYmxNRXo2V2pXM0Y5SV84dWlWTElLd2h1eXFn?oc=5",
-   "source_name": "手机网易网",
-   "source_url": "https://www.163.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "禁化武组织"
-   ],
-   "published_utc": "2026-09-07T08:07:08Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "4f5a5ff0476870f9",
-   "title": "禁化武组织代表团来华考察日遗化武处理设施 中国外交部：支持督促日方切实履约尽责",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBycTRKZkJjTnUwVzBzbmZJbmpiR01fUEIwVlMxRGpfTUxWcFgzVWtRQVE5RWNITXpRbDk5eV82WWtzVGZVc0RPSE96SnRZVkVfVTZTcFU1MA?oc=5",
-   "source_name": "QQ News",
-   "source_url": "https://view.inews.qq.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "禁化武组织"
-   ],
-   "published_utc": "2026-09-08T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "2ac2133fb885b15b",
-   "title": "蜱虫IXODiES RiciNUS搜寻宿主行为的并发季节性与昼夜模式及环境调节因素研究",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53QlZ3Zkd4cFFnVnc4RjZHRVJoNFlqYjdDaTBQdUpIb3o3VUlZWWZRcHlwZjFwOHF3V3diek9JSnc2b3FudXgzc2xHMkljSGhWLWxmUE56WWxrbnRKUFgwOFp4YWpTWTJYc2JKdQ?oc=5",
-   "source_name": "生物通",
-   "source_url": "https://www.ebiotrade.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-19T18:42:50Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "17ceb4b15e4f9a42",
-   "title": "全球布局120多家生物实验室，有的开展高危研究，人民日报：美国应当回应国际社会关切",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wWTR1U0toeDRiSUdhdVdvR1pnbkZJeVM4N0JHSTV5Z1N3a0ZzeG9kWWdCMVdPT3VaOGh5c25BbnNJSEFmdWgyaElVS3lhSW5tSmRURXlZOVVtTUU?oc=5",
-   "source_name": "上观新闻",
-   "source_url": "https://www.jfdaily.com",
-   "lang": "zh",
-   "lang_name": "Chinese",
-   "lang_native": "中文",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-06-30T07:00:00Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-20T05:01:19Z"
   },
@@ -18716,48 +18922,6 @@
     "바이러스"
    ],
    "published_utc": "2026-09-19T17:27:48Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "8cad116c67c9e77d",
-   "title": "Breaking: Anil Sarin Appointed State Social Media Incharge of Punjab BJP",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EeE14Nlhtb3JZM1hPdWhKLUdhVkJBX3AyMFZhT2ZXenEyQzNpbWRYR1YtUmI4VjFjQjV6RFZiQzdERl9IYnd0Uzl6aUVhb0EySTd4bVhBS01zUjQ3dFE?oc=5",
-   "source_name": "Babushahi.com",
-   "source_url": "https://www.babushahi.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "sarin"
-   ],
-   "published_utc": "2026-09-19T17:15:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-20T05:01:19Z"
-  },
-  {
-   "id": "4073dffa0808f371",
-   "title": "Chlorine gas leakage causes chaos in Meerut Uttar Pradesh 15 people fall ill",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNGRMMUpEUXhxM2pIdl9Ielg0TktuR0RDOTc0ZTNQVmNwOWlWY0NBN3M0U2l4VERrNE44OTUzQk9IY2xnMWpFVG5WTkZTMEJPVUVBaS1zaHcxdkdrYkx0aFNOdk5tUHJrX09DRXZnUi1WbkFhcm4yMnpsUFdycThjcVBmYWlUczNUNkJjWVF4SG5aUnNDSGNicVlzcEpqWGJtcmlIV3FiaGhjRlk?oc=5",
-   "source_name": "sandesh.com",
-   "source_url": "https://sandesh.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "chlorine gas"
-   ],
-   "published_utc": "2026-09-15T18:15:11Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-20T05:01:19Z"
   },
@@ -20982,27 +21146,6 @@
    "first_seen_utc": "2026-09-18T11:26:54Z"
   },
   {
-   "id": "8f2cf0ea60ec3693",
-   "title": "Las islas Fiyi declaran el VIH como crisis nacional: «Esta decisión reconoce la gravedad de la epidemia»",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZFpHaWJfSTI0Ri1BRVFkU3NzY2JvRHdLNkw0TTVBX1YzMVVCaDlGOTV2d212LWJGZjRUeFZ5dWk2M01RUC1EWV9sNmtnbFBRWW4ybFFkbW4zSEdTMldDV2tBYjEwdF9rTk5TWWNBNE50a2M5aFFLYS1IeW5NT3dhZWRENXVvX2EyVUhaT0p1dGpXVE5VN0RySGRKX0pkUXEyb3F5cnRPX2FkT25TWjRUbU81SGlQRVBSOUVIYlhGVV96Yjd3eTB6VTlPbGxBQmxHNGJzU3lGY9IB3AFBVV95cUxOcE9OMkZ2amM2ZVVyTUZLNzhDOWhGVlJRUUpXQ0NXZGVLdE1UMHpCSVdVSUlENm0xSkYzSlBxTU5hT0h2bFJMZnJ0UUpoNUdxTndRME5aZ1JpQmJRcW5xV1VBajlYbEpkbDh2RHRwY19HNVVjSjcyT05RRS13T1lnMngyZFEwWFFwTzBSX0tJR0xjS3oybnoyYTdxS1ZRQTZqbHlFbW1wYU5sY3dkTF9qQ0hTRFUtQWY1Wl9jWkVtN0JkU0RHWXVFanpqamRFOUV4ajRySFVEVEVoaGJS?oc=5",
-   "source_name": "eldebate.com",
-   "source_url": "https://www.eldebate.com",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemia"
-   ],
-   "published_utc": "2026-09-17T10:12:30Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-18T11:26:54Z"
-  },
-  {
    "id": "203bc67d44ce84b1",
    "title": "\"الكيميائي\" يعقّد حرب السودان.. واشنطن تجدد اتهاماتها للجيش",
    "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxQemF1MldjY3BWMWYtRDVMY3Iwc3VfU2dhaEU4RkkxdFRpZXFuVXlxQlhTdGxRdnBtRkFLQWEyRHdVVjB2MlJrNmxtUmNORS15V3JsZm80NlRFTmE3TDAxX1A1TURWYXE0bjRCa1BEMWdvR3gxYTl6cG5VS3g1czloQXlJSmVGOVBpbU5ja3YyVXNQZHE0VjE5M0ZfUUItX2FMcjFicmd3U0xIcF9CdGNIdjk1blpvVUYySk10czVJcEpsRHlzbkhTa0hGdXYwSHFhYXpsSHJ1WGNSVDNTT05rMU5nYTU5V3MzSlJYaUxRU193cDJsYXRIYWJTNmYxOWVhWVVHMkREd1hacGg3NVBBQlZrRk16M1BwM19nY1NFYUNUZXM5LUd3eG9kNUlSbzYwUENoSURjN3VKUnpZdEJySVU4cHFOVDdSb3YtUHZSWDZaM3prMFloV251NlVkNklQNVZIVGZDUThDOXlGSy1Sa2NzT242N0xReU9NQ3htUkdtYUp3Ql9aUUFhdXR5OTRkQ3FZVWZHQnFLNFc4ZWZCYUR4aHp5ZWw3NTJzak1wMVRkc0FFZlJrMUc5NlNTR3k0VnFhREVacUZsT0V1R3RjcjlYNUtZdm9mUGhUdjIwMGXSAeYDQVVfeXFMTTBIaHBOWHhybmRzcHV1ZGtmUXJBNWNuSGFxc2tlQlo0Vl93RTBsMkZYOGtRQUE5Q1lVQlNQdEp5enk4dy0tOUJQdmxYRUNqejVmOG9paUpjd3JpZGdESXV3NkFLNFA0VUVKSlZseUo4SHA2d016VWNPLXI0VGVxQ3ZyQXNyQXFhSGVLbGgwdU9ob3pma1dkVm52M3RlU1JzQl9oWkoyRjNfc3djUEJzVF84MFM5X3Zfc3o3WDY5Z3E1YTdOd2gwVHhEZmZ5LWdhUXRPTW1jZUdOamlCUnV2REhBV0NMVFVPeE9NdlRJWVg2c3VELVp6ald5VFBGSzlrMmZLeXI1UGpuYW9GWUx2Tm95LWhMWGlFQmU4cEREMjV4VFljdkVWbFEweHlWMXg5SkV6cUhoSTI3TkU4VzgyOWpkOGhoejRhNmNDcHhwemZPbEhfbEdWbzRqR3IwcU9JWVJidk1UejdLenBWbG5VMG0tdk9PT3NCNUVqS0FWSEtUZ0VYNWRNZTRmbUw1bUdxLXItVXlMZ0hLaVNUaWNGX0tOVTdTc09Da3NrWDRTSTVpS3pHV3dMWVB1UzhnLWR4UEljc01VMEszWHhkRWZhNWdBUjhjTjdPR1RVQm5CRDZiSUtQZEtR?oc=5",
@@ -22998,46 +23141,6 @@
    "first_seen_utc": "2026-09-16T17:07:33Z"
   },
   {
-   "id": "9710d72ad47ca7f2",
-   "title": "В Саратовской области от сибирской язвы вакцинировали 242 тысячи коров",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLXlfLS05WjgyMVFBWmZtR3BnQ25lS0d6cXYtQXBKTXJFeHN0ZXNPbUtxZGthMGhHMzBzYXFwRTZuaXBEaGNPbFh6dWxmV0xQOFNZTVE4MHZFTFZhNWNGR0RXR25wY0lGNGc1dmhRZ2owanpVMnlxMWRhS2VUTzV0MUhiYlpqNGdnc28xZE9uZ2F6N2JELWRlMnVzczZWMzBjazM3YS1WRC0zZ2_SAVBBVV95cUxPamJuMGhWdEkzc1hmX3c5Q3MzUmg3NWVlZ2VqR2I2WWNRWTZDSkhoZm5kWWhMc1lOb2VKSVlTUnR2S0RTN3UzNG9zT2hfdjZkdA?oc=5",
-   "source_name": "sarnovosti.ru",
-   "source_url": "https://www1.sarnovosti.ru",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-08-02T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T17:07:33Z"
-  },
-  {
-   "id": "614d849945cd2c69",
-   "title": "Новая пандемия и массовые увольнения: Билл Гейтс предупредил о страшных последствиях использования ИИ",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaWFrcjFMTURhakVpOV9VOFp0bnFLVUFRVE4xRTdYTVctUWNCM090WGlZNDV6QWU3NjhGZEptV1lRZGpYLW9UV2lsbU9Xb2NWSEF5ZW9jYXlLQkV0cTUzeFBrWHBwdHRuczRoU0ZhRXJpNVIzZU95bklQbXMybFppLUlWVkdMOHdFNC1aQUYtZUlYVmpOWXJybWhKWHdFSGxEWnY2UmhBSTVQRThiMWxpVjRBT2o2ZjlpTlBnYVZWalAzckFPeUNHVjdJSmYyWHVGT3VlN21LVFZTS2tJ0gHiAUFVX3lxTE91bkNfd3lodHpsUThnLUVVVVFsaGQ0TTQ3Rk9ramx1bWJLaERMQWtGQXAxREZ3ZkdtRjBKSkJvcDlWVjZSNHlXdzlqY3lJSFpZeEpNUzVteHJMNFZQQWpHRmxZZ0NOMUdOaU5sdlllaFh0Q0tjVm5UUUxvZzhzQzJlVk5HM3UtTDlZYmJFT3JDSDV6azNKdlVkT2k3VmlfcEc1OWpYMndudU1VSkRpX3BYZlYtckJIU3JNSWYyNnluUkhCTzlxQ2pTVmVnMHFNcUNWU0sxeTREX0V4cDZNRkFBZlE?oc=5",
-   "source_name": "tsn.ua",
-   "source_url": "https://tsn.ua",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "пандемия"
-   ],
-   "published_utc": "2026-08-26T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T17:07:33Z"
-  },
-  {
    "id": "7dc5f664a7ee7168",
    "title": "Malaria-Fälle in Frankfurter Stadtgebiet: Die wichtigsten Fragen und Antworten",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY1FMdWdyYkU5dkVKaEhEVjVDWDdqR3RtTk4tMkhzQ0Q5WVVSX1RmUUZjeklJZ2VaOWk4ZXJqWmJHYlB0a1ppYmNYaV9wSmxCUTB6Vk1Ea091d1BDSzNrcnJfeVJOeFRGd0x2UTh0X2t2LTFsRHNQOVFocVdsTHVXek9lWjNXMEE5QlcyTVFwTmMybmo3a1phV1U4V2JwTFpWM3VHdV9uNWdZMjBOdF9qY3liblAwOGJLUjNyRA?oc=5",
@@ -23264,86 +23367,6 @@
     "الإرهاب البيولوجي"
    ],
    "published_utc": "2025-12-01T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T11:47:08Z"
-  },
-  {
-   "id": "6898a3001ab176b7",
-   "title": "Пушкинская больница в лицах: Зиёева Зарина Аслидиновна",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hWGFRT0Nyd1dmakdvQ1kySThXcE9meDhwSDRiSUdSVENnamVsQmx2YjYwNzlvN2NrdllEOW9vZldHUnZVWHk3ZlpaTWxnVUhPY3Rubm1WTG9MWmpYY2xoR1g4WnlNUmJHOWlEN0kzUnQ?oc=5",
-   "source_name": "pushkino.tv",
-   "source_url": "https://pushkino.tv",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "зарин"
-   ],
-   "published_utc": "2026-09-13T10:04:19Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T11:47:08Z"
-  },
-  {
-   "id": "2e898cf27800728e",
-   "title": "Anthropic засекла неназванных ученых за использованием ИИ Claude для создания биологического оружия",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRE9yVHJGWHdBV1ZvTHgzSms1c1gtMUlfc0E1eHYyYjJCclktd0xDOTRCTVFKN05sSVZYdFpNZ3BfQl9QZ29qeGpWQUhfTlpydElYYkI4WExtZW4wMzVLSDg4VFVWQlJUNlNfNTZOMHFIM0ZWOWFvWjE2bnhrZEFMNTBFYWtxNWVHN01rWHpnOFp5Z1k2Y0FTSnNGTDF1MTAyTXJPYzNOMljSAa4BQVVfeXFMUHBjeFhsWlJUclZYVzhwNk0ta041LUZ4VVZlWldZeENlbnZQTDZIV3oydlpaZ2dRX0xJMUJMUDRld0FoT3gxWEV5U1hqUFp6MjlHdkFleWczblFzQUt4aFN1U0pWV1FxUEJob2o1ZERYbF92eDlqOHlSLWFjQkQtb3J5MDJCUVNacDgtUm1faF9Fc0IzbUk2a0JBcGpubmtUOEJsZFU4N0N6N05pTnJn?oc=5",
-   "source_name": "Техкульт",
-   "source_url": "https://www.techcult.ru",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-16T05:58:14Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T11:47:08Z"
-  },
-  {
-   "id": "4cc52236b2545934",
-   "title": "Мозг животных под ударом опасного патогена: привычные схемы лечения внезапно обернулись провалом",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLU9HVkU0OU1MbU5QXzl2ZmtYeGJ1bHNfdE81X3l6SkhQbXlROWxPME9NcEhBY0pJaFBrelo4ZWRDRmUtR3ZWNzZoamZpeWp0ay1Ka2FTblk1MGtzLVV3R0o2d1BfWkNrVXFlUFFjSy1KSGt0QnNscjI2dHlyVjRzX1JLZW8zMnVYSGFJ?oc=5",
-   "source_name": "Правда.Ру",
-   "source_url": "https://www.pravda.ru",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "патоген"
-   ],
-   "published_utc": "2026-09-16T10:17:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-09-16T11:47:08Z"
-  },
-  {
-   "id": "699bad890207b437",
-   "title": "Антропогенные факторы блокируют попытки использования ИИ в исследованиях биологического оружия.",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlk0ZHc4RTJVeGZyTjhTbXQzVFp6ajdnQXp3VGNRQVMwTnU1dy1TTW1leDVwTTU4X0VITmc1ZUZRWG9ZNW05eHotSjhQR1N6Z3dkOEZGUjNTUFUtc0duSzBsZXNkYUtHaWNBTGtLUEFVdi1oZkxiaWpUaW5FR3ktOVBfX1QtUHZ3XzZJOWZXb1BuODJwTFl6bTcxMVNLUQ?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "ru",
-   "lang_name": "Russian",
-   "lang_native": "Русский",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-09-11T14:00:51Z",
    "via": "gnews",
    "first_seen_utc": "2026-09-16T11:47:08Z"
   },
