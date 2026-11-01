@@ -1,26 +1,546 @@
 {
- "generated_utc": "2026-11-01T17:58:57Z",
+ "generated_utc": "2026-11-01T22:10:41Z",
  "window_days": 10,
  "total": 1200,
  "per_language_quota": 109,
  "by_language": {
-  "en": 257,
-  "fr": 136,
-  "es": 113,
-  "ar": 90,
+  "en": 260,
+  "fr": 135,
+  "ar": 92,
+  "nl": 31,
+  "ja": 99,
+  "ko": 144,
+  "es": 109,
   "ru": 109,
   "zh": 109,
   "de": 86,
-  "he": 26,
-  "ja": 95,
-  "ko": 152,
-  "nl": 27
+  "he": 26
  },
  "by_domain": {
-  "chemical": 280,
-  "biological": 922
+  "biological": 924,
+  "chemical": 278
  },
  "items": [
+  {
+   "id": "a930f8e43b7f7b88",
+   "title": "Scott Ian Says Anthrax Rushed Their Classic Album: 'The Arrangements Are Not Right in My Head'",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcUhOSUlGQ3NkZVZpRlBRM0Y4dHB4TW43aG04aHU0ZERrVFpfcHJ3cVh6WklJcjU4WEh3NUhGR1pqVjQweUZiZWIzY2I0TGJxNU8wUloyYk9jNFhDRnp1NWotdmY0bE1BU3NCM3VhR01mR2o1cWFtT3dHaERUejB1Y3l5THBhTzVPM2k3VTlIU0FiZzZJd2JtenkxUXVzNjlnZUZBV2tmLWowVlF2OWpTSnJpVUdRdm1HZktKR29lYWdIcjZ0QnpxWnFpaDJ6cUt3WnNGUGc5S3VKcXctR1c1eQ?oc=5",
+   "source_name": "Ultimate Guitar",
+   "source_url": "https://www.ultimate-guitar.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-11-01T21:50:16Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "4a23a1afebf8b894",
+   "title": "Sudbury faith: Loneliness is the new epidemic. What to do about it",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTnpVUnNzQnZoRElScE5uV2t0cEMtZUlNckdNbnhiS0lvd3RwVlJMQ1lILXdDZGV0YTdOOGQxQTZpOFRpcmtSVDktRXotX1NOcjhULXl3a1Q4ZEVUZEtESXVBOTVpNERzVjVndUdzWlNldlZqVjRENjJkTUFOa3AyV281MHNPdnRFM1dmMklQU0FiZ3hEMFY2el9OQW5HNUJFSmctSTVDcw?oc=5",
+   "source_name": "Sudbury Star",
+   "source_url": "https://www.thesudburystar.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-11-01T17:48:04Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "542a0f44a5e0165e",
+   "title": "The Center for Countering Disinformation refuted reports of a threat of an infectious disease epidemic in Kyiv",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcE9VanI3bW5HRV9oWFVrYnFOSkxZT2JFVGNoRkRVTllSMlBQaV8zeGlMeXk5eDRDRDhMVVU5eUQ3Q0oydVh0Zk1EM3U4TnljQUVfb3RLWXpQV0xBOFpkUmRLcWY2enN3U1VKUlFsN1FwMzlaNF9JRFFkNjFVZ0xRbUFWbnhFdVNPbF9EclBuYnB6Q2M2a2FMTVJXemFWbWpPa3dtd3FUT0xVblZ4Q3J6V3VOamFfdmJfaHppZ0tMQzRtNjM2YVFuUm9ldjdod9IBzAFBVV95cUxPd2JwM1h6YnBmWGotOGNVTzJ1eGJuMWxkVTBzYkhlQjBXX1JLV3lyZHVGbTJPYms0VmoyNFJhRWgzeExMT3F5U1hTYzdLYnVmc2dKVC1sM3RvVzcwTG5ZRFJEYkVseFd5amwwZElXZUhIQzhDRTFJdHFXN3JXN3hFTENQclBVS25rUkFNLTUyQlZJRXgxNm5CQ3dhaTMxSGlYRjF1SVQ3bEdIcEVQa3gtQy1hX3NyY1B3Z3RYQm83M2IwaTNiY2RoWEFqazE?oc=5",
+   "source_name": "Українські Національні Новини (УНН)",
+   "source_url": "https://unn.ua",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-11-01T20:22:48Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "75ff3af5d78cfb8d",
+   "title": "AgForce Urges Stronger Biosecurity Preparedness",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeFFMelBXa01KclVqLTdvYWZDY3F1dHR4SnhNZm44em43VVJnZVRuYURsQ3gzWVE3OW5iWmZTalFqbEtKWVlOckJ2Yy04SWY0SVBVa2J2aHRIbFFrd1U5eWxRNF84Z0t4RHNHWWJDQlBoc2RtOE9zY1FHN2ljQkw5cUdBaGxmbGk0UEU0?oc=5",
+   "source_name": "Mirage News",
+   "source_url": "https://www.miragenews.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-11-01T22:02:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "78106aeebf2a7bc8",
+   "title": "Medical professionals have commented on rumors of the threat of epidemics in Kyiv",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUnB2ZUJxcGRCZlVpemh2NF9FQ2dleTZYTVhzVTlWU2YybUNtdW1jam44d29mRnItQ1BwY1lFWkRTSS0xUHpDa3IxRk1aTDYwWk82ZFpFNHdWbzVYalBtYWxlLXY0cHdKMmp5YS11TnpJSmRJN0RhNlpmUXJrUHhJV2NMeGdMMkY1eW1SQ0VB?oc=5",
+   "source_name": "UA.NEWS",
+   "source_url": "https://ua.news",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-11-01T20:06:15Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "bcc0cdc1474405cf",
+   "title": "IGP leaves for France to attend INTERPOL Biosecurity Conference",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYUZRQ1JQckRHNm1jUVA0aHNjQURDTjdoTjA5WlN4LU9CTzctX3JyRndUbi1XTzgxY0lmSWFnQjBfTUZ0Z0FaREFtWms1UFBfdVB1RmJmdGpPbmFXLUxVNmhvTWtGS0F2YVc3X3NMbHhTbHk5T3VYbHNEbVJYcjFoejYzWG5vYkItaWVHZVROTWRIZUJpWUt2V2tYMHBIODFxYWlV?oc=5",
+   "source_name": "dailyasianage.com",
+   "source_url": "https://dailyasianage.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-11-01T17:57:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "caafb331933b7235",
+   "title": "Bioterrorism and Tourism: Why Health Security Matters",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NemVkTkwtdVhyYVpSQjZDSUE0ZldQOEU4MDNMTWlSQm4zLWREaGFEaFZzbHFIN1drUUtlWTNmNThsZlFYSm1SRkdoWC1ucUVEQnpiSTdZYkh0eHBqYWo5eEptWjJpRWJCckFwdXBlSDdGNU5yeGEwbVd1R1ZEUQ?oc=5",
+   "source_name": "eTurboNews",
+   "source_url": "https://eturbonews.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "bioterrorism"
+   ],
+   "published_utc": "2026-11-01T19:36:35Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "af0dffd1962b5d17",
+   "title": "Borrowing, Biosecurity And A Busy Villa Briefing",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rODhzNGd2NlRMdXBSanFlZTdLLWF6OHJlc0NVZTkzU0VtVEFfQy1qTGwtTndNYXRNNG5oT3pjTThiemZUNGlMZW1HZXlvQkw0MDc4aEFnekFiUDRyTzF5dmdwdWxNRHFrYzlSWkNYX1pITkMwUW15emVR?oc=5",
+   "source_name": "LEADERSHIP Newspapers",
+   "source_url": "https://leadership.ng",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-11-01T15:07:16Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "671071292b1a9f87",
+   "title": "Drug labs in our backyards: Inside Mzansi's silent epidemic",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlhPSTRyZjVnRmFTZFFzcGpmbDY3d09XY3lqSmlwQk95VkhRN2RER2hkZ2ZHalNNOXQ3MEdlSWt1d2puSWpjZk1fOUxqa2FEOTB2ckVrMDRDZmhoSDhYX1dKVTA4UUVUT1phNkhoenJ1ckVpZzRSckEwRzdVODFsWlZYaUJ5NGlNUlBoZFc3dE5ra1U4?oc=5",
+   "source_name": "Daily Sun",
+   "source_url": "https://snl24.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-11-01T05:00:12Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "2f3629e2442506b8",
+   "title": "Dengue epidemic worsens in Bangladesh: 418 people have died",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaWhjMmVrOUhpMk5CSnFCODJQMEthVEFhSHZoanVla0lRSi16N05XTjNHeHZ4c3dSMk5rRFAyeUV0QnREWlhDakJaZS1fdVRhTWo2SVlYUEpqNVBrUUc4WHl3QTZ4QTh2aHVfRUhwRGdvX005V2czYndnYlpWQUxBOS1VckRwT2hIdld1VjJXSUQyOW8?oc=5",
+   "source_name": "Zamon.uz",
+   "source_url": "https://zamon.uz",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-10-31T16:57:29Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "837f1b35a122373a",
+   "title": "Good biosecurity protects livestock",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42dEd6NzI2YUtXa3JhYnpDOFI0NjhZZU5yRndLUWJjZXVhbFdlWGpWdHZfQ1BKNmxxNHlYaGtOeTlEeUwzaGl6T1BhOXJGWERIUVRnYzg4RUhRRVJodE5wdTJyVGlGeEprQ2RwSW5jQ0lQT2ZC?oc=5",
+   "source_name": "The Warragul & Drouin Gazette",
+   "source_url": "https://www.thegazette.com.au",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-10-31T22:03:10Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "fb01577729de2f7f",
+   "title": "‘Extreme risk’: Qld farmers’ fury over foreign fruit imports",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNSmp6RThZdzBkWkhWeDdaZkJDd1pVQzh0enhscm1pTHd5aVJ4WE1VLUVDTm95QVBWRjZSNXNrazlFNVBmODNOc3E3a0lFLUR2RE0yNzM4M255aGF2WWJXVjdZTWVVRGNQaHpNMWFGZ3AyUXRyWjR3SGVjWVNYb3ZUT2NtZlNJOG9NYlNmMDB2TEN3eFBNam9TNDUydkw0dkNqVE9tbm50VEs3LTdYTzl2d1ZFMFM0RFNhSDJHSmpmcVlNSl9RYlZabTc2QUtZdEpyekNGZllrbjFXV2VvQ3ZQa3JHOGY4WXEteDMxT0RGWE9PQ2lkYlRBeHJ2QWM0Z0pkRUYwaFBrTUI3bEVqV1M0NDBESEQwQ3RZSVB5REpBV0IwZU5P?oc=5",
+   "source_name": "The Courier Mail",
+   "source_url": "https://www.couriermail.com.au",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-10-29T18:01:20Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "6cff6d34cab442d6",
+   "title": "Hanoi women put their love for pottery into unique flower vases",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbzJVRUN3UzNQMmpSRi1acG1Hc21OTmxxQWRCMng4UkY3c0VzU3VjeHRBYmlhU09YdldxUS1WRVlUdVpZSE5UM25oUjVRb01na0NodlBtRHVKNmtLU1BvZGtyclR2RWN1TVczdW5PU0g2MWozaTFsWG40TFBWNGUweGdPOXJnMGJVb1JVLWdQOHcwS3BXUWMzTXJZdmppUGh4MVlUVGZ2eklrZFd3TDJSbTQ0OWx6TzNG?oc=5",
+   "source_name": "Laodong.vn",
+   "source_url": "https://news.laodong.vn",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-10-30T04:13:23Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "6445d823c0243c10",
+   "title": "RDC : Ebola franchit la barre des 5 000 morts, deuxième épidémie la plus meurtrière de l’histoire",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRU9kcHFwTmQ2NHJELWNVek94X0g2ZllUUXE3eUhDcHVCLUlQaWpaTFp5ZFYxR044MjNWT0hEX1JWd3NtTWFrWjM1SHByVkxFZ2t4dmtWTHVxVHd0a1FXTURHdVNTRXpCY2ZBdUNKekk5TnFJM2tIX3hZZWNsNFBsclZKWG03b01OX2JEMHlIZ2VrTk13dEV0U2lNODBaU3hIWWtTa0lzZm9NUWlaYkhwc0dqaW1SeDdyUmgybA?oc=5",
+   "source_name": "Points Chauds Online",
+   "source_url": "https://pointschauds.info",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "épidémie"
+   ],
+   "published_utc": "2026-11-01T20:42:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "669acfe4fb35d40d",
+   "title": "رحلة السلاح المحرم.. كيف بدأت قصة الكيماوي في سوريا؟",
+   "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQanBCUjRoVUxyUkoxN0dLbmh1UXlSRHNzNEN0SENKMm9odDhWYWRyMUZhcTVad2Uwb0JZVlctTWM2VTB6VzdVZlNPVlREUXhtbmRkelVpMS1ndmV5SkdEXzBNUC01d2VTOElhTzFDR3YzTEFsdnQ1SUJqZllDZEpZbzdzTWJOSzB5R1NURUdwZnhCYnFrRmpDUEpXY0xQNlJ0a3RRT0FtcFpKVHlWUkVHUUF3Um1CQUp4M2N2VWhRNEJjb0tzb2w5TTJFS0ZONGlybFZBUGMwbVhzSWlmbTIyWDJGUGhzSnllbXJ3Q1A1MURRUGdrXzJ0dnBSdld0eFNJRXFBWDkyYk1YSFduWnNmakgyWVhieUd1dUJraUFyLU1qSmRDT09tN3AwM2o3TmxTWDNqRW5RNGtLVS1ELUdXZFVZWk1OV2pmblExVjlHZE1JVGc?oc=5",
+   "source_name": "الجزيرة نت",
+   "source_url": "https://www.aljazeera.net",
+   "lang": "ar",
+   "lang_name": "Arabic",
+   "lang_native": "العربية",
+   "dir": "rtl",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-06-03T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "36553025b3c0db9b",
+   "title": "تفشي وباء الإيبولا في الكونغو، ووفاة ما يقرب من 4900 شخص.",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWxzVUtybGY1NXZLM2FHaEZYQlE3UVlBVUlzWDNXWUNFRXdSdTRwM1l4dGFhYnYyUDVWSEIwbjQxenFxdE5qWTE0SS1tLVNYa29QcXQydkhxOV9OcEFWbzVTVExDUVpZRGVYZXh5WFVhX216MlItS1FhbE56U0Z1WG90NTRndw?oc=5",
+   "source_name": "Vietnam.vn",
+   "source_url": "https://www.vietnam.vn",
+   "lang": "ar",
+   "lang_name": "Arabic",
+   "lang_native": "العربية",
+   "dir": "rtl",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "تفشي",
+    "وباء"
+   ],
+   "published_utc": "2026-10-28T03:44:27Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "fb633dfc8a8ce2d1",
+   "title": "Mosterdgas 'heel moeilijk' zelf te maken",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Rc2phOVo1aUtOUUVQVFU3Y2E5T052NDNVY0h0S2pVa1prUlFDNjJLdmRfYWF3UHdteXNGR0ZyRUV6bmctYXU3X3lZakZCOEd5MlNIYnRTUWpQVzg3b3NWMExiMWp1RWZFem1NY3JJdHUzQmtPeHU3N0dHTnN2dw?oc=5",
+   "source_name": "AD.nl",
+   "source_url": "https://www.ad.nl",
+   "lang": "nl",
+   "lang_name": "Dutch",
+   "lang_native": "Nederlands",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "mosterdgas"
+   ],
+   "published_utc": "2018-07-09T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "66b3f28a82b69b05",
+   "title": "Wie was het doelwit van de chemische aanval op Idlib?",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY3E4Y1VmRGFRWWVMNV9IWi1IZWRORHRxZkZ4VWY1MXJaTFFfZnA4cEpCUUstS2dzcnZCdGRBVjRqSVpZRkFNQ21RcTdDSnVrbzdFb2lmQWFYTi1wRHlkLWlKMDlSTDJmSk1HV2RXNWstblNiemJxU3RnbzNiVUNhckVzTEUydDFCN1d3UWM1TE9lSmNIbGgtZVY2czZELUZWNE9JZDN4ZEs?oc=5",
+   "source_name": "EWmagazine.nl",
+   "source_url": "https://www.ewmagazine.nl",
+   "lang": "nl",
+   "lang_name": "Dutch",
+   "lang_native": "Nederlands",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "chemische aanval"
+   ],
+   "published_utc": "2017-04-05T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "9fe5683db5bd0b73",
+   "title": "Rusland: in Syrië gebruikt sarin was 'homemade'",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd1VZYl9pZnAzMDRmcldoWjNiWGdCM05vT1VqTm9ZclNkeVkybkhpZV9MdG9sYnJMLWQ1VkF3UmhfVmI3QXc5VGFzUlZNS3dxM0tlNVJwZnlrYWZaRDR2SVd3ZVlXRUJpcHczQjV5SjBnaHcyRE5UcEItSXJpb0pENWNQbGtpR18yVi1v?oc=5",
+   "source_name": "AD.nl",
+   "source_url": "https://www.ad.nl",
+   "lang": "nl",
+   "lang_name": "Dutch",
+   "lang_native": "Nederlands",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "sarin"
+   ],
+   "published_utc": "2018-08-27T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "d21fd22fc41c4ad9",
+   "title": "OPCW Signs Contract to Begin Construction of New Centre for Chemistry and Technology",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGpEVW95T0ZPa242X05aZFQ4R3JIeDk1bWh6a1RVb0xqWmREeW1NajFpV2Z1dzhEZXpwVkF1UEdvbHQ1cFA0OHpnTC13S2NRZ05Ba0lDNjZNeUh5SHlLTFA3bkY4dkZBQXRvZUVWWWprd2Z5NTlYd1ptNF9uQ1NZVDNlVHByUFluenJiQ1BtZXhTRXBXZWtHUnRzZE5ydDNuUkNYOF90aDM0SG1Sc204?oc=5",
+   "source_name": "Organisation for the Prohibition of Chemical Weapons",
+   "source_url": "https://www.opcw.org",
+   "lang": "nl",
+   "lang_name": "Dutch",
+   "lang_native": "Nederlands",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "OPCW"
+   ],
+   "published_utc": "2021-04-15T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "047c266ded8a62c4",
+   "title": "「生物兵器」発言で賠償命令… 原口一博議員の絶叫に1万人が大歓声、日比谷公園を占拠した「反ワクチン集会」の異様な熱狂",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XdzhIOU1meDMzWGZxWHNpTWpHVEZnSW4td3NCVVVKMHFtbkVhRms5b05RSUl4SG1WQ2IzSlJ1OHRrYVVmQTRQVm9jX0JiSl9saHdvVENuMWlkNkJyVHZtcERzMzA1YjY2WGFfVWhyUGJlX2ZWMlVVVGhnYktQZ2s?oc=5",
+   "source_name": "Yahoo!ニュース",
+   "source_url": "https://news.yahoo.co.jp",
+   "lang": "ja",
+   "lang_name": "Japanese",
+   "lang_native": "日本語",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物兵器"
+   ],
+   "published_utc": "2026-11-01T21:19:30Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "1838d84218154175",
+   "title": "ＡＩで生物兵器開発も",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96Y1BBa2k2QWcwSHZpWmNqVFhKOHJac1dTTG9ETHdydjlJNkhMaFlvdXZNLXFBYWt4R1pjdlYwdXVSdDJuVjNJeFZWdGlTWG5GaFVMLQ?oc=5",
+   "source_name": "江戸川経済新聞",
+   "source_url": "https://edogawa.keizai.biz",
+   "lang": "ja",
+   "lang_name": "Japanese",
+   "lang_native": "日本語",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物兵器"
+   ],
+   "published_utc": "2026-10-14T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "764464214b6008d0",
+   "title": "「生物兵器」発言で賠償命令… 原口一博議員の絶叫に1万人が大歓声、日比谷公園を占拠した「反ワクチン集会」の異様な熱狂",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlSnBfOHYxRG9FLVQwenAyQkdJV3BQa01vUkJxbmxCQjhjM0k0aVM1RWFnZ2lUb29ndTQ1VDZmVUZiaERieUpEMkdsWQ?oc=5",
+   "source_name": "文春オンライン",
+   "source_url": "https://bunshun.jp",
+   "lang": "ja",
+   "lang_name": "Japanese",
+   "lang_native": "日本語",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物兵器"
+   ],
+   "published_utc": "2026-11-01T21:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "002025a220a76d69",
+   "title": "ＡＩで生物兵器開発も",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBZDBiX1RtNTRSUG5FR1NSbk5oYmVMQUFZX2cwOGpkS1V0SERSTENiSTFuVmZzQzdZeDF3X3BzYVYyWDNKS05jWW82VWZVQ1lPdUZxWTBBVQ?oc=5",
+   "source_name": "品川経済新聞",
+   "source_url": "https://shinagawa.keizai.biz",
+   "lang": "ja",
+   "lang_name": "Japanese",
+   "lang_native": "日本語",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "生物兵器"
+   ],
+   "published_utc": "2026-10-14T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
+  {
+   "id": "24f2523c4d32a78f",
+   "title": "제주시 서부보건소, 생물테러 대비·대응 소규모 모의훈련 실시",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jU2t5M1FFdjFFRjJRTHJadjJnT1lCUXNWekpmR0E1UDRyNHNoUllnaDRmdmlVUFU4V0V6Ui1GTFl5RlZlWjR0T3J1Z2NaWGhyQ0xQa3B3S1hzRVpXZ1ktV3Q2aGNwV0E3Qzh5TmwxSQ?oc=5",
+   "source_name": "채널제주",
+   "source_url": "https://www.channeljeju.com",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "생물테러"
+   ],
+   "published_utc": "2026-11-01T21:02:30Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-11-01T22:10:41Z"
+  },
   {
    "id": "bf5f01b80186fdf9",
    "title": "FIDE Rating list November 2026: Nihal Sarin Enters World Top 20",
@@ -7609,27 +8129,6 @@
    "first_seen_utc": "2026-10-29T13:18:16Z"
   },
   {
-   "id": "4e50880a9ebd42c0",
-   "title": "Tinubu prepares 2027 budget, FEC approves roads, airport biosecurity",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPakRoUDVpakFRcTdmMDZFWFUtME9GTGF4QVdLenlQaXJ0YXlnOGlTTXpNTDExVFJBU2JRZzRERUJtZWM1c0E3TjRUTktHNy10OGJaZEZpSy1hWDVWWnl2LTVPSDBpbzBEd2s1UWxKaG8zbU5DR0Z3bVR1UzhFQWIxLU42cThCaGVVd25BOVc5d3Q?oc=5",
-   "source_name": "Punch Newspapers",
-   "source_url": "https://punchng.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biosecurity"
-   ],
-   "published_utc": "2026-10-28T23:08:37Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-29T13:18:16Z"
-  },
-  {
    "id": "948147218052f0a0",
    "title": "Gaz lacrymogène : Une arme chimique qui nous empoisonne",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeTNweVU3RmtVTkNSTWM4ckJneTJZNzJQMkhwZVpRd3l5bVd5MFJweE1La3FVcHV0OTRrcDcxaDNCX1haSmNibVh1Njk3QmZoMTFrbFRjQVd5X2dKTXJVWWtPQXhXMzZMbnMtekNLQ2lkTUZnM2lVLUVQcEtWQ1ptRDhVT3p5QjUxLV9jOHlZdw?oc=5",
@@ -8789,95 +9288,11 @@
    "first_seen_utc": "2026-10-29T13:18:16Z"
   },
   {
-   "id": "1e27d52ba2637142",
-   "title": "America waged war on drunk driving. Now, a new epidemic is taking hold",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjlKODA2NU9EeGdOc3FjZGNabkdoOEQwTVEyVjBBV2xKN2xxdmptcWNVaWZ4TGw2WXdtVTlvOGsxTzhWOUdGSzhfNGpaeV9kcDE1TWRPRUE4bERhM3F0UTdPQkJfNGlVS0M1RUlUelBJNlJUUWtPYU82bkM3VTItM2JieWw2eGM?oc=5",
-   "source_name": "Yahoo",
-   "source_url": "https://www.yahoo.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-29T00:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-29T05:59:11Z"
-  },
-  {
-   "id": "3dfc85529011b4fd",
-   "title": "Steve Kerr coins new NSFW nickname for NBA amid early season flopping epidemic",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemotVTBiV2Iwdkl5MHJtYnJuVmtocVNFOThSZlZxSWFLNGxYdkstOF9idXA3YmI3VEEyRmFDMXBac1RsNEtjSFNhdmdTUzdaYU1vbXRrOWphb3ZjTVhOMjZlOWs5cG0yUndRSllPY1BkTWxELWlQVjJBYlNEWnlZRWNJTFpmczJBUFlWcjlHQ0FWcGhIVnpRR1BnVUtXREpqWUpDYl9MREpjUdIBsgFBVV95cUxOZm5neUFwRHZ0QkxxNmxTbVVtdlZHZnV2M0VSYjlMZURUd25vM2NFeVNSVHFNLWZJcUF5elk4QWMxZVUyZE1SWlZPdExHTndUNk5CNG1rY3lFN1EweGtXTnhVcEVIY0VpVThaQTB6alY3VW1TLWNXdVdPX3lOck5JRXBrQTJmOWhxekdQb3FuUEp3RTNiLXZDcGwtME5NR2NqM1l6aVZTMTQ4RTRjTHR4cUVn?oc=5",
-   "source_name": "NBC Sports Bay Area & California",
-   "source_url": "https://www.nbcsportsbayarea.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-29T00:45:44Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-29T05:59:11Z"
-  },
-  {
-   "id": "69bed5bc5750be2d",
-   "title": "Hybrid SEIR-N-BEATS model forecasts epidemics across regions despite distribution shifts",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMzNPbzBRZzZ2a2Jod2swY1pfZDlDcjZFNjFuTnd1S3ctc3FRZDk0ZW5GOGdhNzlaS2tNY2h0RV84R3RuY1NDcUowS3pCVUpyUVBYakNkWmFtUnpPUnNOeXkxWGp1Qm9GaGlZVnlzOGFlbVkxcUE5THJzS3VCam5XcnZ5TS1maE44RmZSNUVWOHZWeEZxOEhNZXhmQnhGa3pVM1RhR1ByYnpQMkwxQ21fU3otVQ?oc=5",
-   "source_name": "Bioengineer.org",
-   "source_url": "https://bioengineer.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-28T23:57:30Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-29T05:59:11Z"
-  },
-  {
-   "id": "75ef5cb359733de5",
-   "title": "Nigerian Health System Modelled as a Damped Structure Under Epidemic Load",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFU4cUVtc3RVRl9obi02SnBKYmtwMnhPWHdMNS1mcDNsckVtVUJ5R0NEbXgyNFNoZWNXenBDMGo5WmJyNURjQzg4YW96bVh6MlhfWEZGOVdzeVR3Q3BXYm8wd09BNWF1eG1kc2NBd1RSLVR1cmp3ZDRMZEN4T0NzUlRQMEhBQWJ2Ti1ZZnljYm5XNlhFUW5yYjNNNDd2UDg?oc=5",
-   "source_name": "Bioengineer.org",
-   "source_url": "https://bioengineer.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-28T22:47:30Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-29T05:59:11Z"
-  },
-  {
-   "id": "3a01b8897d4f6b49",
-   "title": "Agriculture Victoria | Victoria awards $13.78M in biosecurity grants to protect livestock sectors",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjQwb0pLZkhUZmxhQzBqYmJKZlpJZ2Nad0hWU3NLNHhQVzRUX2hQRHhmNHZid0gwZU5tNy10SnNuVDQyVHljX0oyRzh3ajEzVGpLS0s3c0JBRHFvSVRxSjFlbkI2N0VPWnJYbV9DRGZMbF9KNVVMOTFnZDJpSzZsQ09ZNzI3Z1Jubi1XZnc2cmlTdGVjcUQ1SmNxbnZBNW1yQ1E?oc=5",
-   "source_name": "https://en.edairynews.com/",
-   "source_url": "https://en.edairynews.com",
+   "id": "4e50880a9ebd42c0",
+   "title": "Tinubu prepares 2027 budget, FEC approves roads, airport biosecurity",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPakRoUDVpakFRcTdmMDZFWFUtME9GTGF4QVdLenlQaXJ0YXlnOGlTTXpNTDExVFJBU2JRZzRERUJtZWM1c0E3TjRUTktHNy10OGJaZEZpSy1hWDVWWnl2LTVPSDBpbzBEd2s1UWxKaG8zbU5DR0Z3bVR1UzhFQWIxLU42cThCaGVVd25BOVc5d3Q?oc=5",
+   "source_name": "Punch Newspapers",
+   "source_url": "https://punchng.com",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -8889,9 +9304,9 @@
    "matched": [
     "biosecurity"
    ],
-   "published_utc": "2026-10-28T20:45:51Z",
+   "published_utc": "2026-10-28T23:08:37Z",
    "via": "gnews",
-   "first_seen_utc": "2026-10-29T05:59:11Z"
+   "first_seen_utc": "2026-10-29T13:18:16Z"
   },
   {
    "id": "8fdd2c11b7a995f2",
@@ -9809,52 +10224,11 @@
    "first_seen_utc": "2026-10-29T05:59:11Z"
   },
   {
-   "id": "53bd0c622e7da5c6",
-   "title": "Germans introduce poison gas | April 22, 1915",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSmI3VGJvR3M0a0tLLWpQTnBOUTRPZExqTlpqYi1oZnN1dVpkbjR0S2I0Z3NoSlo2RGNyOE9OQ2lyLWFnN1hKWXRfemJ5TU11akFxaU1oQktPWXdrdG1rWHBaMlVvZFZKako3THQtSldoci1kRko2ZEZTczcwNWY0ODJmNy1BOUFM?oc=5",
-   "source_name": "History.com",
-   "source_url": "https://www.history.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2010-02-09T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
-  },
-  {
-   "id": "457fe94bf4eeaa8c",
-   "title": "Possible plague lab leak shows global biosecurity gaps",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZW1KREF1SWxtcjhEZUpYYWoyMjR5N3VYOW5YYjNrdU5PMnlHUVQxZGZvRjBVV3dsTl9EMnpPcXQ0MnhqTHNoNkNBLVY4NHYwYk9KUVdSekp0UGdZZ1Bj?oc=5",
-   "source_name": "Nature",
-   "source_url": "https://www.nature.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biosecurity",
-    "lab leak"
-   ],
-   "published_utc": "2026-10-28T18:17:59Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
-  },
-  {
-   "id": "4f6b168f4c907cf8",
+   "id": "1e27d52ba2637142",
    "title": "America waged war on drunk driving. Now, a new epidemic is taking hold",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rREVzS0o5LXFmUFliQldpdzlyRExyMWx0YndieVVXbUxpX3h1SWgzdTl2R29MdXJlekU0ak95RWE1V1ZCNXRLc19CRElfSHVRZDRGTmZSN2I2c2VnS3AzZGlvU2NsTEhKNXR3QzBjcnhGX1JUMGc?oc=5",
-   "source_name": "San Francisco Chronicle",
-   "source_url": "https://www.sfchronicle.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjlKODA2NU9EeGdOc3FjZGNabkdoOEQwTVEyVjBBV2xKN2xxdmptcWNVaWZ4TGw2WXdtVTlvOGsxTzhWOUdGSzhfNGpaeV9kcDE1TWRPRUE4bERhM3F0UTdPQkJfNGlVS0M1RUlUelBJNlJUUWtPYU82bkM3VTItM2JieWw2eGM?oc=5",
+   "source_name": "Yahoo",
+   "source_url": "https://www.yahoo.com",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -9866,16 +10240,16 @@
    "matched": [
     "epidemic"
    ],
-   "published_utc": "2026-10-28T11:00:00Z",
+   "published_utc": "2026-10-29T00:00:00Z",
    "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
+   "first_seen_utc": "2026-10-29T05:59:11Z"
   },
   {
-   "id": "ece924920dc1c4a2",
-   "title": "Bianchi: Orlando Magic injury curse? No, it’s the modern NBA’s injury epidemic",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDAxUnpEMWloXzJTdkVFS25FTHRpNUs4U2s3bzVrbEVTd2RYdV9jRV92Y2NvdDJOU1d0U2YwVzNVTVI5Tl9nREVUT2VGTnRYWXVBekUxYkQwOWo0VWx6ZXlQenZHNk0xUmtIeWVfVUlpWU1fbDNnckVzQnlOR2N1SFp6aUpkLTVMMG4ybnRCaGgxeVlVOFlobVN2aUR6X3RNZDF6dWJkZExudFN0VDVRYTZaUExDQQ?oc=5",
-   "source_name": "Orlando Sentinel",
-   "source_url": "https://www.orlandosentinel.com",
+   "id": "3dfc85529011b4fd",
+   "title": "Steve Kerr coins new NSFW nickname for NBA amid early season flopping epidemic",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemotVTBiV2Iwdkl5MHJtYnJuVmtocVNFOThSZlZxSWFLNGxYdkstOF9idXA3YmI3VEEyRmFDMXBac1RsNEtjSFNhdmdTUzdaYU1vbXRrOWphb3ZjTVhOMjZlOWs5cG0yUndRSllPY1BkTWxELWlQVjJBYlNEWnlZRWNJTFpmczJBUFlWcjlHQ0FWcGhIVnpRR1BnVUtXREpqWUpDYl9MREpjUdIBsgFBVV95cUxOZm5neUFwRHZ0QkxxNmxTbVVtdlZHZnV2M0VSYjlMZURUd25vM2NFeVNSVHFNLWZJcUF5elk4QWMxZVUyZE1SWlZPdExHTndUNk5CNG1rY3lFN1EweGtXTnhVcEVIY0VpVThaQTB6alY3VW1TLWNXdVdPX3lOck5JRXBrQTJmOWhxekdQb3FuUEp3RTNiLXZDcGwtME5NR2NqM1l6aVZTMTQ4RTRjTHR4cUVn?oc=5",
+   "source_name": "NBC Sports Bay Area & California",
+   "source_url": "https://www.nbcsportsbayarea.com",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -9887,16 +10261,58 @@
    "matched": [
     "epidemic"
    ],
-   "published_utc": "2026-10-28T15:32:47Z",
+   "published_utc": "2026-10-29T00:45:44Z",
    "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
+   "first_seen_utc": "2026-10-29T05:59:11Z"
   },
   {
-   "id": "56f98fc68d9d7576",
-   "title": "Cyber, recall and biosecurity gaps are testing Australian meat businesses",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXpiUkg1UWw3QjhrYUpBczJVLUJzSmphRloyV3VEcjlyYUxXSDMzUFllQXM4bUttYWxUM25QOVV0MUg1SlBIN2k1UlFVb1E4a05DZVAtSVJxTGhwcmJPYU1FVG1hUTZmUERRd25DOFlvVkxOZU5mWmRSLXlnbXJ1XzRkblNGbDVIanNWdjBBOTFaVDBuUmVieWh5ZDMtRDJoX3NVZ0VIS2hoUnBQSEFTWG8tTWUxd3hqaGhCUWZQdzRacEV4RmlIMGZtdUwtT050eDl3SUhPRmFpYzQ?oc=5",
-   "source_name": "Insurance Business",
-   "source_url": "https://www.insurancebusinessmag.com",
+   "id": "69bed5bc5750be2d",
+   "title": "Hybrid SEIR-N-BEATS model forecasts epidemics across regions despite distribution shifts",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMzNPbzBRZzZ2a2Jod2swY1pfZDlDcjZFNjFuTnd1S3ctc3FRZDk0ZW5GOGdhNzlaS2tNY2h0RV84R3RuY1NDcUowS3pCVUpyUVBYakNkWmFtUnpPUnNOeXkxWGp1Qm9GaGlZVnlzOGFlbVkxcUE5THJzS3VCam5XcnZ5TS1maE44RmZSNUVWOHZWeEZxOEhNZXhmQnhGa3pVM1RhR1ByYnpQMkwxQ21fU3otVQ?oc=5",
+   "source_name": "Bioengineer.org",
+   "source_url": "https://bioengineer.org",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-10-28T23:57:30Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-29T05:59:11Z"
+  },
+  {
+   "id": "75ef5cb359733de5",
+   "title": "Nigerian Health System Modelled as a Damped Structure Under Epidemic Load",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFU4cUVtc3RVRl9obi02SnBKYmtwMnhPWHdMNS1mcDNsckVtVUJ5R0NEbXgyNFNoZWNXenBDMGo5WmJyNURjQzg4YW96bVh6MlhfWEZGOVdzeVR3Q3BXYm8wd09BNWF1eG1kc2NBd1RSLVR1cmp3ZDRMZEN4T0NzUlRQMEhBQWJ2Ti1ZZnljYm5XNlhFUW5yYjNNNDd2UDg?oc=5",
+   "source_name": "Bioengineer.org",
+   "source_url": "https://bioengineer.org",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-10-28T22:47:30Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-29T05:59:11Z"
+  },
+  {
+   "id": "3a01b8897d4f6b49",
+   "title": "Agriculture Victoria | Victoria awards $13.78M in biosecurity grants to protect livestock sectors",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjQwb0pLZkhUZmxhQzBqYmJKZlpJZ2Nad0hWU3NLNHhQVzRUX2hQRHhmNHZid0gwZU5tNy10SnNuVDQyVHljX0oyRzh3ajEzVGpLS0s3c0JBRHFvSVRxSjFlbkI2N0VPWnJYbV9DRGZMbF9KNVVMOTFnZDJpSzZsQ09ZNzI3Z1Jubi1XZnc2cmlTdGVjcUQ1SmNxbnZBNW1yQ1E?oc=5",
+   "source_name": "https://en.edairynews.com/",
+   "source_url": "https://en.edairynews.com",
    "lang": "en",
    "lang_name": "English",
    "lang_native": "English",
@@ -9908,51 +10324,9 @@
    "matched": [
     "biosecurity"
    ],
-   "published_utc": "2026-10-28T16:24:30Z",
+   "published_utc": "2026-10-28T20:45:51Z",
    "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
-  },
-  {
-   "id": "a389f87216722f0b",
-   "title": "John Bush To Celebrate His Anthrax Era Live In Europe & The UK Next Year",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHR3UjJXQnFKNTZKNEVUa1VWdE1hVmhLc0JwVHpEUk05Q25UMW5MM05zOW5qXzlDMmJNcW9UelpvNzNSMzBRWGw3T2trYXRxTEQyVUNMRWpkQ01zLXpIN0NxeVA4dlJJMldKZVJLY2VoTG5Sa1hRczVBdjQ5aWpuV1lwbVFTT0JUWGJHdklBV2VVakdOaHNQeU5abWNfQm5PQ24yMGxwZHdZTUs4VkFB?oc=5",
-   "source_name": "Theprp.com",
-   "source_url": "https://www.theprp.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "anthrax"
-   ],
-   "published_utc": "2026-10-28T21:46:52Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
-  },
-  {
-   "id": "4147130c6af21e1c",
-   "title": "Fake Anthrax Sender Caught",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41bU1CNWFGWlpSTXM0SmRKWG9uR0JNcHJTOFdNd2h4YzEtLWtGYVVIMjlpN1RZdE02VW12cklKR1JqS2t4SU56bWdaeU12SS0zMFRtZWdwSHR4Z2RuUjUyNkxORzdkeHJuNjJuNFdQRHNsb2cz?oc=5",
-   "source_name": "102.9 The Buzz",
-   "source_url": "https://www.1029thebuzz.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "anthrax"
-   ],
-   "published_utc": "2026-10-28T22:34:03Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-28T22:41:44Z"
+   "first_seen_utc": "2026-10-29T05:59:11Z"
   },
   {
    "id": "182f2b2c029db514",
@@ -10405,6 +10779,152 @@
     "생물보안"
    ],
    "published_utc": "2026-10-26T07:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "53bd0c622e7da5c6",
+   "title": "Germans introduce poison gas | April 22, 1915",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSmI3VGJvR3M0a0tLLWpQTnBOUTRPZExqTlpqYi1oZnN1dVpkbjR0S2I0Z3NoSlo2RGNyOE9OQ2lyLWFnN1hKWXRfemJ5TU11akFxaU1oQktPWXdrdG1rWHBaMlVvZFZKako3THQtSldoci1kRko2ZEZTczcwNWY0ODJmNy1BOUFM?oc=5",
+   "source_name": "History.com",
+   "source_url": "https://www.history.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "chemical"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2010-02-09T08:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "457fe94bf4eeaa8c",
+   "title": "Possible plague lab leak shows global biosecurity gaps",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZW1KREF1SWxtcjhEZUpYYWoyMjR5N3VYOW5YYjNrdU5PMnlHUVQxZGZvRjBVV3dsTl9EMnpPcXQ0MnhqTHNoNkNBLVY4NHYwYk9KUVdSekp0UGdZZ1Bj?oc=5",
+   "source_name": "Nature",
+   "source_url": "https://www.nature.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity",
+    "lab leak"
+   ],
+   "published_utc": "2026-10-28T18:17:59Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "4f6b168f4c907cf8",
+   "title": "America waged war on drunk driving. Now, a new epidemic is taking hold",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rREVzS0o5LXFmUFliQldpdzlyRExyMWx0YndieVVXbUxpX3h1SWgzdTl2R29MdXJlekU0ak95RWE1V1ZCNXRLc19CRElfSHVRZDRGTmZSN2I2c2VnS3AzZGlvU2NsTEhKNXR3QzBjcnhGX1JUMGc?oc=5",
+   "source_name": "San Francisco Chronicle",
+   "source_url": "https://www.sfchronicle.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-10-28T11:00:00Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "ece924920dc1c4a2",
+   "title": "Bianchi: Orlando Magic injury curse? No, it’s the modern NBA’s injury epidemic",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDAxUnpEMWloXzJTdkVFS25FTHRpNUs4U2s3bzVrbEVTd2RYdV9jRV92Y2NvdDJOU1d0U2YwVzNVTVI5Tl9nREVUT2VGTnRYWXVBekUxYkQwOWo0VWx6ZXlQenZHNk0xUmtIeWVfVUlpWU1fbDNnckVzQnlOR2N1SFp6aUpkLTVMMG4ybnRCaGgxeVlVOFlobVN2aUR6X3RNZDF6dWJkZExudFN0VDVRYTZaUExDQQ?oc=5",
+   "source_name": "Orlando Sentinel",
+   "source_url": "https://www.orlandosentinel.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "epidemic"
+   ],
+   "published_utc": "2026-10-28T15:32:47Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "56f98fc68d9d7576",
+   "title": "Cyber, recall and biosecurity gaps are testing Australian meat businesses",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXpiUkg1UWw3QjhrYUpBczJVLUJzSmphRloyV3VEcjlyYUxXSDMzUFllQXM4bUttYWxUM25QOVV0MUg1SlBIN2k1UlFVb1E4a05DZVAtSVJxTGhwcmJPYU1FVG1hUTZmUERRd25DOFlvVkxOZU5mWmRSLXlnbXJ1XzRkblNGbDVIanNWdjBBOTFaVDBuUmVieWh5ZDMtRDJoX3NVZ0VIS2hoUnBQSEFTWG8tTWUxd3hqaGhCUWZQdzRacEV4RmlIMGZtdUwtT050eDl3SUhPRmFpYzQ?oc=5",
+   "source_name": "Insurance Business",
+   "source_url": "https://www.insurancebusinessmag.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "biosecurity"
+   ],
+   "published_utc": "2026-10-28T16:24:30Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "a389f87216722f0b",
+   "title": "John Bush To Celebrate His Anthrax Era Live In Europe & The UK Next Year",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHR3UjJXQnFKNTZKNEVUa1VWdE1hVmhLc0JwVHpEUk05Q25UMW5MM05zOW5qXzlDMmJNcW9UelpvNzNSMzBRWGw3T2trYXRxTEQyVUNMRWpkQ01zLXpIN0NxeVA4dlJJMldKZVJLY2VoTG5Sa1hRczVBdjQ5aWpuV1lwbVFTT0JUWGJHdklBV2VVakdOaHNQeU5abWNfQm5PQ24yMGxwZHdZTUs4VkFB?oc=5",
+   "source_name": "Theprp.com",
+   "source_url": "https://www.theprp.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-10-28T21:46:52Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T22:41:44Z"
+  },
+  {
+   "id": "4147130c6af21e1c",
+   "title": "Fake Anthrax Sender Caught",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41bU1CNWFGWlpSTXM0SmRKWG9uR0JNcHJTOFdNd2h4YzEtLWtGYVVIMjlpN1RZdE02VW12cklKR1JqS2t4SU56bWdaeU12SS0zMFRtZWdwSHR4Z2RuUjUyNkxORzdkeHJuNjJuNFdQRHNsb2cz?oc=5",
+   "source_name": "102.9 The Buzz",
+   "source_url": "https://www.1029thebuzz.com",
+   "lang": "en",
+   "lang_name": "English",
+   "lang_native": "English",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "anthrax"
+   ],
+   "published_utc": "2026-10-28T22:34:03Z",
    "via": "gnews",
    "first_seen_utc": "2026-10-28T22:41:44Z"
   },
@@ -12832,27 +13352,6 @@
    "first_seen_utc": "2026-10-28T05:54:44Z"
   },
   {
-   "id": "b72d9aeced91800b",
-   "title": "진안군, 생물테러 대비·대응 모의훈련 실시",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxSmtZTlQ5OHRRa0NUVi1JaFlrZnh1bGN6WU9kWTVmWklKSWNIdUlkOEZuVkpBYnpVT25sb2l3Um9LMm5LTFpWS0dTUm0yRmgzSlg0amU3RlFyWEdfMXNDMWtxQ1lXYzZhWGc?oc=5",
-   "source_name": "전북제일신문",
-   "source_url": "https://www.jbjnews.com",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "생물테러"
-   ],
-   "published_utc": "2026-10-28T02:20:56Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-28T05:54:44Z"
-  },
-  {
    "id": "8820e45458e77a66",
    "title": "Chess players to get new route to Esports World Cup through 2027 qualifier program",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa2Y1bkhtZ19ONkdINE1MS1MySkpyaVdudjVwTkx6TW5KV3N6SnZmb1h6OTdWeHBSa3hKWk9OeHNMRWZINGJ1RzNBQVI3ZWtMclV6Sk9JRjdMaVJhcmwzMVdxWVZhd1lWMU5ydEhHVkppZlYycEh6TUZhdE5XdWpvNExXU0NjM21jOGYzTzZrSFpqRTJjVXVvMDVueHpybGVjTktLSkRHaXdTc3VnSnFvZDNxZVJoZ9IBvAFBVV95cUxQMUxGdGxSRzg0NG0wZVpEWnZ3b2haT1NGZmU4TjhpdG9FVU1jZEFCVXEzRFRsWGw3bUFmbE9Ua1BQU2QzbXFpQTY1OGZtaHJqUzRDUEExWXgzRnFiYkVwVFhQS3dNYWNaXzB6Q0J4Q3hRVFl1SDRHWlI4SGxQMGZpOFgxQWxyNm51OURnM1BHQ2dmNUVNQVJfWEoxUDY4NEF6ZWVpbWV4SlJ6N0ZOd0wzWFRGcTZSdi1hV2lwRQ?oc=5",
@@ -13142,6 +13641,27 @@
     "biosecurity"
    ],
    "published_utc": "2026-10-28T05:29:09Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-28T05:54:44Z"
+  },
+  {
+   "id": "b72d9aeced91800b",
+   "title": "진안군, 생물테러 대비·대응 모의훈련 실시",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxSmtZTlQ5OHRRa0NUVi1JaFlrZnh1bGN6WU9kWTVmWklKSWNIdUlkOEZuVkpBYnpVT25sb2l3Um9LMm5LTFpWS0dTUm0yRmgzSlg0amU3RlFyWEdfMXNDMWtxQ1lXYzZhWGc?oc=5",
+   "source_name": "전북제일신문",
+   "source_url": "https://www.jbjnews.com",
+   "lang": "ko",
+   "lang_name": "Korean",
+   "lang_native": "한국어",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": true,
+   "matched": [
+    "생물테러"
+   ],
+   "published_utc": "2026-10-28T02:20:56Z",
    "via": "gnews",
    "first_seen_utc": "2026-10-28T05:54:44Z"
   },
@@ -14861,25 +15381,6 @@
    "first_seen_utc": "2026-10-27T12:24:56Z"
   },
   {
-   "id": "cacec46b99bff10f",
-   "title": "Comment la désinformation complique la lutte contre Ebola en RDC",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWWE3SEVmdE50YkF1eEt0YkZYNHl6WWh3YmdDVVAxSDg0dk1vYjBzQV94b0UwUUtad3huUGpOZ0JJcDUwa0tycTVLR0RjMGQ3OEswbGxoX1JFd1RFSnJiWHdTbTVkMC1UOG1aYTJVakp1LTAzVHJoNjItY2NTOEVOSjBMazV6YWZkSGpzUlAxalVvQnRoNDdvWFVRQWdzTFhrWEdvZk14elJNSEhoZnZtTmM0TXRfT3ROdjhUMlkwSGJrc2xrdXc?oc=5",
-   "source_name": "SWI swissinfo.ch",
-   "source_url": "https://www.swissinfo.ch",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-27T07:57:18Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-27T12:24:56Z"
-  },
-  {
    "id": "96db89af5c19f921",
    "title": "1518: la extraña epidemia que hizo bailar sin control a cientos de personas",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMjNiMlN0Nk5QRmtkVmxGLU8xVmI0ck9fdkNabFhXY215bGJoc1JlcGNjcm5ocXBUanFRRWVUcEhjQzM1NHRRdDBFbFhidm9CUnFVbGxTSzBMYlNIWjJodjRiU0NBN3hYQ2FZNFNXVGhtNE5WTjlwNDd1Qi1YVVVuc3luTjZTNWttLXVfSU5aSEF6T2ZsR3lvOUh4dDBPRjVsN2tGeTk1Y2xBMWhNLUE2TVB0Z2c?oc=5",
@@ -15472,6 +15973,25 @@
     "pathogen"
    ],
    "published_utc": "2026-10-26T19:31:32Z",
+   "via": "gnews",
+   "first_seen_utc": "2026-10-27T12:24:56Z"
+  },
+  {
+   "id": "cacec46b99bff10f",
+   "title": "Comment la désinformation complique la lutte contre Ebola en RDC",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWWE3SEVmdE50YkF1eEt0YkZYNHl6WWh3YmdDVVAxSDg0dk1vYjBzQV94b0UwUUtad3huUGpOZ0JJcDUwa0tycTVLR0RjMGQ3OEswbGxoX1JFd1RFSnJiWHdTbTVkMC1UOG1aYTJVakp1LTAzVHJoNjItY2NTOEVOSjBMazV6YWZkSGpzUlAxalVvQnRoNDdvWFVRQWdzTFhrWEdvZk14elJNSEhoZnZtTmM0TXRfT3ROdjhUMlkwSGJrc2xrdXc?oc=5",
+   "source_name": "SWI swissinfo.ch",
+   "source_url": "https://www.swissinfo.ch",
+   "lang": "fr",
+   "lang_name": "French",
+   "lang_native": "Français",
+   "dir": "ltr",
+   "domains": [
+    "biological"
+   ],
+   "label_confirmed": false,
+   "matched": [],
+   "published_utc": "2026-10-27T07:57:18Z",
    "via": "gnews",
    "first_seen_utc": "2026-10-27T12:24:56Z"
   },
@@ -19560,46 +20080,6 @@
    "first_seen_utc": "2026-10-26T13:17:24Z"
   },
   {
-   "id": "b1c64b067fe292e7",
-   "title": "씨젠, LMCE서 동시감염 사례에 종합검사 전략 공개",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhTU5OS0VpZzZVWWdWMkxLUktTX2JxYkxKOTRxejQ0dFhLS0tkTTZwSVNYWVdJWDltNk9XS0kyU0taUUZoRE5uYXozM2NCMWJSS29MU0JMaTRNWjhpWnBoSVdEaGZyZjZ1bkh4UtIBcEFVX3lxTFBHVTFRTlVSb1A3RVdKTEpvOFQyQUZQM20yYnkxQmFUZjlkdDZYbE9qVnVPWEVOWkE0aHRHOEJ1OEtRYklJVU9TV2ExdGo0c3pmUG5teEhJNVR3ck9SS3VpQ0RhVnJPY3FsbE03QlUxS1U?oc=5",
-   "source_name": "글로벌경제신문",
-   "source_url": "https://www.getnews.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T05:47:46Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T13:17:24Z"
-  },
-  {
-   "id": "4b72c3547d4fe0ba",
-   "title": "강화군, 백색가루 테러 가정한 실전형 훈련… 생물테러 초동대응 빈틈없이",
-   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XZUZ1YmhfazRzMDNzQ0s5WUhNZnBaeUVFSjMxRERQeFdXZ19yRVZQREM0S1dwS1J1VDFVOWhGVEdEM1U?oc=5",
-   "source_name": "경기in",
-   "source_url": "http://www.gipress.com",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "생물테러"
-   ],
-   "published_utc": "2026-10-23T02:06:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T13:17:24Z"
-  },
-  {
    "id": "f69518459f898eec",
    "title": "Panamá será el primer país de la región en implementar una plataforma digital para fortalecer la bioseguridad",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNGwtc05yZE9IekFubjdSZEFSaGlMZVpGNnljWnpMUGhIcXdPTGI1YWtyVXNNTzVrbnJTLUdaTXRSYjhfcHNLVkwwamZ4N1F1Tm9HTHZuSWFNdWVqdXBDemxnVXZobWpmMnVZZ1VDQnhrVTl6b3JQNTQtSl84REZXb0hHNUVWOUFkd1BDY3I0WG9qLUN1aFZjV1RET2JNY1hkUTRqM3RtRUcwaG5sbDUwT1BJdnBRVy1SczMyNTN0Rzg1c2N3R3ZUUkZ3dkpWQUlHMnVkMUxSVEdHNnc2ZkJOTzh0OU9QVU3SAYICQVVfeXFMT0ZXalJoS1FQMHBqZEdJTzlYN1ZmOUhkaEhEVnNUODI4UG5ZdDVlaTVyMEljbTM3NjdhMnVuZmMyNjJCTXQ1VGZwR3BhMkwwb1FoVFRJQ05ibjFaQ2NVQk1Rek1TOEN6VUpzZFhLUHktM2p5a2dNYUNCbllWcXNfM3lqVHB5eUhXZWNsbERPZVhCVVJSNFV0eUZoWFJiTkc1UXM4dnNWQWtjcWduTEdBLUNwUVBsckxQRzFCaTJwMmEtclFzSVQ0SlVsUWtBaUcwaGVFU19JMXpPYm5PNGxrYU52dFFMdjh6SkhHTGdQUzlDbng4VmF3WEpGQ2VBVEFyS0hB?oc=5",
@@ -20198,352 +20678,6 @@
    "first_seen_utc": "2026-10-26T04:58:18Z"
   },
   {
-   "id": "ab649a42ba04ac72",
-   "title": "OPCW Director-General on official visit to the United Kingdom",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdnA4aEpPV2lRdG5nYjVQQzREeWVlLXk4a1Z6Z2gzX1IxX2hwRUV1c0taQmpWMUhkVFlTS2VCWDBJNWdRcks3YnRjSE4tOG12bEVQcnFLc1FLdlhkcnFvTnBmQlhrMkh0akRWeURrUkUtWjJDYURIS1RMR3hZamZxRHZSeHhadVJyZERSUXk4a0ozd2tnRi1ZS2dZa0V6aUE?oc=5",
-   "source_name": "Organisation for the Prohibition of Chemical Weapons",
-   "source_url": "https://www.opcw.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "OPCW"
-   ],
-   "published_utc": "2026-10-22T13:21:31Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "a586e342397db1e8",
-   "title": "'The Lightkeeper' Wins Top Honours at Byron Bay Film Festival",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYk1xVHFxOUJHMlM4ZlpPT05TbkZ4N0V3NldFNDdDQWJHbUY3OUtDV1cxa3JfZDRBcTlvdFB3blpYa2ludUEtNmswUkMyQ1VlbTVOckhGT0ZXZWpLbV9PbzRZQnlndEVMS1hDV2JzME03eFpVb3Q2OEp0YmVuQ2o5YjZUNFByWHBTRlNGN2pJWml6bDA?oc=5",
-   "source_name": "Variety Australia",
-   "source_url": "https://au.variety.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T01:04:35Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "09cc316a8812c4f7",
-   "title": "OPCW Director-General makes official visit to China",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3JGc0ZnTWlfcWk1WEozMnU2Yy15N1VRU21XOVFnQXhTOUJ1eWN1SDdGSzg0UWxnSlR6Qzg0UEdudTBzWGRDTUFvRWotVzQzazhIMEZkYzFsTmwwblZ1N3BfQ3ZobllKa0hSalAxb2Rma1VrRi15YTJqb211Q3dEeEdIZEU2SGtXOWNpclV5dFBKRFZOeUx1b0VxWQ?oc=5",
-   "source_name": "Organisation for the Prohibition of Chemical Weapons",
-   "source_url": "https://www.opcw.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "OPCW"
-   ],
-   "published_utc": "2026-09-11T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "30d5201c6735fe90",
-   "title": "AI Biosecurity Cannot Stop At The Chatbot – OpEd",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1NzNEszQWtWVURacXBqMlRFMnU0NHAtSVlPaWZvLXRYNGdVSDZ4N21JWlEtSW13YUJWSTBlOTE3dkpSYjA2TjNkSWJGTUljS2pYQmx5OTMxcGJDYXBqcl9jT2VZejhteFVqYWRZRFlkRXZpWWZGS0s4RWswRkhIVndLX19YdTlZUlhzRTRZWQ?oc=5",
-   "source_name": "Eurasia Review",
-   "source_url": "https://www.eurasiareview.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biosecurity"
-   ],
-   "published_utc": "2026-10-25T21:42:45Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "8db7a603d329c22e",
-   "title": "In a loneliness epidemic, these Bay Area women are choosing to be alone",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWo5VjNTQlBnN0tJWk5xSlF0RUhqRUtaWUdPNWZJR1hEZ1Z6R3dpcjNidzBxbzNWOTJmLVZfcE1PaUw1MEV0LUhNenp3N2JpT0hkM3NmWng0ZDd0QjZKYzFmdnI2ZXItbndqNE1GQkFKdDJfYlBzTkVuZ2lzNHBIMWNoUlFaeEVIcUhB?oc=5",
-   "source_name": "Yahoo",
-   "source_url": "https://www.yahoo.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-25T12:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "1caaf7922054edca",
-   "title": "Ebola : l’Afrique face à une épidémie alarmante!",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdkduMWYyMVlWOGVyV1QzWkZzcWY2YVU4Nl9kbmpUS3NlbEVXMUdhZkNRdkVDZ2ZvU0oxdkdVajNrZFdub3BfM3lZVXllcnpSX0k4T2ZVVldOOTRLZS0wckpEWTBKWndwVlktWlI2SWgxUkhDN1JJSm1YRXJUS05DYzZ5YUU0YkFjd2hj?oc=5",
-   "source_name": "Mondafrique",
-   "source_url": "https://mondafrique.com",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "épidémie"
-   ],
-   "published_utc": "2026-10-25T21:20:27Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "ee27e9dfb1cb4a49",
-   "title": "El Reino Unido crea un laboratorio de bioseguridad de IA con el respaldo de OpenAI y Anthropic",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZGJsQ0FKN2YtTXFzejA3aFI2bHVuQmRDWGxweGlORTBuWE9GRnJfYU1sb3NpQTU4RU9GUmlMdkx0dFJrVEZIUkhicWY3UGNRRDc2SmF2aUhtWTJ2QTR2SGs5SXlLb3dqTHNqVG1sQUhCTkhxWThUakh2cFBFOXY0REhvQjJlN1RfVkJkWTVRVWx3aVk?oc=5",
-   "source_name": "Unite.AI",
-   "source_url": "https://www.unite.ai",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "bioseguridad"
-   ],
-   "published_utc": "2026-10-24T01:43:11Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "1bdceaa3d72a1442",
-   "title": "Anunció la creación de un laboratorio de bioseguridad que aplica inteligencia artificial.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXdIZFVJLXlSbnF3NHV6clM4c2ZoSlF5WGV5R1VIVzlIMFRabHQyRllxS1V4V0xZM1VwMkx5QjRKMXYtQ1VQRENMU2laVGlGelc2T3FBUW1rc2FOUXpWUDdraFRyak5LWEE5c2hPam9GZUtDTExvLWtKYmlVTkpGdXE3QjF1QnBJTmpxMlVJRnlSSk95VFJfag?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "bioseguridad"
-   ],
-   "published_utc": "2026-10-24T07:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "2a12a6972457727f",
-   "title": "Llaman a reforzar acciones ante epidemia de miopía infantil",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVRnWTFfVWI1X3RNcUljbFNnOVcyQm14aEZLQUJ5OWtoN0ttNnB6ZGhpWDFGMGpVYlFBNzBjSXZ6dE1zOE1jZWxzLXJKQnVlS0ttbjF6R1VXSEEzdkNDc0ppZDZDTnRFOEhyNmh2Z2Rqbm14anZFQkNheWVpdnphLWtnek8?oc=5",
-   "source_name": "CDMX Magacín",
-   "source_url": "https://cdmx.info",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemia"
-   ],
-   "published_utc": "2026-10-26T02:50:31Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "ed37356c3b2cb961",
-   "title": "Virus Shamonda: Francia registra el primer caso humano e investiga una muerte",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOanBOeHU4TG9nUHg2d3JnX3JydEtWc3NXQ3pYZ1lNNE9raFZmOGVCc0pRRjNOemJKSUxNU1pIdUxuSExhaTRieXYxTlo5YUNtTGZOZ29uRC1STVFGT3VHRUd5cDFCOXNncXJfOVkzcGZab3lZdUpkVEs5cTlmSnlyZkJXMldXaWhkNkoyLXN4Z2M?oc=5",
-   "source_name": "Willax",
-   "source_url": "https://willax.pe",
-   "lang": "es",
-   "lang_name": "Spanish",
-   "lang_native": "Español",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "virus"
-   ],
-   "published_utc": "2026-10-25T20:07:45Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "9054d1e0058fc796",
-   "title": "하노이 염소 가스 중독 사고 피해자 7명의 건강 상태가 호전되고 있다.",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3Z6VXdjeGVhU1B2UGhuWnNrWWdCaFlBd0ZqNnNBMFBwd25Qck9Nc0tVRldEU2RrRTZyTXRSakM4THB3eGctZkhJbmF6SjV6UnNUV1hvdVJuOVdWZ0xhcnY2OC1tLWRQNUFSQ1VIZ25pTVkwYURoV3N6QWNHeFJZQTRrMlZvTHpLNkNLUUloRFI1VTFxOFhUVHpheWs?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_url": "https://www.vietnam.vn",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-25T16:11:53Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "6b5f981110cb79bb",
-   "title": "[횡성뉴스] 횡성에 생물테러 발생한다면 … 합동 모의훈련",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUUkV1TXc1WUNtTDhaODhGZTlYWm5vdGlua0dRN0pKWHB2OXR0VnBGdWl4Wkp4UGY3OUJuNlYtbmVBM1Bna1ZXcHJ5Z0xNVm9ieDk4ajhQNmQ1UkdjQi1SdE1oVXQzU2tHbXQxVThwNmloWUJ5eHlKcVk4YzNCVUE?oc=5",
-   "source_name": "횡성신문",
-   "source_url": "http://www.hsgnews.net",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "생물테러",
-    "발생"
-   ],
-   "published_utc": "2026-10-26T00:35:48Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "fa4797c564a84d11",
-   "title": "\"여러 병원체 한번에 확인\"…씨젠, 호흡기 종합 검사 전략 공유",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UalNacmV3X2JLN3VUV0RHalFqSlJibHlLdHR3NU9SOThqYi1VclNjMmpnb1lRdzlGOFRRaEJBcXJzU0hXeXdfc19yeWo4MWJINDJIeElwTGw5S0ZNbE1YUQ?oc=5",
-   "source_name": "아시아경제",
-   "source_url": "https://www.asiae.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "병원체"
-   ],
-   "published_utc": "2026-10-26T04:46:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "c2e663c51b25b245",
-   "title": "씨젠, 차세대 호흡기 패널로 동시감염 짚어낸다",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hbXJ2SmhPMnYzWjA1UzFHcWVBWTlNTjYwM3dXR0R2N0lHcFV0LWc2SFJydEVFVXZ5Mk11Ukd6b3JBOV96MTJucXdoNHoyNW1KVnN1Y0FrZE9IaFA3Y0s3YmFOZElpSnJGQnZFSw?oc=5",
-   "source_name": "바이오타임즈",
-   "source_url": "https://www.biotimes.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T01:15:53Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "59baff5872c1c584",
-   "title": "\"종합검사 전략 중요\"…씨젠, 국제학술대회 참가",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iWTgwZU5qZXRQU2tWSGpKSE9yVmw3eFR2dWpQV3g0WFk5RFV1bVJPcUdVRm9VM0J4d1cyd20wWlBrRTB3QkpYUFIzdHF2VVdvOXItWlRKYkdWSjB5ZGhhbExoNUtRbGozTTZKNTQ4MEktXzdXZ0twTtIBeEFVX3lxTE1iWTgwZU5qZXRQU2tWSGpKSE9yVmw3eFR2dWpQV3g0WFk5RFV1bVJPcUdVRm9VM0J4d1cyd20wWlBrRTB3QkpYUFIzdHF2VVdvOXItWlRKYkdWSjB5ZGhhbExoNUtRbGozTTZKNTQ4MEktXzdXZ0twTg?oc=5",
-   "source_name": "뉴시스",
-   "source_url": "https://mobile.newsis.com",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T01:17:03Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "e4e6cf85f9f00f40",
-   "title": "평택시, `감염병 재난 대응 역량 강화 교육` 실시",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LcE5MNWhhSkNrUFNBWVFIQjdwNVlXTXpwelhTZVdRdFdOSXF4ZV9xa0FNRHp2UFBBRW1jTmpaZWpSLUJZNFVpNHRn?oc=5",
-   "source_name": "경기평화신문",
-   "source_url": "https://www.ggpyeonghwa.com",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T02:13:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
-   "id": "8a601364103b9db8",
-   "title": "씨젠, 국제진단학회서 종합 분자진단 전략 공개 … 호흡기 동시감염 탐지 강화",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82OGJXMnd1bGJTeFdmWjUzazk4VWFROG1mVktZNHVHR2xGX3NDMXR0X3lvUllueUlnUGxheXdvZi1zUlA2ektQSUswZXNJZUVuT0thU0VNejJZcHZsakppSzRudTF1ZlJ0d2hQdw?oc=5",
-   "source_name": "워크투데이",
-   "source_url": "http://www.worktoday.co.kr",
-   "lang": "ko",
-   "lang_name": "Korean",
-   "lang_native": "한국어",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2026-10-26T04:29:59Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-26T04:58:18Z"
-  },
-  {
    "id": "290361ac3b64080c",
    "title": "بريطانيا تنشئ مختبرًا للأمن البيولوجي بدعم من \"أوبن إيه آي\" و\"أنثروبيك\"",
    "url": "https://news.google.com/rss/articles/CBMi1AVBVV95cUxPbFVHaERQVDJHM3QyeTdpZGtGTE9KMS1Fcm9ZdGNxNnRPcFZabVRSWlUwMTJKZmtEVlgzYVhVcGhtdkQ4WlZucUJac0FyRU95QV9VV21JQTVjY2h5TnRZVFZGaWRtZkNBY2d1dldBVEpUbV91QVh5LVVaWWhZSDRZSmg5QTNscFVLam9ySDBaZnVKVmhnaUJFM0FsekpqQ3dva2ZqTVgwczlwU0d4OHA0Z3Zrc2tpUDJLbGY3MDFHbTRMNjd4MExCMG5FbWFHZGM0Q2ZSRHh4bkZOSWN0d2hmWUNZblU4cW1aZWVBRmFLRkUxczdtQjg3RkF6eFMtREs1SGhiTGdJQ1ZDS0NHNEloaHR0TExVTGxqWUstczFHWG9TRW9ucjFZb1M5VnZQR1gteUpleW9nc2Q3RGxkeG1MNzkxcnhKTDYyNDBlYjBIam9NeHctNEJIYUUwU2lvTXNLdEwwRHJTRlVYTVdHWVIyRWs1LWR4ZHVfbncyRzFFbWJlUWlENUxYa1BMMHptcExNaFAwRXZJRDd2bWdSWHF6WVF1cndqWmMzamdLRmlSSm1zd1RvdWdralE4SkZhZzNwUnQzS3QyZHhYYUl5enVsWUVLM3dSLW54TjVWYk5SSjY5R05aSkJ3dDIwcTFXSlkteHJBLUc0RC1NZTQ0RXFhM1RoRWkyNnNVNTY0RmpiVmtvYmtNdHZDR2JCRDRyQm1QeU9UanVyaUV6dGQyTTFMd2xjZ2lxaEcteUVLOHY5SnZfSVgyMm9mY1FDSlF0bXhaeUdsZWNMWnYwa3B6RjljaTJjM0FJWUk2NTZJV2ZiNVpiMHV1ZkNMX0RrMzRTaTdZTnlpdjRHaVRBYlBZUnNCVWlMX0JjbHdOYW5RS3p2MkpiblZISzMxeXJfSVR4b2VQVElLbG1zTmJDV0oxYTl2R003emhEZ2RnN2hMbWlfMy0yZ1Zx0gHUBUFVX3lxTE9sVUdoRFBUMkczdDJ5N2lka0ZMT0oxLUVyb1l0Y3E2dE9wVlptVFJaVTAxMkpma0RWWDNhWFVwaG12RDhaVm5xQlpzQXJFT3lBX1VXbUlBNWNjaHlOdFlUVkZpZG1mQ0FjZ3V2V0FUSlRtX3VBWHktVVpZaFlINFlKaDlBM2xwVUtqb3JIMFpmdUpWaGdpQkUzQWx6SmpDd29rZmpNWDBzOXBTR3g4cDRndmtza2lQMktsZjcwMUdtNEw2N3gwTEIwbkVtYUdkYzRDZlJEeHhuRk5JY3R3aGZZQ1luVThxbVplZUFGYUtGRTFzN21CODdGQXp4Uy1ESzVIaGJMZ0lDVkNLQ0c0SWhodHRMTFVMbGpZSy1zMUdYb1NFb25yMVlvUzlWdlBHWC15SmV5b2dzZDdEbGR4bUw3OTFyeEpMNjI0MGViMEhqb014dy00QkhhRTBTaW9Nc0t0TDBEclNGVVhNV0dZUjJFazUtZHhkdV9udzJHMUVtYmVRaUQ1TFhrUEwwem1wTE1oUDBFdklEN3ZtZ1JYcXpZUXVyd2paYzNqZ0tGaVJKbXN3VG91Z2tqUThKRmFnM3BSdDNLdDJkeFhhSXl6dWxZRUszd1ItbnhONVZiTlJKNjlHTlpKQnd0MjBxMVdKWS14ckEtRzRELU1lNDRFcWEzVGhFaTI2c1U1NjRGamJWa29ia010dkNHYkJENHJCbVB5T1RqdXJpRXp0ZDJNMUx3bGNnaXFoRy15RUs4djlKdl9JWDIyb2ZjUUNKUXRteFp5R2xlY0xadjBrcHpGOWNpMmMzQUlZSTY1NklXZmI1WmIwdXVmQ0xfRGszNFNpN1lOeWl2NEdpVEFiUFlSc0JVaUxfQmNsd05hblFLenYySmJuVkhLMzF5cl9JVHhvZVBUSUtsbXNOYkNXSjFhOXZHTTd6aERnZGc3aExtaV8zLTJnVnE?oc=5",
@@ -20850,130 +20984,6 @@
     "サリン"
    ],
    "published_utc": "2023-03-01T07:57:41Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "43d50f3142c71883",
-   "title": "Day of Remembrance for all Victims of Chemical Warfare | United Nations",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yT0QyVjVNaFdkenFZVFhFWXJSZDNvU19iQ19CWTFtT1FDNmpaTzc0ZEFhc0FxNnNoTkdWQnJqTW5UdDhubkIzaEdBMGxjVTgtUndTTUVXMEs0aGdoOGY2R05KMi1RcFJfZ1YyRG5DRQ?oc=5",
-   "source_name": "Welcome to the United Nations",
-   "source_url": "https://www.un.org",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": false,
-   "matched": [],
-   "published_utc": "2025-11-30T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "ad588b52abff324f",
-   "title": "Dual-Response Fluorescence System using COF-Based Materials Enables Ultra-Selective Sarin Simulant Detection in Real-World Environments",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MSDZVV2dTbTd4TGt0WUs0ektCVjRIY3Q0NkM3N2ZOdU1xUHZiRnlfSUE2Zkp2Vlp2OTB4SUNaU3ppMUtvRFBsTXllUk9wOWlsRmJUWGJmZDQtREZXM1dZVDFTRmxkLTlVNC1QZVVxRG94SDNQNEE?oc=5",
-   "source_name": "Wiley & Sons",
-   "source_url": "https://advanced.onlinelibrary.wiley.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "sarin"
-   ],
-   "published_utc": "2025-11-17T08:00:00Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "84c52956882af9aa",
-   "title": "Winston-Salem’s Lucy Rose returns home to raise awareness of loneliness epidemic",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObE9TYjVHX0IyNG12dXJtdzd0cjZfOXlwV2N5WkdlS2JRd2lkdlh5bm52UHRrbmdFS0o0N2ZGM1ZHV2NabHFRQjhESk9HSDlLeDdVM01PZE9kbnlZb29EbTMtUlFSNlZSNm1fcHFWTTlWT0d2bmRPeGxnRndfYTV3Nlk1Z19TWFlFRGtFVEdYNzNsdjk3bnVlaDhmWDVHTE9zc0RsbTRYdWJmNlY5?oc=5",
-   "source_name": "WXLV",
-   "source_url": "https://abc45.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-25T17:33:39Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "f87d7b135e0b0b58",
-   "title": "In a loneliness epidemic, these Bay Area women are choosing to be alone",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLW5BcDE2dVJ1elJBTkpZcG5hMEUwSDZXYVA4YzY4UnZldGM3M2xLamg3V1gwNXdlZjBJTlhEN0ZUZXNGZ3g2clF0OU5QZjljZHdBZHRUeHRHR3JBV0ltNkVxOEV3ODUwa1dteHF5dmtXTTlNQWhhT3NOYjhuUEtVazRtOWRwYUpJa2pRc05JRFpJNjA?oc=5",
-   "source_name": "San Francisco Chronicle",
-   "source_url": "https://www.sfchronicle.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "epidemic"
-   ],
-   "published_utc": "2026-10-25T11:04:21Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "2cfaeaf5441e4f52",
-   "title": "CBD COP17: Namibian Biosafety Expert Martha Kandawa-Schulz dies in Yerevan",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0RLSlN3eDlYTlVJVVM2blhsSXJNQUYwOFRiSWk5T1l2bC1VNy04VW9yX1VQNW9CdV9laXFaZ3ZUZXlZaUV1aFFCWUhoWGpyaHBSLXpKTlpLY1Q0ZlhvMnVBM1FUVEpLNXkxbHktZ0tvMW5hSmtBbHYxekxDcE16dHhTODRETFJkQWV3Rzh4V1lVSE96VzdlNmVsdGRFZUVEdkFJLWJTQzd4SGFNdjVZZnlkd2RWZ0w0TjBmeE9oUlhvLXJSNm0xY1RlMA?oc=5",
-   "source_name": "Premium Times Nigeria",
-   "source_url": "https://www.premiumtimesng.com",
-   "lang": "en",
-   "lang_name": "English",
-   "lang_native": "English",
-   "dir": "ltr",
-   "domains": [
-    "biological"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "biosafety"
-   ],
-   "published_utc": "2026-10-25T20:36:08Z",
-   "via": "gnews",
-   "first_seen_utc": "2026-10-25T20:58:20Z"
-  },
-  {
-   "id": "c350bff7c3f7ee87",
-   "title": "Attaque chimique : le régime syrien accusé",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PWWlKbUY5LTNSZlpoUEF2dWtxMk9NRjIySGNWdnRNRmxacnRPM0FtVGlfVmdPM3ZGY181WXJVZ2Z1anNBZHB6OTJLNjZWc3h1Y3U5T0MyLXkyRXJy?oc=5",
-   "source_name": "franceinfo",
-   "source_url": "https://www.franceinfo.fr",
-   "lang": "fr",
-   "lang_name": "French",
-   "lang_native": "Français",
-   "dir": "ltr",
-   "domains": [
-    "chemical"
-   ],
-   "label_confirmed": true,
-   "matched": [
-    "attaque chimique"
-   ],
-   "published_utc": "2026-06-19T04:47:15Z",
    "via": "gnews",
    "first_seen_utc": "2026-10-25T20:58:20Z"
   },
